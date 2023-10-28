@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@100;200;300;400;500;600;700&family=Oswald&family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.header-main {
+    width: 100%;
+    height: 75px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.header-main-logo {
+    width: fit-content;
+    height: 65%;
+    background-color: #fff;
+    padding-left: 20px;
+    padding-top: 30px;
+
+}
+
+.header-main-links {
+    width: fit-content;
+    height: 100%;
+    background-color: #fff;
+}
+
+.header-main-links ul {
+    list-style: none;
+    padding-top: 10px;
+    margin-top: 15px;
+}
+
+.header-main-links ul li {
+    display: inline;
+}
+
+.header-main-links ul li a {
+    padding: 5px 10px;
+    font-family: "Noto Serif Display", sans-serif;
+    font-size: 1.0rem;
+    color: #051320;
+    text-decoration: none;
+}
+
+.header-main-links ul li a:hover {
+    transition: all 0.3s ease 0s;
+    color: #051320;
+    text-decoration: none;
+}
+
+.header-main-cta {
+    width: 120px;
+    height: 100%;
+    display: flex;
+    padding-right: 30px;
+    background-color: #fff;
+}
+
+.header-main-cta a {
+    font-family: "Noto Serif Display",
+        sans-serif;
+    font-size: 1.0rem;
+    color: #051320;
+    align-self: center;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+.header-main-cta a:hover {
+    transition: all 0.3s ease 0s;
+    color: #051320;
+}
+
+.header-main-logo a {
+    text-decoration: none;
+    font-family: "Noto Serif Display",
+        sans-serif;
+    color: #051320;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 60%;
+}
+
+.header-main-logo a:hover {
+    transition: all 0.3s ease 0s;
+    color: #051320;
+    text-decoration: none;
+}
+
+.links-cta-container {
+    display: flex;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/waterfeature.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+.hero-image-container {
+    overflow: hidden;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.hero-h1 {
+    width: 40%;
+    font-family: "Noto Serif Display", sans-serif;
+    font-size: 0.75rem;
+    color: #fff;
+    text-align: left;
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+.footer-main {
+    background-color: #fff;
+    width: 100%;
+    padding: 60px 0 100px;
+}
+
+.get-in-touch {
+    display: inline-block;
+    list-style: none;
+}
+
+.quick-links {
+    display: inline-block;
+    list-style: none;
+}
+
+.social-links {
+    display: inline-block;
+    list-style: none;
+}
+
+i {
+    color: #051320;
+}
+
+.bold {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.0rem;
+}
+
+.get-in-touch li {
+    font-family: "Noto Serif Display",
+        sans-serif;
+    color: #051320;
+}
+
+.quick-links a {
+    text-decoration: none;
+    color: #051320;
+    font-family: "Noto Serif Display",
+        sans-serif;
+}
