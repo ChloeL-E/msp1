@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@100;200;300;400;500;600;700&family=Oswald&family=Roboto:ital,wght@0,400;1,700&display=swap');
 
+/*-------------GENERAL--------------*/
+
 body {
     padding: 0;
     margin: 0;
     border: 0;
 }
+
+hr {
+    border-top: 1px solid #051320;
+    width: 33%;
+}
+
+/*---------------HEADER--------------*/
 
 .header-main {
     width: 100%;
@@ -17,46 +26,46 @@ body {
     z-index: 1;
 }
 
-.header-main-logo {
+.header-main-title {
     width: fit-content;
     height: 65%;
     background-color: #fff;
     padding-left: 20px;
-    padding-top: 30px;
-
+    padding-top: 25px;
 }
 
-.header-main-links {
+.nav-main-links {
     width: fit-content;
     height: 100%;
     background-color: #fff;
 }
 
-.header-main-links ul {
+.nav-main-links ul {
     list-style: none;
     padding-top: 10px;
     margin-top: 15px;
 }
 
-.header-main-links ul li {
+.nav-main-links ul li {
     display: inline;
 }
 
-.header-main-links ul li a {
+.nav-main-links ul li a {
     padding: 5px 10px;
     font-family: "Noto Serif Display", sans-serif;
     font-size: 1.0rem;
     color: #051320;
     text-decoration: none;
+    font-weight: 500;
 }
 
-.header-main-links ul li a:hover {
+.nav-main-links ul li a:hover {
     transition: all 0.3s ease 0s;
-    color: #051320;
+    color: #144e77;
     text-decoration: none;
 }
 
-.header-main-cta {
+.nav-main-cta {
     width: 120px;
     height: 100%;
     display: flex;
@@ -64,9 +73,8 @@ body {
     background-color: #fff;
 }
 
-.header-main-cta a {
-    font-family: "Noto Serif Display",
-        sans-serif;
+.nav-main-cta a {
+    font-family: "Noto Serif Display", sans-serif;
     font-size: 1.0rem;
     color: #051320;
     align-self: center;
@@ -74,37 +82,39 @@ body {
     margin-bottom: 5px;
     line-height: 60px;
     text-decoration: none;
+    font-weight: 500;
 }
 
-.header-main-cta a:hover {
+.nav-main-cta a:hover {
     transition: all 0.3s ease 0s;
-    color: #051320;
+    color: #144e77;
 }
 
-.header-main-logo a {
+.header-main-title a {
     text-decoration: none;
-    font-family: "Noto Serif Display",
-        sans-serif;
+    font-family: "Noto Serif Display", sans-serif;
     color: #051320;
     font-weight: 600;
     font-size: 1.5rem;
     line-height: 60%;
 }
 
-.header-main-logo a:hover {
+.header-main-title a:hover {
     transition: all 0.3s ease 0s;
-    color: #051320;
+    color: #144e77;
     text-decoration: none;
 }
 
-.links-cta-container {
+.nav-container {
     display: flex;
 }
+
+/*------------HERO IMAGE--------------*/
 
 .hero-image {
     width: 100%;
     height: 100vh;
-    background-image: url("../images/waterfeature.jpg");
+    background-image: url("waterfeature.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -128,15 +138,17 @@ body {
 }
 
 .hero-h1 {
-    width: 40%;
+    width: 30%;
     font-family: "Noto Serif Display", sans-serif;
-    font-size: 0.75rem;
-    color: #fff;
+    font-size: 1.2rem;
+    color: #f8f8f8;
     text-align: left;
-    padding-top: 150px;
-    padding-left: 100px;
+    padding-top: 300px;
+    padding-left: 200px;
     padding-bottom: 50px;
 }
+
+
 
 .footer-main {
     background-color: #fff;
