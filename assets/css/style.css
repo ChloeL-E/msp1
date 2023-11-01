@@ -225,3 +225,118 @@ i {
     font-family: "Noto Serif Display",
         sans-serif;
 }
+
+/*-------------FOOTER-----------*/
+
+
+.footer-main {
+    flex-basis: 100%;
+    display: flex;
+    background-color: #f8f8f8;
+    padding-top: 50px;
+    width: 100%;
+    height: 150px;
+    justify-content: space-between;
+    bottom: 0;
+    z-index: 1;
+    font-size: 0.75rem;
+}
+
+.footer-main h3 {
+    width: 100%;
+    display: inline;
+    padding-left: 30px;
+}
+
+.footer-main ul:nth-child(1) {
+    flex-basis: 180px;
+    margin-left: 300px;
+}
+
+i {
+    color: #051320;
+}
+
+.get-in-touch-container {
+    margin-left: 100px;
+}
+
+.get-in-touch li {
+    font-family: "Noto Serif Display", sans-serif;
+    color: #051320;
+    list-style: none;
+    font-size: 0.75rem;
+}
+
+.quick-links-container {
+    margin-left: 300px;
+}
+
+.quick-links li {
+    list-style: none;
+}
+
+.quick-links a {
+    text-decoration: none;
+    color: #051320;
+    font-family: "Noto Serif Display", sans-serif;
+    font-size: 0.75rem;
+}
+
+.quick-links a:hover {
+    transition: all 0.3s ease 0s;
+    color: #144e77;
+}
+
+.social-links-container {
+    margin-right: 100px;
+}
+
+.social-links li {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 5px;
+    display: inline;
+    font-size: 20px;
+}
+
+.footer-cta {
+    right: 0;
+    bottom: 0;
+    height: 75px;
+    width: 10%;
+}
+
+.footer-cta a {
+    font-family: "Noto Serif Display", sans-serif;
+    color: #051320;
+    margin: 0 50px;
+    padding: 10px;
+    font-size: 0.75rem;
+    border: #051320 1px solid;
+    border-radius: 10px;
+    height: 75px;
+}
+
+.footer-cta a:hover {
+    transition: all 0.3s ease 0s;
+    color: #fff;
+    font-weight: 500;
+    background-color: #144e77;
+    border: #144e77 1px solid;
+    text-decoration: underline #fff;
+}
+
+.social-links i:hover {
+    transition: all 0.3s ease 0s;
+    color: #fff;
+    font-weight: 500;
+    color: #144e77;
+}
+
+.footer-bold {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 1.0rem;
+}
