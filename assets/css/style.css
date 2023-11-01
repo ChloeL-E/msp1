@@ -148,7 +148,39 @@ hr {
     padding-bottom: 50px;
 }
 
+/*-----OUR STORY SECTION--------*/
 
+.our-story-container {
+    width: 100%;
+    padding-top: 20px;
+    height: fit-content;
+    background-color: #f8f8f8;
+}
+
+.our-story-heading {
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: "Noto Serif Display", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #051320;
+}
+
+.our-story-container p {
+    font-family: "Noto Serif Display", sans-serif;
+    color: #051320;
+    font-size: 1.0rem;
+}
+
+.our-story-p {
+    text-align: center;
+    width: 50%;
+    display: block;
+    height: 80px;
+    padding: 5px 15px;
+    margin-left: 400px;
+    line-height: 30px;
+}
 
 .footer-main {
     background-color: #fff;
