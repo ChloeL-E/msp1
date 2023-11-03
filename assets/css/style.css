@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@100;200;300;400;500;600;700&family=Oswald&family=Roboto:ital,wght@0,400;1,700&display=swap');
 
 /*-------------GENERAL--------------*/
+:root {
+    --color-1: #fff;
+}
 
-body {
+* {
     padding: 0;
     margin: 0;
     border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Serif Display", sans-serif;
+    background-color: #fff;
 }
 
 hr {
@@ -15,98 +24,91 @@ hr {
 
 /*---------------HEADER--------------*/
 
-.header-main {
+.header {
+    background-color: var(--color-1);
+    padding: 20px 0;
+    line-height: 1.5rem;
     width: 100%;
-    height: 75px;
-    background-color: #fff;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
     top: 0;
+    position: fixed;
     z-index: 1;
 }
 
-.header-main-title {
-    width: fit-content;
-    height: 65%;
-    background-color: #fff;
-    padding-left: 20px;
-    padding-top: 25px;
-}
-
-.nav-main-links {
-    width: fit-content;
-    height: 100%;
-    background-color: #fff;
-}
-
-.nav-main-links ul {
+nav ul {
     list-style: none;
-    padding-top: 10px;
-    margin-top: 15px;
 }
 
-.nav-main-links ul li {
-    display: inline;
+a {
+    text-decoration: none;
 }
 
-.nav-main-links ul li a {
-    padding: 5px 10px;
-    font-family: "Noto Serif Display", sans-serif;
-    font-size: 1.0rem;
+.header .container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.header .row {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.header .nav ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.header .logo,
+.header .nav {
+    padding: 0 15px;
+}
+
+.header .logo a {
+    font-size: 30px;
+    color: #051320;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.header .logo a:hover {
+    transition: all 0.3s ease 0s;
+    color: #144e77;
+    text-decoration: none;
+}
+
+.header .nav ul li a {
+    display: block;
+    font-size: 18px;
     color: #051320;
     text-decoration: none;
     font-weight: 500;
+    cursor: pointer;
 }
 
-.nav-main-links ul li a:hover {
-    transition: all 0.3s ease 0s;
-    color: #144e77;
-    text-decoration: none;
-}
-
-.nav-main-cta {
-    width: 120px;
-    height: 100%;
-    display: flex;
-    padding-right: 30px;
-    background-color: #fff;
-}
-
-.nav-main-cta a {
-    font-family: "Noto Serif Display", sans-serif;
-    font-size: 1.0rem;
-    color: #051320;
-    align-self: center;
-    margin-left: 20px;
-    margin-bottom: 5px;
-    line-height: 60px;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.nav-main-cta a:hover {
+.header .nav ul li a.active,
+.header .nav ul li a:hover {
     transition: all 0.3s ease 0s;
     color: #144e77;
 }
 
-.header-main-title a {
-    text-decoration: none;
-    font-family: "Noto Serif Display", sans-serif;
-    color: #051320;
-    font-weight: 600;
-    font-size: 1.5rem;
-    line-height: 60%;
+.header .nav ul li a.active {
+    border-bottom: 2px solid #144e77;
 }
 
-.header-main-title a:hover {
-    transition: all 0.3s ease 0s;
-    color: #144e77;
-    text-decoration: none;
+.header .logo {
+    position: relative;
 }
 
-.nav-container {
-    display: flex;
+.header .logo::after {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 15px;
+    background-color: #051320;
+    height: 2px;
+    box-sizing: border-box;
+    width: 140px;
 }
 
 /*------------HERO IMAGE--------------*/
@@ -157,7 +159,8 @@ hr {
     background-color: #f8f8f8;
 }
 
-.our-story-heading {
+.our-story-heading a {
+    position: relative;
     text-align: center;
     padding-bottom: 10px;
     font-family: "Noto Serif Display", sans-serif;
@@ -166,7 +169,20 @@ hr {
     color: #051320;
 }
 
-.our-story-container p {
+.our-story-heading a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 15px;
+    background-color: #051320;
+    height: 2px;
+    box-sizing: border-box;
+    width: 140px;
+}
+
+our-story-heading {
+    height: 200px;
+    width: 500px;
     font-family: "Noto Serif Display", sans-serif;
     color: #051320;
     font-size: 1.0rem;
@@ -182,161 +198,115 @@ hr {
     line-height: 30px;
 }
 
-.footer-main {
-    background-color: #fff;
-    width: 100%;
-    padding: 60px 0 100px;
-}
-
-.get-in-touch {
-    display: inline-block;
-    list-style: none;
-}
-
-.quick-links {
-    display: inline-block;
-    list-style: none;
-}
-
-.social-links {
-    display: inline-block;
-    list-style: none;
-}
-
-i {
-    color: #051320;
-}
-
-.bold {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 1.0rem;
-}
-
-.get-in-touch li {
-    font-family: "Noto Serif Display",
-        sans-serif;
-    color: #051320;
-}
-
-.quick-links a {
-    text-decoration: none;
-    color: #051320;
-    font-family: "Noto Serif Display",
-        sans-serif;
-}
-
 /*-------------FOOTER-----------*/
 
+.footer-container {
+    max-width: 1170px;
+    margin: auto;
+}
 
-.footer-main {
-    flex-basis: 100%;
+.row {
     display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
     background-color: #f8f8f8;
-    padding-top: 50px;
-    width: 100%;
-    height: 150px;
-    justify-content: space-between;
-    bottom: 0;
-    z-index: 1;
-    font-size: 0.75rem;
+    padding: 70px 0;
 }
 
-.footer-main h3 {
-    width: 100%;
-    display: inline;
-    padding-left: 30px;
+.footer-col {
+    width: 25%;
+    padding: 0 25px;
 }
 
-.footer-main ul:nth-child(1) {
-    flex-basis: 180px;
-    margin-left: 300px;
-}
-
-i {
-    color: #051320;
-}
-
-.get-in-touch-container {
-    margin-left: 100px;
-}
-
-.get-in-touch li {
+.footer-col h4 {
     font-family: "Noto Serif Display", sans-serif;
+    font-size: 18px;
     color: #051320;
-    list-style: none;
-    font-size: 0.75rem;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
 }
 
-.quick-links-container {
-    margin-left: 350px;
+.footer h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #051320;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
 }
 
-.quick-links li {
-    list-style: none;
-}
-
-.quick-links a {
+.footer-col button {
+    width: fit-content;
+    margin: auto;
+    padding: 5px 15px;
+    color: #051320;
+    background-color: #69bce0;
+    border: none;
+    cursor: pointer;
+    font-family: "Noto Serif Display", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 5px;
     text-decoration: none;
+}
+
+.footer-col a {
     color: #051320;
-    font-family: "Noto Serif Display", sans-serif;
-    font-size: 0.75rem;
 }
 
-.quick-links a:hover {
-    transition: all 0.3s ease 0s;
-    color: #144e77;
-}
-
-.social-links-container {
-    margin-right: 100px;
-}
-
-.social-links li {
-    list-style: none;
-    text-decoration: none;
-    margin-left: 5px;
-    display: inline;
-    font-size: 20px;
-}
-
-.footer-cta {
-    right: 0;
-    bottom: 0;
-    height: 75px;
-    width: 10%;
-}
-
-.footer-cta a {
-    font-family: "Noto Serif Display", sans-serif;
-    color: #051320;
-    margin: 0 50px;
-    padding: 10px;
-    font-size: 0.75rem;
-    border: #051320 1px solid;
-    border-radius: 10px;
-    height: 75px;
-}
-
-.footer-cta a:hover {
-    transition: all 0.3s ease 0s;
+.footer-col a:hover {
     color: #fff;
+    text-decoration: none;
+}
+
+.footer-col button:hover {
+    transition: all 0.3s ease 0s;
+    border: none;
     font-weight: 500;
     background-color: #144e77;
-    border: #144e77 1px solid;
-    text-decoration: underline #fff;
+    color: #fff
 }
 
-.social-links i:hover {
-    transition: all 0.3s ease 0s;
-    color: #fff;
+.footer-col ul li {
+    font-family: "Noto Serif Display", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #f8f8f8;
+}
+
+.footer-col ul li a:hover {
+    transition: all 0.5s ease 0s;
     font-weight: 500;
-    color: #144e77;
+    padding-left: 8px;
+    color: #144e77
 }
 
-.footer-bold {
-    text-transform: uppercase;
-    text-decoration: underline;
-    font-weight: 700;
-    font-size: 1.0rem;
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 10px 10px 0;
+    border-radius: 50%;
+    background-color: #69bce0;
 }
+
+.footer-col .social-links a:hover {
+    transition: all 0.3s ease 0s;
+    background-color: #144e77;
+    color: #fff;
+}
+
+
