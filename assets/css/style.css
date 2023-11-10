@@ -2,311 +2,383 @@
 
 /*-------------GENERAL--------------*/
 :root {
-    --color-1: #fff;
+  --color-1: #fff;
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
 }
-
 body {
-    font-family: "Noto Serif Display", sans-serif;
-    background-color: #fff;
+  font-family: "Noto Serif Display", sans-serif;
+  background-color: #fff;
 }
 
 hr {
-    border-top: 1px solid #051320;
-    width: 33%;
+  border-top: 1px solid #051320;
+  width:33%;
 }
 
 /*---------------HEADER--------------*/
 
 .header {
-    background-color: var(--color-1);
-    padding: 20px 0;
-    line-height: 1.5rem;
-    width: 100%;
-    top: 0;
-    position: fixed;
-    z-index: 1;
+  background-color: var(--color-1);
+  padding: 20px 0;
+  line-height: 1.5rem;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  z-index: 1;
 }
 
 nav ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .header .container {
-    max-width: 1170px;
-    margin: auto;
+  max-width: 1170px;
+  margin: auto;
 }
 
 .header .row {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+   text-align: center;
+  justify-content: space-between;
 }
-
+ 
 .header .nav ul li {
-    display: inline-block;
-    margin-left: 40px;
+  display: inline-block;
+  margin-left: 40px;
 }
 
 .header .logo,
 .header .nav {
-    padding: 0 15px;
+  padding: 0 15px;
 }
 
 .header .logo a {
-    font-size: 30px;
-    color: #051320;
-    text-transform: capitalize;
-    cursor: pointer;
+  font-size: 30px;
+  color: #051320;
+  text-transform: capitalize;
+  cursor: pointer;
 }
 
 .header .logo a:hover {
-    transition: all 0.3s ease 0s;
-    color: #144e77;
-    text-decoration: none;
+  transition: all 0.3s ease 0s;
+  color: #144e77;
+  text-decoration: none;
 }
 
 .header .nav ul li a {
-    display: block;
-    font-size: 18px;
-    color: #051320;
-    text-decoration: none;
-    font-weight: 500;
-    cursor: pointer;
+  display: block;
+  font-size: 18px;
+  color: #051320;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 .header .nav ul li a.active,
 .header .nav ul li a:hover {
-    transition: all 0.3s ease 0s;
-    color: #144e77;
+  transition: all 0.3s ease 0s;
+  color: #144e77;
 }
 
 .header .nav ul li a.active {
-    border-bottom: 2px solid #144e77;
+  border-bottom: 2px solid #144e77;
 }
 
 .header .logo {
-    position: relative;
+  position: relative;
 }
 
 .header .logo::after {
-    content: '';
-    position: absolute;
-    bottom: 5px;
-    left: 15px;
-    background-color: #051320;
-    height: 2px;
-    box-sizing: border-box;
-    width: 140px;
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  left: 15px;
+  background-color: #051320;
+  height: 2px;
+  box-sizing: border-box;
+  width: 140px;
 }
 
 /*------------HERO IMAGE--------------*/
 
 .hero-image {
-    width: 100%;
-    height: 100vh;
-    background-image: url("../images/heroimage.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+  width:100%;
+  height: 100vh;
+  background-image: url("../images/heroimage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center center;
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
 }
 
-.hero-image-container {
-    overflow: hidden;
+.hero-image-container{
+  overflow: hidden;
 }
 
 @keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.1);
-    }
+  from{
+    transform: scale(1);
+  }
+  to{
+    transform: scale(1.1);
+  }
 }
 
 .hero-h1 {
-    width: 30%;
-    font-family: "Noto Serif Display", sans-serif;
-    font-size: 1.2rem;
-    color: #f8f8f8;
-    text-align: left;
-    padding-top: 300px;
-    padding-left: 200px;
-    padding-bottom: 50px;
+  width: 30%;
+  font-family: "Noto Serif Display", sans-serif;
+  font-size: 1.2rem;
+  color: #f8f8f8;
+  text-align: left;
+  padding-top: 300px;
+  padding-left: 200px;
+  padding-bottom: 50px;
 }
 
 /*-----OUR STORY SECTION--------*/
 
 .our-story-container {
-    width: 100%;
-    padding-top: 20px;
-    height: fit-content;
-    background-color: #f8f8f8;
+  width: 100%;
+  padding-top: 20px;
+  height: fit-content;
+  background-color: #f8f8f8;
 }
 
 .our-story-heading a {
-    position: relative;
-    text-align: center;
-    padding-bottom: 10px;
-    font-family: "Noto Serif Display", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #051320;
+  position: relative;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: "Noto Serif Display", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #051320;
 }
 
 .our-story-heading a::after {
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 15px;
-    background-color: #051320;
-    height: 2px;
-    box-sizing: border-box;
-    width: 140px;
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 15px;
+  background-color: #051320;
+  height: 2px;
+  box-sizing: border-box;
+  width: 140px;
 }
 
 our-story-heading {
-    height: 200px;
-    width: 500px;
-    font-family: "Noto Serif Display", sans-serif;
-    color: #051320;
-    font-size: 1.0rem;
+  height: 200px;
+  width: 500px;
+  font-family: "Noto Serif Display", sans-serif;
+  color: #051320;
+  font-size: 1.0rem;
 }
 
 .our-story-p {
-    text-align: center;
-    width: 50%;
+  text-align: center;
+  width: 50%;
+  display: block;
+  height: 80px;
+  padding: 5px 15px;
+  margin-left: 400px;
+  line-height: 30px;
+}
+
+
+/*------------BOOKING ENQUIRY----*/
+.hero-image-booking {
+  width:100%;
+  height: 100vh;
+  background-image: url("../images/bookingimage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center center;
+}
+
+.hero-image-booking-container{
+  overflow: hidden;
+}
+
+.enquiry-form {
+    margin-top: 150px;
+    color:#fff;
+    background-color: rgba( 60, 60, 60, .6);
+    width: 400px;
+    position:absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.enquiry-form h2 {
+  font-family: "Noto Serif Display", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 4px;
+  font-weight: 700;
+  color: #fff;
+  text-align: left;
+}
+
+.form-section input {
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.form-section textarea {
+  background-color:#f8f8f8;
+  font-family: "Noto Serif Display", sans-serif;
+  padding:2px;
+  border-radius: 5px;
+}
+
+input[type=submit] {
+    margin-top: 20px;
+    padding: 15px 32px 15px 32px;
+    text-align:center;
+    font-size: 100%;
+    color: #051320;
     display: block;
-    height: 80px;
-    padding: 5px 15px;
-    margin-left: 400px;
-    line-height: 30px;
-}
-
-/*-------------FOOTER-----------*/
-
-.footer-container {
-    max-width: 1170px;
-    margin: auto;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-ul {
-    list-style: none;
-}
-
-.footer {
-    background-color: #f8f8f8;
-    padding: 70px 0;
-}
-
-.footer-col {
-    width: 25%;
-    padding: 0 25px;
-}
-
-.footer-col h4 {
-    font-family: "Noto Serif Display", sans-serif;
-    font-size: 18px;
-    color: #051320;
-    text-transform: capitalize;
-    margin-bottom: 35px;
-    font-weight: 500;
-    position: relative;
-}
-
-.footer h4::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    background-color: #051320;
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
-}
-
-.footer-col button {
-    width: fit-content;
-    margin: auto;
-    padding: 5px 15px;
-    color: #051320;
     background-color: #69bce0;
     border: none;
     cursor: pointer;
     font-family: "Noto Serif Display", sans-serif;
-    font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: capitalize;
     border-radius: 5px;
-    text-decoration: none;
+}
+
+input[type=submit]:hover {
+  transition: all 0.3s ease 0s;
+  border: none;
+  font-weight: 500;
+  background-color: #144e77;
+  color:#fff
+}
+ 
+.calendar {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+/*-------------FOOTER-----------*/
+
+.footer-container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer {
+  background-color: #f8f8f8;
+  padding: 70px 0;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 25px;  
+}
+
+.footer-col h4 {
+  font-family: "Noto Serif Display", sans-serif;
+  font-size: 18px;
+  color: #051320;
+  text-transform: capitalize;
+  font-weight: 600;
+  position: relative;
+}
+
+.footer h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #051320;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col button {
+  width: fit-content;
+  margin: auto;
+  padding: 5px 15px;
+  color: #051320;
+  background-color: #69bce0;
+  border: none;
+  cursor: pointer;
+  font-family: "Noto Serif Display", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 .footer-col a {
-    color: #051320;
+  color: #051320;
 }
 
 .footer-col a:hover {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
-
+ 
 .footer-col button:hover {
     transition: all 0.3s ease 0s;
     border: none;
     font-weight: 500;
     background-color: #144e77;
-    color: #fff
+    color:#fff
 }
 
 .footer-col ul li {
-    font-family: "Noto Serif Display", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    background-color: #f8f8f8;
+  font-family: "Noto Serif Display", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: #f8f8f8;
 }
 
 .footer-col ul li a:hover {
-    transition: all 0.5s ease 0s;
-    font-weight: 500;
-    padding-left: 8px;
-    color: #144e77
+  transition: all 0.5s ease 0s;
+  font-weight: 500;
+  padding-left: 8px;
+  color: #144e77
 }
 
-.footer-col .social-links a {
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
-    text-align: center;
-    margin: 0 10px 10px 0;
-    border-radius: 50%;
-    background-color: #69bce0;
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: 0 10px 10px 0;
+  border-radius: 50%;
+  background-color: #69bce0;
 }
 
 .footer-col .social-links a:hover {
-    transition: all 0.3s ease 0s;
-    background-color: #144e77;
-    color: #fff;
+  transition: all 0.3s ease 0s;
+  background-color: #144e77;
+  color: #fff;
 }
 
 

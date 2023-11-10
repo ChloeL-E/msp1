@@ -4,113 +4,93 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Hexham Manor Spa</title>
   </head>
-
   <body>
     <header class="header">
       <div class="container">
         <div class="row">
           <div class="logo">
-            <a href="#">Hexham Manor Spa</a>
+            <a href="index.html">Hexham Manor Spa</a>
           </div>
           <nav class="nav">
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="#">Our Story</a></li>
-              <li><a href="treatments.html">Treatments</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
-              <li><a href="booking.html" class="active">Book Now</a></li>
-            </ul>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="ourstory.html">Our Story</a></li>
+                    <li><a href="treatments.html">Treatments</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="booknow.html" class="active">Book Now</a></li>
+                </ul>
           </nav>
-        </div>
-      </div>
-    </header>
-    <main>
-      <div class="hero-image-container">
-        <div class="hero-image">
-          <div class="hero-h1">
-            <h1>Rest and Restore<br />at our Luxury <br />Northumbrian Spa</h1>
           </div>
         </div>
+        </header>
+    <div class="hero-image-booking-container">
+      <div class="hero-image-booking">
+        <section class="form-section">
+   <form class="enquiry-form" action="" method="post">
+<h2>Send us a booking enquiry</h2>
+     <br>
+<label for="fname">First Name: </label>
+<input type="text" id="fname" name="first_name" required>
+<br>
+<label for="lname">Last Name: </label>
+<input type="text" id="lname" name="last_name" required>
+<br>
+<label for="email">Email: </label>
+<input type="email" id="email" name="email_address" required>
+     <br>
+     <label for="date">Choose the date you wish to visit us: </label>
+       <br>
+     <input class="calendar" type="datetime-local" id="date" name="date" required>
+     <br>
+     <textarea id="special-requests" name="special-requests" placeholder="Do you have any special requests?" cols="25" rows="5"></textarea>
+     <br>
+     <input type="submit"></input>
+</form>
+</section>
       </div>
-      <div class="hero-image-overlay">
-        <div class="our-story-container">
-          <h2 class="our-story-heading"><a href="#">Our Story</a></h2>
-          
-        </div>
-      </div>
-    </main>
-
+    </div>
     <footer class="footer">
       <div class="footer-container">
         <div class="row">
           <div class="footer-col">
             <h4>Quick Links</h4>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="#">Our Story</a></li>
-              <li><a href="treatments.html">Treatments</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-          </div>
-          <div class="footer-col">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="ourstory.html">Our Story</a></li>
+                    <li><a href="treatments.html">Treatments</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+              </div>
+        <div class="footer-col">
             <h4>Get In Touch</h4>
             <ul>
-              <li>Telephone:</li>
-              <li>016611823718</li>
-              <li></li>
-              <li>Email:</li>
-              <li>hexham-manor-spa@gmail.com</li>
+                <li>Telephone:</li>
+                <li>016611823718</li>
+                <li></li>
+                <li>Email:</li>
+                <li>hexham-manor-spa@gmail.com</li>
             </ul>
           </div>
           <div class="footer-col">
             <h4>Follow Us</h4>
             <div class="social-links">
-              <a
-                href="https://www.facebook.com/"
-                target="_blank"
-                aria-label="visit our Facebook page"
-                ><i class="fa-brands fa-facebook" aria-hidden="true"></i
-              ></a>
-              <a
-                href="https://www.instagram.com"
-                target="_blank"
-                aria-label="visit our Instagram page"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
-              <a
-                href="https://www.youtube.com"
-                target="_blank"
-                aria-label="visit our Youtube page"
-                aria-hidden="true"
-                ><i class="fa-brands fa-youtube"></i
-              ></a>
-              <a
-                href="https://www.twitter.com"
-                target="_blank"
-                aria-label="visit our Twitter page"
-                aria-hidden="true"
-                ><i class="fa-brands fa-twitter"></i
-              ></a>
+              <a href="https://www.facebook.com/" target="_blank" aria-label="visit our Facebook page"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com" target="_blank" aria-label="visit our Instagram page"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.youtube.com" target="_blank" aria-label="visit our Youtube page" aria-hidden="true"><i class="fa-brands fa-youtube"></i></a>
+              <a href="https://www.twitter.com" target="_blank" aria-label="visit our Twitter page" aria-hidden="true"><i class="fa-brands fa-twitter"></i></a>
             </div>
           </div>
           <div class="footer-col">
-            <button><a href="booking.html">Book Now</a></button>
+            <button><a href="booknow.html">Book Now</a></button>
+          </div>
           </div>
         </div>
-      </div>
     </footer>
   </body>
 </html>
+
