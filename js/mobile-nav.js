@@ -3,7 +3,7 @@ let headerMobileBtn = document.querySelector(".mobile-menu-btn");
 
 let isMenuOpen = false;
 
-headerMobileBtn.onclick = function() {
+headerMobileBtn.onclick = burgerNav(); {
     if (!isMenuOpen) {
         headerMain.style.display = "flex";
         isMenuOpen = true;
