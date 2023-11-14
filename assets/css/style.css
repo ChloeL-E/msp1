@@ -397,16 +397,27 @@ a {
 /*------------CONTACT-------------*/
 
 .hero-image-contact {
-  width: 100%;
-  height: 125vh;
-  background-image: url("../images/contactimage.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/contactimage.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
-.hero-image-contact-container {
-  overflow: hidden;
+
+@keyframes hero-zoom {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.1);
+  }
 }
+
 .hero-contact-heading {
   width: 300px;
   height: 150px;
@@ -428,6 +439,60 @@ a {
   position: relative;
   padding: 20px 5px;
 }
+
+.hero-image-contact-container {
+  overflow: hidden;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  flex-wrap: wrap;
+}
+
+.contact-address {
+  margin: 150px 0 0 150px;
+}
+.contact-details{
+  margin:150px 0 0 0;
+}
+
+.contact-address h3, 
+.contact-details h3 {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #051320;
+}
+
+.contact-address ul li {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #051320;
+}
+
+.contact-details p {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #051320;
+}
+
+iframe {
+  width: 400px;
+  height: 400px;
+}
+
+#locator {
+  border: 8px double #144e77;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 50px 150px 50px 0;
+
+}
+
 /*------------BOOKING ENQUIRY----*/
 .hero-image-booking {
   width: 100%;

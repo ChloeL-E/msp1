@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Hexham Manor Spa</title>
   </head>
-
   <body>
     <header class="header">
       <div class="container">
@@ -44,13 +43,31 @@
           </div>
         </div>
       </div>
-      <div class="hero-image-overlay">
-        <div class="contact-container">
-          
-        </div>
+        <section class="info-container">
+          <div class="contact-address">
+            <h3>Address: </h3>
+            <ul>
+              <li>Hexham Manor Hall</li>
+              <li>Hexham Abbey Rd</li>
+              <li>Hexham</li>
+              <li>Northumberland</li>
+              <li>NE46 3HQ</li>
+            </ul>
+          </div>
+          <div class="contact-details">
+            <h3>Telephone:</h3>
+            <p>01611823718</p>
+              <br>
+              <h3>Email: </h3>
+              <p>hexham-manor-spa@gmail.com</p>
+          </div>
+          <div id="locator">
+          <iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3543.345794467841!2d-2.109649664096675!3d54.979641547180314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1699958332356!5m2!1sen!2suk" 
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
       </div>
+      </section>
     </main>
-
     <footer class="footer">
       <div class="footer-container">
         <div class="row">
@@ -109,5 +126,20 @@
         </div>
       </div>
     </footer>
+    <!--<script>
+      function initMap() {
+        var location = {lat: 54.979140,lng: -2.096554};
+        var map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 15,
+        center: location
+      });
+      var marker= new google.maps.Marker({
+        position: location,
+        map: map
+      });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbfoGfBJBbWqWn3k8cSPQlE6CrdPrQR6M">
+  </script>-->
   </body>
 </html>
