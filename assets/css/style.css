@@ -163,17 +163,20 @@ a {
 
 /*-----OUR STORY SECTION--------*/
 
+
+.our-story-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 20px;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;*/
+}
+
 .our-story-heading {
   width: 100%;
   margin: 20px auto;
-}
-
-.our-story-heading-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
 }
 
 .our-story-heading h2 {
@@ -185,20 +188,19 @@ a {
   text-decoration: underline;
 }
 
-.our-story-container {
-  width: 90%;
-  margin: 0 auto;
-  padding: 10px 20px;
-}
-
 .about {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .about-content {
+  flex: 1;
+  display: inline-block;
+  padding: 10px 20px;
+  left: 0;
   margin: 0 auto;
 }
 
@@ -216,14 +218,6 @@ a {
   height: auto;
   margin: 0 auto;
   display: block;
-}
-
-.about-content {
-  flex: 1;
-  display: block;
-  padding: 10px 20px;
-  width: 50%;
-  left: 0;
 }
 
 .about-content h3 {
@@ -686,6 +680,11 @@ ul {
 /*---MOBILE VERSION-----*/
 
 @media only screen and (max-width: 600px){
+
+  * {
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
   .hamburger {
     display: block;
   }
@@ -786,34 +785,22 @@ ul {
   
   .our-story-container {
     margin: 0 auto;
+    /*display: flex;*/
   }
   
-  
+  .about {
+    flex-direction:column;
+    flex-wrap: nowrap;
+  }
+
   .about-content {
-    margin: 0 auto;
-  }
-  
-  .about-img {
-    margin-left: 0;
-  }
-  
-  .about-img img {
-    max-height: 100%;
-    margin: 0 auto;
-    display: block;
-  }
-  
-  .about-content {
-    flex: 1;
-    display: block;
     padding: 0;
-    width: 50%;
-    left: 0;
+    margin-left: 0;
+    display: block;
   }
   
   .about-content h3 {
     font-size: 1.5rem;
-    margin-bottom: 0;
     text-align: center;
   }
   
@@ -824,7 +811,17 @@ ul {
     font-weight: 300;
   }
 
-
+  .about-img {
+    margin-left: 0;
+    
+  }
+  
+  .about-img img {
+    max-height: 100%;
+    margin: 0 auto;
+    
+  }
+  
 
 
   /*.mobile-menu-btn {
