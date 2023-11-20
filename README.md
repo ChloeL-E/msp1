@@ -68,14 +68,16 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing
 
--The WAVE Web Accessibility Evaluation Tool was used to assess each webpage. 
--The Home page showed no errors or contrast errors but identified 2 alerts. The firstly there was not alt atrribute to identify the 'Book Now' button. An alt tag was added which fixed the alert.
+- The WAVE Web Accessibility Evaluation Tool was used to assess each webpage. 
+
+- The Home page showed no errors or contrast errors but identified two alerts. The firstly there was not alt atrribute to identify the 'Book Now' button. An alt tag was added which fixed the alert.
 -There was also an alert identified with the Hamburger toggle. The function requires a click which would not be accessible to keyboard users.
 
--The Treatments page identified no errors or contrast errors. 
+- The Treatments page identified no errors or contrast errors. 
 
--The Contact Us page identified no errors or contrast errors. 1 alert was identified which showed a redundant link. The logo links to the home page as well as the Home link in the header. Adjacent links go to the same URL, therefore the logo link was removed to improve efficiency of movement through the webpage for screenreaders.
+- The Contact Us page identified no errors or contrast errors. One alert was identified which showed a redundant link. The logo links to the home page as well as the Home link in the header. Adjacent links go to the same URL, therefore the logo link was removed to improve efficiency of movement through the webpage for screenreaders.
 
+- The Booking page showed two errors when the WAVE Tool was applied. The first alert was for a missing form label  and the second eroor for an empty button. 
 
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -110,38 +112,45 @@ The live link can be found here - <https://code-institute-org.github.io/love-run
 
 ## Credits
 
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.
-
 ### Content
 
 - Instruction on creating a responsive navigation bar provided by Dani Krossing [YouTube](https://www.youtube.com/watch?v=HkNNyDtm7mg)
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- Instruction on creating a responsive footer were taken from []()
+- 
+- 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The map on the Contact Us webpage used [Google Maps Api](https://developers.google.com/maps/documentation/javascript/get-api-key ) and the latitude and longtitude were found using [LatLong.net](https://www.latlong.net/)
 
 ### Media
 
-- The hero image is taken from [Freepik] and the image is by [vecstock](https://www.freepik.com/free-ai-image/wet-young-woman-enjoying-luxury-spa-treatment-generated-by-ai_41571817.htm#page=3&query=spa&position=7&from_view=search&track=sph)
+- All images are taken from [Freepik] and are further attributed as follows: 
 
-- 
-  
-  
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The Home hero image is by [vecstock](https://www.freepik.com/free-ai-image/wet-young-woman-enjoying-luxury-spa-treatment-generated-by-ai_41571817.htm#page=3&query=spa&position=7&from_view=search&track=sph)
+
+- The image for Luxury and Tranquility is by [Freepik](https://www.freepik.com/free-photo/woman-relaxing-spa_3508172.htm#query=woman%20relaxing%20spa%20water&position=41&from_view=search&track=ais&uuid=0dc33f71-a56e-414e-bf83-cd18809fb439)
+
+- The image for Rest and Unwind is by [cookie_studio](https://www.freepik.com/free-photo/young-woman-having-face-massage-relaxing-spa-salon_8224621.htm#query=spa&position=0&from_view=search&track=sph)
+
+-The image for Reinvigorate and Renew is from [Freepik](https://www.freepik.com/free-photo/spa-concept-with-woman-relaxing-water_3505120.htm#query=spa-concept-with-woman-relaxing-water&position=1&from_view=search&track=sph&uuid=e5cbf2e2-6fbd-40f2-be89-c617498c5485)
+
+- The hero image for the Treatments page is by[vecstock](https://www.freepik.com/free-ai-image/scented-candle-burning-bowl-creating-tranquil-scene-generated-by-ai_52297585.htm)
+
+- The image for Work It out is by [gpointstudio](https://www.freepik.com/free-photo/woman-relaxing-spa_12930395.htm#query=spa&position=31&from_view=search&track=sph). 
+
+- The image for Drift Away is by [valuavitaly](https://www.freepik.com/free-photo/handsome-man-having-stone-massage-spa-salon-healthy-lifestyle_11178510.htm#query=hot%20stone%20massage&position=48&from_view=search&track=ais)
+
+- The image for New Beginnings is by [cookie_studio](https://www.freepik.com/free-photo/attractive-african-woman-enjoying-face-massage-spa-salon_9028017.htm#query=spa&position=4&from_view=keyword&track=sph%22%3EImage%20by%20cookie_studio")
+
+- The image for The Ultimate Unwind is by [javi_indy](https://www.freepik.com/free-photo/young-woman-receiving-back-massage-spa-center_1319025.htm#query=swedish%20massage&position=19&from_view=search&track=ais)
+
+- The image for Face Spa is by [FreePik](https://www.freepik.com/free-photo/spa-concept-with-woman-with-creme-face_2279922.htm#query=spa-concept-with-woman-with-creme-face&position=1&from_view=search&track=sph&uuid=ab0ea5ba-b81e-4fb6-88a5-8e3f3a736f42)
+
+- The image for Reflexology and Foot Massage is by [chevanon](https://www.freepik.com/free-photo/woman-getting-foot-massage_999590.htm#query=foot%20spa&position=39&from_view=search&track=ais)
+
+- The hero image on the Contact Us page is by [wirestock](https://www.freepik.com/free-photo/reflection-castle-pond-autumn_16369074.htm#query=manor%20house&position=22&from_view=search&track=ais&uuid=a0a3fa9b-d49f-4472-b027-eae8f4c15daf)
+
+- The hero image on the Book Now page is by [pvproductions] (https://www.freepik.com/free-photo/attractive-young-woman-is-relaxing-spa-complex-with-sauna_30906865.htm#page=4&query=spa&position=0&from_view=search&track=sph)
 
 
-## Other General Project Advice
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message
-  - Make sure to keep the messages in the imperative mood
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
 
 
