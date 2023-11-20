@@ -10,36 +10,36 @@ Hexham Manor Spa is a luxury spa located in Northumberland. Its website aims to 
 
 - **Navigation Bar**
   
-  - The responsive navigation bar has been applied to all four pages so that all pages are uniform. It is also 'sticky' so that it is visible at all times. The navigation bar includes clear links to the logo, Home page, Our Story, Treatments, Contact Us and 'Book Now' button.
+  - The responsive navigation bar has been applied to all four pages so that the pages are uniform, which is more visually appealing and improves user experience. It is also 'sticky' so that it is visible at all times no matter where the user is on the webpage. The navigation bar includes clear links to the logo, Home, Treatments, Contact Us and 'Book Now' button.
   - The navigation section promotes ease of use for the user, allowing the user to move easily between sections and pages.
 
 <!--![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)-->
 
-- **The home page hero image**
+- **The hero image**
 
-  - The Home page includes an striking image with text overlay and an eye catching zoom animation.  This aims to be instantly visually appealing to the user to peak their interest, whilst also showcasing one of the Spas' impressive facilities.
+  - Each page includes an striking image with text overlay and an eye catching zoom animation.  This aims to be instantly visually appealing to the user to peak their interest, whilst also showcasing one of the Spas' impressive facilities.
 
 <!--![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)-->
 
 - **Our Story Section**
 
-  - The Our Story section will allow the user to see the Spas' ethos, with the aim to show the benefits to the resotative treatments and some self-indulgence. 
+  - The Our Story section that is found on the Home page will allow the user to see the Spas' ethos, with the aim to show the benefits to the resotative treatments and some self-indulgence. There are 3 images to add visual appeal and interest to the page, whilst also showcasing the Spa.
   - The user will see the value of a luxury Spa experience and will consider making a booking enquiry via the site.
-  .
+  
 
 <!--![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)-->
 
-- **Treatments section**
+- **Treatments page**
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-  - This section will be updated as these times change to keep the user up to date.
+  - This page will allow the user to see exactly what treatments are available to book. Images are paired with the treatment information to show the user what the treatment may look like. When the user hovers over an image, an overlay appears to show the duration and cost of the treatment they are viewing.
+  - This page will be updated with any new treatments available or seasonal offers.
 
 ![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
 - **The Footer**
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the social media sites for Hexham Manor Spa. The links will open to a new tab to allow easy navigation for the user.
+  - The footer is valuable to the user as it encourages them to keep connected via social media and gives easy access to interesting information about what is happening at the Spa.
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
@@ -52,9 +52,11 @@ Hexham Manor Spa is a luxury spa located in Northumberland. Its website aims to 
 
 - **The Book Now Page**
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
+  - This page will allow the user to send a booking enquiry. The user will be asked to submit their full name, email address and telephone number. The user will have the option to give some further information with the booking enquiry. The user will recieive feedback once they press the submit button to inform them that they will be contacted soon regarding their booking enquiry.
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+
+
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
@@ -62,9 +64,19 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-- Another feature idea
+- In the future a 'book online' feature will be implemented which will allow the user to directly book their treatments online rather than sending a booking enquiry/needing to speak to a memebr of the Spa team. This should improve user experience and they can more efficiently book our services. 
 
 ## Testing
+
+-The WAVE Web Accessibility Evaluation Tool was used to assess each webpage. 
+-The Home page showed no errors or contrast errors but identified 2 alerts. The firstly there was not alt atrribute to identify the 'Book Now' button. An alt tag was added which fixed the alert.
+-There was also an alert identified with the Hamburger toggle. The function requires a click which would not be accessible to keyboard users.
+
+-The Treatments page identified no errors or contrast errors. 
+
+-The Contact Us page identified no errors or contrast errors. 1 alert was identified which showed a redundant link. The logo links to the home page as well as the Home link in the header. Adjacent links go to the same URL, therefore the logo link was removed to improve efficiency of movement through the webpage for screenreaders.
+
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -115,7 +127,7 @@ You can break the credits section up into Content and Media, depending on what y
 
 - The hero image is taken from [Freepik] and the image is by [vecstock](https://www.freepik.com/free-ai-image/wet-young-woman-enjoying-luxury-spa-treatment-generated-by-ai_41571817.htm#page=3&query=spa&position=7&from_view=search&track=sph)
 
-- The logo image was created on [Shutterstock](https://www.shutterstock.com/create/editor/CiRjODNlNzk3Mi1hNDllLTQ3ZGItYTE1ZC0xNjUzYzgwZmFhMGE.)
+- 
   
   
 - The photos used on the home and sign up page are from This Open Source site
