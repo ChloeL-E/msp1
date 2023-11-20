@@ -23,14 +23,8 @@ body {
   margin: 0 auto;
 }
 
-hr {
-  border-top: 1px solid #051320;
-  width: 33%;
-}
-
 
 /*----------------------------------------------HEADER-----------------------------------------------------*/
-
 
 
 .header {
@@ -79,24 +73,16 @@ a {
   display: inline-block;
   margin-left: 40px;
 }
-
-.header .logo,
+.header .logo
 .header .nav {
   padding: 0 15px;
 }
 
-.header .logo a {
+.header .logo h1 {
   font-size: 30px;
-  color: #051320;
+  color:#051320;
   text-transform: capitalize;
-  cursor: pointer;
   left: 0;
-}
-
-.header .logo a:hover {
-  transition: all 0.3s ease 0s;
-  color: #144e77;
-  text-decoration: none;
 }
 
 .header .nav ul li a {
@@ -311,7 +297,7 @@ a {
 }
 
 .treatments-container {
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   padding: 10px 20px;
 }
@@ -319,11 +305,19 @@ a {
 .about-treatments {
   display: flex;
   justify-content: space-between;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.treatments-content {
+  flex: 1;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 auto;
 }
 
 .treatments-img {
-  flex: 1;
   height: 19rem;
   width: 19rem;
   border-radius: 50%;
@@ -339,13 +333,7 @@ a {
   max-height: 100%;
   height: auto;
   display: block;
-}
-
-.treatments-content {
-  flex-direction: row;
-  display: inline-block;
-  padding: 10px 20px;
-  left: 0;
+  margin: 0 auto;
 }
 
 .treatments-content h3 {
@@ -398,7 +386,7 @@ a {
   font-size: 23px;
 }
 
-/*----------------------------------------------CONTACT--------------------------------------------------------*/
+/*----------------------------------------------CONTACT US--------------------------------------------------------*/
 
 .hero-image-contact {
     width: 100%;
@@ -459,8 +447,8 @@ a {
   margin:150px 0 0 0;
 }
 
-.contact-address h3, 
-.contact-details h3 {
+.contact-address h2, 
+.contact-details h2 {
   font-size: 23px;
   font-weight: 400;
   line-height: 1.5;
