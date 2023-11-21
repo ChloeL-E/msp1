@@ -43,6 +43,7 @@ header {
   color: #051320;
   text-decoration: none;
   transition: 0.6s ease;
+  font-family: "Noto Serif Display", sans-serif;
 }
 
 .nav-menu .nav-item a:hover {
@@ -63,6 +64,7 @@ header {
   font-size: 30px;
   color:#051320;
   text-transform: capitalize;
+  font-family: "Noto Serif Display", sans-serif;
 }
 
 .nav-menu {
@@ -233,20 +235,6 @@ a {
   width: 90%;
   margin: 0 auto;
   padding: 10px 20px;
-}
-
-.our-story-heading {
-  width: 100%;
-  margin: 20px auto;
-}
-
-.our-story-heading h2 {
-  font-size: 35px;
-  color: #144e77;
-  margin-bottom: 25px;
-  position: relative;
-  text-align: center;
-  text-decoration: underline;
 }
 
 .about {
@@ -842,12 +830,12 @@ ul {
   
 
   /*-------------------OUR STORY----------------*/
-  .our-story-heading {
+  /*.our-story-heading {
     margin:0;
   }
   .our-story-heading h2 {
     font-size: 1.2rem;
-  }
+  }*/
   .our-story-container {
     margin: 0 auto;
     display: flex;

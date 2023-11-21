@@ -18,7 +18,23 @@
     <title>Hexham Manor Spa</title>
   </head>
   <body>
-    <header class="header">
+    <header>
+      <nav class="navbar">
+          <div class="logo">
+            <h1>Hexham Manor Spa</h1>
+          </div>
+            <ul class="nav-menu">
+              <li class="nav-item"><a href="index.html" class="active">Home</a></li>
+              <li class="nav-item"><a href="treatments.html">Treatments</a></li>
+              <li class="nav-item"><a href="contact.html">Contact Us</a></li>
+              <li class="nav-item"><a href="booking.html">Book Now</a></li>
+            </ul>
+        <div class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+          </nav>
+        </header>
+    <!--<header class="header">
       <div class="container">
         <div class="row">
           <div class="logo">
@@ -34,7 +50,7 @@
           </nav>
         </div>
       </div>
-    </header>
+    </header>-->
     <main>
       <div class="hero-image-container">
         <div class="hero-image-contact">
@@ -126,21 +142,6 @@
         </div>
       </div>
     </footer>
-    <!--<script>
-      function initMap() {
-        var location = {lat: 54.979140,lng: -2.096554};
-        var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 15,
-        center: location
-      });
-      var marker= new google.maps.Marker({
-        position: location,
-        map: map
-      });
-        }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbfoGfBJBbWqWn3k8cSPQlE6CrdPrQR6M">
-  </script>-->
-  <script src="js/main.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
