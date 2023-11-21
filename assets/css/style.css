@@ -199,31 +199,20 @@ a {
   }
 }
 
-/*.hero-heading {
-  width: 45%;
-  padding: 15%;
-}
-.hero-heading h1 {
-  font-family: "Noto Serif Display", sans-serif;
-  font-size: 3rem;
-  color: #f8f8f8;
-  text-align: left;
-  text-transform: 
-}*/
-
-
 .hero-heading {
   width: 50%;
   text-align: center;
   padding: 20% 15%;
+  background-clip: content-box;
+  
 }
 
-.hero-heading h1 {
+.hero-heading h2 {
   font-family: "Noto Serif Display", sans-serif;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 300;
   color: #f8f8f8;
-  padding: 10px;
+  padding: 20px;
   background-color:rgba(60, 60, 60, .5);
   border-radius: 5px;
 }
