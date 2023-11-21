@@ -114,10 +114,10 @@ The live link can be found here - <https://code-institute-org.github.io/love-run
 
 ### Content
 
-- Instruction on creating a responsive navigation bar provided by Dani Krossing [YouTube](https://www.youtube.com/watch?v=HkNNyDtm7mg)
-- Instruction on creating a responsive footer were taken from []()
-- 
-- 
+- Instruction on creating a responsive navigation bar and a google map in a webpage provided by Dani Krossing [YouTube](https://www.youtube.com/watch?v=HkNNyDtm7mg)
+- Instruction on creating a responsive footer were taken from TheWebShala [Youtube](https://www.youtube.com/watch?v=YOb67OKw62s&t=333s)
+- Information about building responsive content with images and text was provided by Learn Web [Youtube]{https://www.youtube.com/watch?v=Rqo_1TV7wQs}
+- Instruction on creating a responsive hamburger menu was taken from Web Dev Tutorials [Youtube](https://www.youtube.com/watch?v=flItyHiDm7E&t=361s)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - The map on the Contact Us webpage used [Google Maps Api](https://developers.google.com/maps/documentation/javascript/get-api-key ) and the latitude and longtitude were found using [LatLong.net](https://www.latlong.net/)
 
@@ -125,7 +125,7 @@ The live link can be found here - <https://code-institute-org.github.io/love-run
 
 - All images are taken from [Freepik] and are further attributed as follows: 
 
-- The Home hero image is by [vecstock](https://www.freepik.com/free-ai-image/wet-young-woman-enjoying-luxury-spa-treatment-generated-by-ai_41571817.htm#page=3&query=spa&position=7&from_view=search&track=sph)
+- The Home hero image is by [Vecstock](https://www.freepik.com/free-ai-image/wet-young-woman-enjoying-luxury-spa-treatment-generated-by-ai_41571817.htm#page=3&query=spa&position=7&from_view=search&track=sph)
 
 - The image for Luxury and Tranquility is by [Freepik](https://www.freepik.com/free-photo/woman-relaxing-spa_3508172.htm#query=woman%20relaxing%20spa%20water&position=41&from_view=search&track=ais&uuid=0dc33f71-a56e-414e-bf83-cd18809fb439)
 
