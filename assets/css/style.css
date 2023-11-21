@@ -44,6 +44,7 @@ header {
   text-decoration: none;
   transition: 0.6s ease;
   font-family: "Noto Serif Display", sans-serif;
+  font-weight: 500;
 }
 
 .nav-menu .nav-item a:hover {
@@ -57,7 +58,6 @@ header {
   align-items: center;
   padding: 0 24px;
   gap: 60px;
-
 }
 
 .logo {
@@ -79,85 +79,12 @@ header {
   cursor: pointer;
 }
 
-/*
-.header {
-  background-color: var(--color-1);
-  padding: 20px 0;
-  line-height: 1.5rem;
-  width: 100%;
-  top: 0;
-  position: fixed;
-  z-index: 1;
-  display: flex;
-  justify-content: space-between;
-}
-
-.hamburger {
-  display: none;
-} 
-
-.fa-solid fa-bars {
-  font-size: 25px;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-nav ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.header .container {
-  max-width: 1200px;
-  margin: auto;
-}
-
-.header .row {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: space-between;
-}
-
-.header .nav ul li {
-  display: inline-block;
-  margin-left: 40px;
-}
-.header .logo
-.header .nav {
-  padding: 0 15px;
-}
-
-.header .logo h1 {
+.fa-solid .fa-bars{
+  font-weight: 600;
   font-size: 30px;
-  color:#051320;
-  text-transform: capitalize;
-  left: 0;
 }
 
-.header .nav ul li a {
-  display: block;
-  font-size: 18px;
-  color: #051320;
-  text-decoration: none;
-  font-weight: 500;
-  cursor: pointer;
-}
-
-.header .nav ul li a.active,
-.header .nav ul li a:hover {
-  transition: all 0.6s ease 0s;
-  color: #144e77;
-}
-
-.header .nav ul li a.active {
-  border-bottom: 2px solid #144e77;
-}
-
-.header .logo {
+/*.header .logo {
   position: relative;
 }
 
@@ -453,7 +380,7 @@ a {
   position: absolute;
 }
 
-.hero-contact-heading h1 {
+.hero-contact-heading h2 {
   font-family: "Noto Serif Display", sans-serif;
   font-size: 30px;
   font-weight: 300;
@@ -461,7 +388,6 @@ a {
   position: relative;
   padding: 20px 5px;
 }
-
 
 .info-container {
   display: flex;
@@ -707,7 +633,6 @@ color: #fff
 
 
   /*-------------------HEADER----------------*/
-  @media only screen and (max-width: 870px) {
     .hamburger {
       display: block;
     }
@@ -731,9 +656,6 @@ color: #fff
     .nav-menu.active {
       left: 0;
     }
-  }
-
-
 
   /*-------------------HERO----------------*/
   .hero-image {
@@ -845,24 +767,79 @@ color: #fff
     margin: 0 auto;
   }
 
+/*-------------------Contact Us----------------*/
+
+  .contact-address {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* display: block; */
+    padding: 10px;
+    clear: both;
+  }
+
+  .contact-details {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+    #locator {
+      display: flex;
+      flex-direction: column;
+      border: 8px double #144e77;
+      border-radius: 15px;
+      padding: 20px;
+      margin: 0 auto;
+  }
+
   /*-------------------FOOTER----------------*/
   .footer h4::before {
     display: none;
   }
+
+  .book-now {
+    padding: 10px 0;
+  }
 }
 
 /*----------------------------------------------TABLET VERSION--------------------------------------------------*/
-/*
-@media only screen and (max-width: 992px){*/
+
+@media only screen and (max-width: 992px){
 
 
 /*-------------------GENERAL----------------*/
-/** {
+* {
     overflow-y: scroll;
     overflow-x: hidden;
   }
 
   /*-------------------HEADER/NAV----------------*/
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 80px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
 
 /*.header {
     background-color: var(--color-1);
@@ -902,7 +879,7 @@ color: #fff
 
   /*-------------------HERO----------------*/
 
-/*.hero-image {
+.hero-image {
     width: 100%;
     height: 80vh;
     background-image: url("../images/heroimage.jpg");
@@ -914,15 +891,19 @@ color: #fff
     width: 100%;
     overflow: hidden;
   }
-  .hero-heading {
+  /*.hero-heading {
     font-size: 0.2rem;
     width: auto;
     padding-top: 20%;
+  }*/
+
+  .hero-heading {
+    display: none;
   }
 
   /*-------------------OUR STORY----------------*/
 
-/*.our-story-heading {
+.our-story-heading {
     margin:0;
   }
   .our-story-heading h2 {
@@ -965,7 +946,7 @@ color: #fff
   
 /*-------------------TREATMENTS----------------*/
 
-/*.treatments-heading {
+.treatments-heading {
     padding: 0px 20px;
   }
   .treatments-heading h2 {
@@ -987,7 +968,7 @@ color: #fff
   }
 
   /*-------------------FOOTER----------------*/
-/*.footer h4::before {
+.footer h4::before {
     display: none;
   }
 }
