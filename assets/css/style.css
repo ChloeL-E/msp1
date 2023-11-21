@@ -44,7 +44,7 @@ header {
   text-decoration: none;
   transition: 0.6s ease;
   font-family: "Noto Serif Display", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .nav-menu .nav-item a:hover {
@@ -84,11 +84,11 @@ header {
   font-size: 30px;
 }
 
-/*.header .logo {
+/*header .logo {
   position: relative;
 }
 
-.header .logo::after {
+header .logo::after {
   content: '';
   position: absolute;
   bottom: 5px;
@@ -136,7 +136,7 @@ header {
 
 .hero-heading h2 {
   font-family: "Noto Serif Display", sans-serif;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 300;
   color: #f8f8f8;
   padding: 20px;
@@ -468,6 +468,10 @@ iframe {
   text-align: left;
 }
 
+label {
+  display: block;
+}
+
 .form-section input {
   background-color: #f8f8f8;
   border-radius: 5px;
@@ -618,7 +622,7 @@ background-color: #144e77;
 color: #fff
 }
 
-/*----------------------------------------------MOBILE VERSION--------------------------------------------------*/
+/*-------------------------------------Extra-Small devices (Phones, 600px and down)---------------------------------*/
 
 @media only screen and (max-width: 600px) {
 
@@ -635,6 +639,10 @@ color: #fff
   /*-------------------HEADER----------------*/
     .hamburger {
       display: block;
+    }
+
+    .navbar {
+      gap: 0;
     }
 
     .nav-menu {
@@ -773,8 +781,7 @@ color: #fff
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    /* display: block; */
-    padding: 10px;
+    padding: 20px 10px;
     clear: both;
   }
 
@@ -782,7 +789,7 @@ color: #fff
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 20px 10px;
   }
 
     #locator {
@@ -800,13 +807,13 @@ color: #fff
   }
 
   .book-now {
-    padding: 10px 0;
+    padding: 0;
   }
 }
 
-/*----------------------------------------------TABLET VERSION--------------------------------------------------*/
+/*-----------------------------------Small devices (Tablet, large phone, 600px and up)---------------------------------*/
 
-@media only screen and (max-width: 992px){
+@media only screen and (min-width: 600px){
 
 
 /*-------------------GENERAL----------------*/
@@ -972,3 +979,10 @@ color: #fff
     display: none;
   }
 }
+
+/*-------------------------------------Medium devices (Landscape tablets, 768px and up)---------------------------------*/
+
+
+
+
+/*-------------------------------------Large devices (Laptops/desktops, 992px and up)---------------------------------*/

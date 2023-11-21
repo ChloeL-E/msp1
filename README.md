@@ -146,6 +146,6 @@ The live link can be found here - <https://code-institute-org.github.io/love-run
 
 - The hero image on the Book Now page is by [pvproductions] (https://www.freepik.com/free-photo/attractive-young-woman-is-relaxing-spa-complex-with-sauna_30906865.htm#page=4&query=spa&position=0&from_view=search&track=sph)
 
-
+- The favicon was created using[Favicon](https://favicon.io/logo-generator/)
 
 
