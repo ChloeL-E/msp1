@@ -1,8 +1,8 @@
 # Hexham Manor Spa
 
-Hexham Manor Spa is a luxury spa located in Northumberland. Its website aims to showcase the Spa as a peaceful haven of sumptuous escapism from the fast-paced reality of todays culture. The site describes the treatments and facilities available at the spa and descibes to benefits. The site will be targeted towards adults who are looking for some rest, relaxation and revitalisation. The target audience will use the site to see the Spa ethos, imagery and text description of the treatments and facilities available, as well as pricing and the ability to make a booking enquiry.
+Hexham Manor Spa is a luxury spa located in Northumberland. Its website aims to showcase the Spa as a peaceful haven of sumptuous escapism from the fast-paced reality of todays culture. The site describes the treatments and facilities available at the spa their benefits to the users' health. The site will be targeted towards adults who are looking to relax ad unwind. The target audience will use the site to see the Spa ethos, imagery and text description of the treatments and facilities available, as well as pricing and the ability to make a booking enquiry.
 
-<!--![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)-->
+<!--![Responsive Mockup]()-->
 
 ## Features
 
@@ -13,13 +13,13 @@ Hexham Manor Spa is a luxury spa located in Northumberland. Its website aims to 
   - The responsive navigation bar has been applied to all four pages so that the pages are uniform, which is more visually appealing and improves user experience. It is also 'sticky' so that it is visible at all times no matter where the user is on the webpage. The navigation bar includes clear links to the logo, Home, Treatments, Contact Us and 'Book Now' button.
   - The navigation section promotes ease of use for the user, allowing the user to move easily between sections and pages.
 
-<!--![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)-->
+<!--![Nav Bar]()-->
 
 - **The hero image**
 
   - Each page includes an striking image with text overlay and an eye catching zoom animation.  This aims to be instantly visually appealing to the user to peak their interest, whilst also showcasing one of the Spas' impressive facilities.
 
-<!--![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)-->
+<!--![Landing Page]()-->
 
 - **Our Story Section**
 
@@ -27,40 +27,34 @@ Hexham Manor Spa is a luxury spa located in Northumberland. Its website aims to 
   - The user will see the value of a luxury Spa experience and will consider making a booking enquiry via the site.
   
 
-<!--![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)-->
+<!--![Our Story section]()-->
 
 - **Treatments page**
 
   - This page will allow the user to see exactly what treatments are available to book. Images are paired with the treatment information to show the user what the treatment may look like. When the user hovers over an image, an overlay appears to show the duration and cost of the treatment they are viewing.
   - This page will be updated with any new treatments available or seasonal offers.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+<!--![Treatments]()-->
 
 - **The Footer**
 
   - The footer section includes links to the social media sites for Hexham Manor Spa. The links will open to a new tab to allow easy navigation for the user.
   - The footer is valuable to the user as it encourages them to keep connected via social media and gives easy access to interesting information about what is happening at the Spa.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+<!--![Footer]()-->
 
-- **Contact US**
+- **Contact Us**
 
   - The gallery will provide the user with supporting images to see what the meet ups look like.
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+<!--![Contact Us]()-->
 
 - **The Book Now Page**
 
   - This page will allow the user to send a booking enquiry. The user will be asked to submit their full name, email address and telephone number. The user will have the option to give some further information with the booking enquiry. The user will recieive feedback once they press the submit button to inform them that they will be contacted soon regarding their booking enquiry.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+<!--![Book Now]()-->
 
 ### Features Left to Implement
 
@@ -80,20 +74,21 @@ In addition, you may also use this section to discuss plans for additional featu
 - The Booking page showed two errors when the WAVE Tool was applied. The first alert was for a missing form label  and the second eroor for an empty button. 
 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+<!--In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+If this section grows too long, you may want to split it off into a separate file and link to it from here.-->
 
 ### Validator Testing
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- HTDocument checking completed. No errors or warnings to show when passed through official [W3C validator]()
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [Jigsaw validator]()
+ 
+
 
 ### Unfixed Bugs
 

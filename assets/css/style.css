@@ -204,7 +204,6 @@ a {
   text-align: center;
   padding: 20% 15%;
   background-clip: content-box;
-  
 }
 
 .hero-heading h2 {
@@ -465,7 +464,6 @@ a {
 .info-container {
   display: flex;
   justify-content: space-between;
-  align-items: left;
   flex-wrap: wrap;
 }
 
@@ -629,7 +627,7 @@ ul {
   width: 50px;
 }
 
-.footer-col button {
+a .book-now {
   width: fit-content;
   margin: auto;
   padding: 5px 15px;
@@ -654,7 +652,7 @@ ul {
   text-decoration: none;
 }
 
-.footer-col button:hover {
+.footer-col .book-now:hover {
   transition: all 0.3s ease 0s;
   border: none;
   font-weight: 500;
@@ -711,16 +709,7 @@ ul {
   @media only screen and (max-width: 870px){
     .hamburger{
       display: block;
-    }/*
-    .hamburger.active .bar:nth-child(2){
-      opacity: 0;
     }
-  .hamburger.active .bar:nth-child(1){
-    transform: translate(0, 8px) rotate(45deg);
-  }
-  .hamburger.active .bar:nth-child(3){
-    transform: translate(0, -8px) rotate(-45deg);
-  }*/
     .nav-menu{
       position:fixed;
       left: -100%;
@@ -741,54 +730,6 @@ ul {
     }
   }
   
-  /*.header {
-    background-color: var(--color-1);
-    padding: 0;
-    height: 8vh;
-    line-height: 1.5rem;
-    width: 100%;
-    top: 0;
-    position: fixed;
-    z-index: 1;
-  }
-  .header .container {
-    max-width: 100%;
-    margin: 0;
-  }
-
-  .hamburger {
-    all:unset;
-  }
-
-.nav ul li {
-  margin: 16px 0;
-}
-.active {
-  left: 0;
-  background-color: red;
-  position: fixed;
-  top: 70px;
-  gap: 0;
-  flex-direction: column;
-  width: 100%;
-  text-align: center;
-  
-}
- /* .header .logo,
-  .header .nav {
-    padding: 0;
-  }
-  .header .logo a {
-    font-size: 1.5rem;
-    font-weight: 400;
-    display: flex;
-    align-items: left;
-    text-decoration: underline; 
-    padding: 0.5rem;
-  }
-  .header .logo::after {
-    display: none;
-  }*/
   
   
 /*-------------------HERO----------------*/
@@ -819,12 +760,7 @@ ul {
   
 
   /*-------------------OUR STORY----------------*/
-  /*.our-story-heading {
-    margin:0;
-  }
-  .our-story-heading h2 {
-    font-size: 1.2rem;
-  }*/
+  
   .our-story-container {
     margin: 0 auto;
     display: flex;
