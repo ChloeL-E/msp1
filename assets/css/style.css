@@ -812,19 +812,19 @@ color: #fff
 }
 
 /*-----------------------------------Small devices (Tablet, large phone, 600px and up)---------------------------------*/
-
+/*
 @media only screen and (min-width: 600px){
 
 
 /*-------------------GENERAL----------------*/
-* {
+/** {
     overflow-y: scroll;
     overflow-x: hidden;
   }
 
   /*-------------------HEADER/NAV----------------*/
 
-  .hamburger {
+ /* .hamburger {
     display: block;
   }
 
@@ -886,7 +886,7 @@ color: #fff
 
   /*-------------------HERO----------------*/
 
-.hero-image {
+/*.hero-image {
     width: 100%;
     height: 80vh;
     background-image: url("../images/heroimage.jpg");
@@ -904,13 +904,13 @@ color: #fff
     padding-top: 20%;
   }*/
 
-  .hero-heading {
+  /*.hero-heading {
     display: none;
   }
 
   /*-------------------OUR STORY----------------*/
 
-.our-story-heading {
+/*.our-story-heading {
     margin:0;
   }
   .our-story-heading h2 {
@@ -953,7 +953,7 @@ color: #fff
   
 /*-------------------TREATMENTS----------------*/
 
-.treatments-heading {
+/*.treatments-heading {
     padding: 0px 20px;
   }
   .treatments-heading h2 {
@@ -975,7 +975,7 @@ color: #fff
   }
 
   /*-------------------FOOTER----------------*/
-.footer h4::before {
+/*.footer h4::before {
     display: none;
   }
 }
