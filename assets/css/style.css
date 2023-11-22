@@ -57,7 +57,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
-  gap: 60px;
 }
 
 .logo {
@@ -449,13 +448,13 @@ iframe {
 }
 
 .enquiry-form {
-  margin-top: 100px;
+  margin-top: 75px;
   color: #fff;
   background-color: rgba(60, 60, 60, .6);
   width: 400px;
   position: absolute;
   left: 10%;
-  padding: 30px;
+  padding: 20px;
   border-radius: 5px;
 }
 
@@ -476,6 +475,7 @@ label {
   background-color: #f8f8f8;
   border-radius: 5px;
   padding: 2px;
+  display: block;
 }
 
 .form-section textarea {
