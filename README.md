@@ -1,18 +1,18 @@
 
-![Hexham Manor Spa Hero Image](documentation/_readme_heroimage.jpg)
 
-<h1 align="center">Hexham Manor Spa>/h1>
+<h1 align="center">Hexham Manor Spa</h1>
+![HTML5](https://img.shields.io/badge/html5-orange.svg?style=for-the-badge&logo=html5&logoColor=orange&color=172416&Color=orange)![CSS](https://img.shields.io/badge/css3-blue.svg?style=for-the-badge&logo=css3&logoColor=blue&color=172416&Color=blue)![JS](https://img.shields.io/badge/javascript-yellow.svg?style=for-the-badge&logo=javascript&logoColor=yellow&color=172416&Color=yellow) 
+
+![Hexham Manor Spa Hero Image](documentation/_readme_heroimage.jpg)
 
 # Hexham Manor Spa
 
-Hexham Manor Spa is a luxury spa located in Northumberland. Its website aims to showcase the Spa as a peaceful haven of sumptuous escapism from the fast-paced reality of todays culture. The site describes the treatments and facilities available at the spa their benefits to the users' health. The site will be targeted towards adults who are looking to relax ad unwind. The target audience will use the site to see the Spa ethos, imagery and text description of the treatments and facilities available, as well as pricing and the ability to make a booking enquiry.
+Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page website that aims to showcase the spa as a peaceful haven of sumptuous escapism from the fast-paced reality of todays culture. The site describes the treatments and facilities available at the spa their benefits to the users' health. The site will be targeted towards adults who are looking to relax ad unwind. The target audience will use the site to see the Spa ethos, imagery and text description of the treatments and facilities available, as well as pricing and the ability to make a booking enquiry.
 
 <!--![Responsive Mockup]()-->
 
 
 [View the live project here.]()
-
-![HTML5](https://img.shields.io/badge/html5-orange.svg?style=for-the-badge&logo=html5&logoColor=orange&color=172416&Color=orange)![CSS](https://img.shields.io/badge/css3-blue.svg?style=for-the-badge&logo=css3&logoColor=blue&color=172416&Color=blue)![JS](https://img.shields.io/badge/javascript-yellow.svg?style=for-the-badge&logo=javascript&logoColor=yellow&color=172416&Color=yellow) 
 
 
 ## Contents
@@ -47,72 +47,72 @@ Hexham Manor Spa is a luxury spa located in Northumberland. Its website aims to 
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        2. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the spa.
-        3. As a First Time Visitor, I want to understand what treatments and facilities are offered by the spa and find out the purpose, duration of treamtment and cost of each. 
-        4. As a first time visitor, I want to the site to be visually appealing and give me a view about the style of the spa.
-        5. As a first time user I also want to locate the Spas' social media links to see their followings on social media to determine how trusted and known they are and to see up to date posts of current events and new treatments available at the Spa.
-        6. As a first time customer,  I want to be able to make a booking enquiry.
+        1. As a first time visitor, I want to be able to easily navigate throughout the site to find content.
+        2. As a first time visitor, I want to easily understand the main purpose of the site and learn more about the spa.
+        3. As a first time visitor, I want to understand what treatments and facilities are offered by the spa and find out the purpose, duration  and cost of each of treatment available. 
+        4. As a first time visitor, I want to the site to be visually appealing and give me some insight about the style and aesthetic of the spa.
+        5. As a first time user I also want to locate the spas' social media links to see their followings on social media, to determine how trusted and known they are and to see up to date posts of current events and new treatments available at the Spa.
+        6. As a first time customer,  I want to be able to easily make a booking enquiry and know that it has been sent.
         7. As a first time customer, I want to be able to find out the location of the spa and how to contact the spa if required.
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about different treatments, duration and pricing.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. I want to be able to make a booking enquiry.
-        4. As a Returning Visitor, I want to find social links.
+        1. As a returning visitor, I want to find information about different treatments, duration and pricing.
+        2. As a returning visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+        3. As a returning visitor, I want to be able to make a booking enquiry.
+        4. As a returning visitor, I want to find social links.
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added treatments.
+        1. As a frequent visitor, I want to check to see if there are any new treatments.
 
 - - - 
 
 ## Design
 
 -   ### Features
-    * Responsive on all device sizes 280px to 1200px
-    * Interactive elements
+    * Responsive on all device sizes 
 
     -   #### Navigation Bar
-
         * The responsive navigation bar has been applied to all four pages so that the pages are uniform, which is more visually appealing and improves user experience. It is also 'sticky' so that it is visible at all times no matter where the user is on the webpage. The navigation bar includes clear links to the logo, Home, Treatments, Contact Us and 'Book Now' button.
         * The navigation section promotes ease of use for the user, allowing the user to move easily between sections and pages.
 
        <!--![Nav Bar]()-->
+
+    -   #### Hero Images
+        * There is a striking hero image on each webpage to attract the attention of the user. 
+        * Each hero image, apart from the hero image on the Booking Page, have a hero zoom animation applied. ![Hero Image example](documentation/hero_readme.jpeg)
 
     -   #### Our Story Section
 
         * The Our Story section that is found on the Home page will allow the user to see the Spas' ethos, with the aim to show the benefits to the resotative treatments and some self-indulgence. There are 3 images to add visual appeal and interest to the page, whilst also showcasing the Spa.
         * The user will see the value of a luxury Spa experience and will consider making a booking enquiry via the site. 
 
-        <!--![Our Story section]()-->
-
-        <!--![Landing Page]()-->
+       ![Our Story Section](documentation/our-story-section.jpeg)
 
     -   #### Treatments page
         * This page will allow the user to see exactly what treatments are available to book. Images are paired with the treatment information to show the user what the treatment may look like. When the user hovers over an image, an overlay appears to show the duration and cost of the treatment they are viewing.
         * This page will be updated with any new treatments available or seasonal offers.
 
-        <!--![Treatments]()--> 
+        ![Treatments Section](documentation/our-story-section.jpeg)
 
     -    #### Contact Us Page
          * The map will provide the user with a visual aid to see the location of the spa.
          * This section is valuable to the user as they will be able to easily identify the the location of the spa and how to contact the spa if they require.
 
-        <!--![Contact Us]()-->
+        ![Contacts Section](documentation/contact-section.jpeg)
 
     -    #### Booking Page
          * This page will allow the user to send a booking enquiry. 
          * The user will be asked to submit their full name, email address and telephone number. The user will have the option to give some further information with the booking enquiry. 
          * The user will recieive feedback once they press the submit button to inform them that they will be contacted soon regarding their booking enquiry.
 
-        <!--![Book Now]()-->
+        ![Booking Form](documentation/booking-page.jpeg)
 
     -    #### Footer
          * The footer section includes links to the social media sites for Hexham Manor Spa. The links will open to a new tab to allow easy navigation for the user.
          * The footer is valuable to the user as it encourages them to keep connected via social media and gives easy access to interesting information about what is happening at the Spa.
 
-        <!--![Footer]()-->
+        ![Footer](documentation/footer.png)
 
 -   ### Features For The Future
     * In the future a 'book online' feature will be implemented which will allow the user to directly book their treatments online rather than sending a booking enquiry/needing to speak to a memebr of the Spa team. This should improve user experience and they can more efficiently book our services. 
@@ -425,20 +425,6 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 
-
-
-## Testing
-
-- The WAVE Web Accessibility Evaluation Tool was used to assess each webpage. 
-
-- The Home page showed no errors or contrast errors but identified two alerts. The firstly there was not alt atrribute to identify the 'Book Now' button. An alt tag was added which fixed the alert.
--There was also an alert identified with the Hamburger toggle. The function requires a click which would not be accessible to keyboard users.
-
-- The Treatments page identified no errors or contrast errors. 
-
-- The Contact Us page identified no errors or contrast errors. One alert was identified which showed a redundant link. The logo links to the home page as well as the Home link in the header. Adjacent links go to the same URL, therefore the logo link was removed to improve efficiency of movement through the webpage for screenreaders.
-
-- The Booking page showed two errors when the WAVE Tool was applied. The first alert was for a missing form label  and the second eroor for an empty button. 
 
 
 
