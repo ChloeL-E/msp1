@@ -1,7 +1,10 @@
 
-![HTML5](https://img.shields.io/badge/html5-orange.svg?style=for-the-badge&logo=html5&logoColor=orange&color=172416&Color=orange)![CSS](https://img.shields.io/badge/css3-blue.svg?style=for-the-badge&logo=css3&logoColor=blue&color=172416&Color=blue)![JS](https://img.shields.io/badge/javascript-yellow.svg?style=for-the-badge&logo=javascript&logoColor=yellow&color=172416&Color=yellow) 
 
 <h1 align="center">Hexham Manor Spa</h1>
+
+<div align= "center">![HTML5](https://img.shields.io/badge/html5-orange.svg?style=for-the-badge&logo=html5&logoColor=orange&color=172416&Color=orange)![CSS](https://img.shields.io/badge/css3-blue.svg?style=for-the-badge&logo=css3&logoColor=blue&color=172416&Color=blue)![JS](https://img.shields.io/badge/javascript-yellow.svg?style=for-the-badge&logo=javascript&logoColor=yellow&color=172416&Color=yellow) </div>
+
+- - - 
 
 ![Hexham Manor Spa Hero Image](documentation/_readme_heroimage.jpg)
 
@@ -75,12 +78,20 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
         * The navigation section promotes ease of use for the user, allowing the user to move easily between sections and pages.
 
        ![Navigation Bar](documentation/navbar.jpeg)
+
+       * On a mobile device the navigation bar utilises a hamburger menu to improve appearance and user experience.
+
        ![Navigation Bar- mobile device ](documentation/navbar-mobile.jpeg)
+
+       * The Hamburger menu uses Javascript to open and close the hamburger menu when it is 'clicked' and when 'open', the navbar links slide across the page and become visible to the user.
+
        ![Navigation Bar- mobile device- hamburger menu open](documentation/navbar-mobile-open.jpeg)
 
     -   #### Hero Images
         * There is a striking hero image on each webpage to attract the attention of the user. 
         * Each hero image, apart from the hero image on the Booking Page, have a hero zoom animation applied. 
+
+
         ![Hero Image example](documentation/hero_readme.jpeg)
 
     -   #### Our Story Section
@@ -88,17 +99,20 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
         * The Our Story section that is found on the Home page will allow the user to see the Spas' ethos, with the aim to show the benefits to the resotative treatments and some self-indulgence. There are 3 images to add visual appeal and interest to the page, whilst also showcasing the Spa.
         * The user will see the value of a luxury Spa experience and will consider making a booking enquiry via the site. 
 
+
        ![Our Story Section](documentation/our-story-section.jpeg)
 
     -   #### Treatments page
         * This page will allow the user to see exactly what treatments are available to book. Images are paired with the treatment information to show the user what the treatment may look like. When the user hovers over an image, an overlay appears to show the duration and cost of the treatment they are viewing.
         * This page will be updated with any new treatments available or seasonal offers.
 
+
         ![Treatments Section](documentation/our_story_section.jpeg)
 
     -    #### Contact Us Page
          * The map will provide the user with a visual aid to see the location of the spa.
          * This section is valuable to the user as they will be able to easily identify the the location of the spa and how to contact the spa if they require.
+
 
         ![Contacts Section](documentation/contact_section.jpeg)
 
@@ -107,44 +121,45 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
          * The user will be asked to submit their full name, email address and telephone number. The user will have the option to give some further information with the booking enquiry. 
          * The user will recieive feedback once they press the submit button to inform them that they will be contacted soon regarding their booking enquiry.
 
+
         ![Booking Form](documentation/booking_page.jpeg)
 
     -    #### Footer
          * The footer section includes links to the social media sites for Hexham Manor Spa. The links will open to a new tab to allow easy navigation for the user.
          * The footer is valuable to the user as it encourages them to keep connected via social media and gives easy access to interesting information about what is happening at the Spa.
 
+
         ![Footer](documentation/footer.png)
 
 -   ### Features For The Future
-    * In the future a 'book online' feature will be implemented which will allow the user to directly book their treatments online rather than sending a booking enquiry/needing to speak to a memebr of the Spa team. This should improve user experience and they can more efficiently book our services. 
+    * In the future a 'book online' feature will be implemented that will allow the user to directly book their treatments online rather than sending a booking enquiry/needing to speak to a member of the spa team. This should improve user experience and they can more efficiently book our services. 
 
 -   ### Accessibility
 
     * The WAVE Web Accessibility Evaluation Tool was used to assess each webpage [wave](https://wave.webaim.org/)
 
-    * The Home page showed no errors or contrast errors but identified two alerts. An alt attribute to identify the 'Book Now' button. An alt tag was added which fixed the alert. An alert identified with the Hamburger toggle. The function requires a click which would not be accessible to keyboard users. ![Wave tool]()
-    * The Treatments page identified no errors or contrast errors. ![Wave tool]()
-    * The Contact Us page identified no errors or contrast errors. One alert was identified which showed a redundant link. Adjacent links go to the same URL (logo and home), therefore the logo link was removed to improve efficiency of movement through the webpage for screenreaders. ![Wave tool]()
-    * The Booking page showed two errors. For a missing form label and for an empty button. These errors were corrected. ![Wave tool]()
+    * The Home page showed no errors or contrast errors but identified two alerts. An alt attribute to identify the 'Book Now' button. An alt tag was added which fixed the alert. An alert identified with the Hamburger toggle. The function requires a click which would not be accessible to keyboard users. ![Wave tool result](documentation/wave_tool.jpeg)
+    * The Treatments page identified no errors or contrast errors.
+    * The Contact Us page identified no errors or contrast errors. One alert was identified which showed a redundant link. Adjacent links go to the same URL (logo and home), therefore the logo link was removed to improve efficiency of movement through the webpage for screenreaders. 
+    * The Booking page showed two errors. For a missing form label and for an empty button. These errors were corrected. 
       
     -    #### Validators
-         * W3C Markup Validator, W3C CSS Validator Services and Jshint were used to validate this project to ensure that there were no syntax errors.
-         * Markup Validator ![W3C Markup Validator]()
-         * CSS Validator ![W3C CSS Validator]()
-         * JavaScript Validator ![JShint Validator]()
+         * W3C Markup Validator, W3C CSS Validator Services were used to validate this project to ensure that there were no syntax errors.
+         * Markup Validator ![W3C Markup Validator](documentation/w3cvalidator.jpeg)
+         * CSS Validator ![W3C CSS Validator](documentation/w3c_css.png)
 
--   ### Lighthouse 
-    <!--- Lighthouse within the Chrome Developer Tools are used to test performance, accessibility, best practices and SEO of the spa Website.-->
+<!--> ### Lighthouse 
+  Lighthouse within the Chrome Developer Tools are used to test performance, accessibility, best practices and SEO of the spa Website.
     - Desktop
 
     ![Lighthouse Desktop]()
 
     - Mobile
 
-    ![Lighthouse Mobile]()
+    ![Lighthouse Mobile]()-->
 
 -   ### Colour Scheme
-    * The colour palette used are Hexham Manor Spa was created using [coolors]() ![screenshot of colour palette used](documentation/coolors.png)
+    * The colour palette used are Hexham Manor Spa was created using [coolors](https://coolors.co/) ![screenshot of colour palette used](documentation/coolors.png)
 
 -   ### Typography
     * The Noto Serif Sans font is the main font used throughout the whole website with Sans Serif as the backup font in case for any reason the font isn't being imported into the site correctly. Noto Serif Sans is a high-quality font developed specifically for easy consumption online by users. It is a user friendly, beautiful clean and crisp typeface.
@@ -219,13 +234,30 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     -    #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-    2. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the spa.
-    3. As a First Time Visitor, I want to understand what treatments and facilities are offered by the spa and find out the purpose, duration of treamtment and cost of each. 
-    4. As a first time visitor, I want to the site to be visually appealing and give me a view about the style of the spa.
-    5. As a first time user I also want to locate the Spas' social media links to see their followings on social media to determine how trusted and known they are and to see up to date posts of current events and new treatments available at the Spa.
-    6. As a first time customer,  I want to be able to make a booking enquiry.
-    7. As a first time customer, I want to be able to find out the location of the spa and how to contact the spa if required.
+    * As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+
+      1. Upon arrival to webpage, the user is greeted with a clean, clear navigation bar with easily identifiable links to each page. 
+      2. The navigation bar is designed so that it is always visible at the top of the page so that the user can easily navigate to another part of the site.
+
+    * As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the spa.
+
+      1. The spas' name stands alone to the left of the navigation bar, making it clear and stand out. The hero image provides a visual, to let the use understand that it is immediately clear that they are visiting a spa website.
+
+    * As a First Time Visitor, I want to understand what treatments and facilities are offered by the spa and find out the purpose, duration of treamtment and cost of each. 
+
+      1. The navigation bar has a clean and clear link to the TReatments page. Once the user has clicked the link, they are taken to the Treatments page which has image and text information on all of the spa treatments available. When the user hovers over the Treatment image, information about the duration and cost of the treatment is shown.
+
+    * As a first time visitor, I want to the site to be visually appealing and give me a view about the style of the spa.
+
+      1. T
+
+    * As a first time user I want to locate the Spas' social media links to see their followings on social media to determine how trusted and known they are and to see up to date posts of current events and new treatments available at the Spa.
+
+      1. The Footer
+
+    * As a first time customer,  I want to be able to make a booking enquiry.
+
+    * As a first time customer, I want to be able to find out the location of the spa and how to contact the spa if required.
 
     <!--1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
