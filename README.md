@@ -105,14 +105,14 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
         * This page will be updated with any new treatments available or seasonal offers.
 
 
-        ![Treatments Section](documentation/our_story_section.jpeg)
+        ![Treatments Section]()
 
     -    #### Contact Us Page
          * The map will provide the user with a visual aid to see the location of the spa.
          * This section is valuable to the user as they will be able to easily identify the the location of the spa and how to contact the spa if they require.
 
 
-        ![Contacts Section](documentation/contact_section.jpeg)
+        ![Contact Us page](documentation/contact_section.jpeg)
 
     -    #### Booking Page
          * This page will allow the user to send a booking enquiry. 
@@ -130,7 +130,7 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
         ![Footer](documentation/footer.png)
 
 -   ### Features For The Future
-    * In the future a 'book online' feature will be implemented that will allow the user to directly book their treatments online rather than sending a booking enquiry/needing to speak to a member of the spa team. This should improve user experience and they can more efficiently book our services. 
+    * In the future a 'Book Online' feature will be implemented that will allow the user to directly book their treatments online rather than sending a booking enquiry or needing to speak to a member of the spa team. This should improve user experience as they can more efficiently book our services. 
 
 -   ### Accessibility
 
@@ -157,7 +157,9 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
     ![Lighthouse Mobile]()-->
 
 -   ### Colour Scheme
-    * The colour palette used are Hexham Manor Spa was created using [coolors](https://coolors.co/) ![screenshot of colour palette used](documentation/coolors.png)
+    * The colour palette used for Hexham Manor Spa's website was created using [coolors](https://coolors.co/) ![screenshot of colour palette used](documentation/coolors.png)
+    * This colour palette was created using natural, calm, cool colours that compliment the spa's aesthetic and goals. 
+    * There is a range in the colours within the palette so that a good contrast is achieved at all times between text and background-colors.
 
 -   ### Typography
     * The Noto Serif Sans font is the main font used throughout the whole website with Sans Serif as the backup font in case for any reason the font isn't being imported into the site correctly. Noto Serif Sans is a high-quality font developed specifically for easy consumption online by users. It is a user friendly, beautiful clean and crisp typeface.
@@ -236,6 +238,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
       1. Upon arrival to webpage, the user is greeted with a clean, clear navigation bar with easily identifiable links to each page. 
       2. The navigation bar is designed so that it is always visible at the top of the page so that the user can easily navigate to another part of the site.
+      3. A 404 error page has been created if, for any reason, a page is not able to load. From this, the user will be able to quickly navigate back to the webpage to continue their enjoyment of the website.
 
     * As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the spa.
 
@@ -425,3 +428,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 
 
+
+
+[def]: documentation/contact_section.jpeg
