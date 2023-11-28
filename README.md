@@ -1,7 +1,4 @@
-
-
 <h1 align="center">Hexham Manor Spa</h1>
-
 
 - - - 
 
@@ -52,7 +49,7 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
         1. As a first time visitor, I want to be able to easily navigate throughout the site to find content.
         2. As a first time visitor, I want to easily understand the main purpose of the site and learn more about the spa.
         3. As a first time visitor, I want to understand what treatments and facilities are offered by the spa and find out the purpose, duration  and cost of each of treatment available. 
-        4. As a first time visitor, I want to the site to be visually appealing and give me some insight about the style and aesthetic of the spa.
+        4. As a first time visitor, I want the website to be visually appealing and give me some insight about the style and aesthetic of the spa.
         5. As a first time user I also want to locate the spas' social media links to see their followings on social media, to determine how trusted and known they are and to see up to date posts of current events and new treatments available at the Spa.
         6. As a first time customer,  I want to be able to easily make a booking enquiry and know that it has been sent.
         7. As a first time customer, I want to be able to find out the location of the spa and how to contact the spa if required.
@@ -95,13 +92,13 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
 
         ![Hero Image example](documentation/hero_readme.jpeg)
 
-    -   #### Our Story Section
+    -   #### Home page
 
         * The Our Story section that is found on the Home page will allow the user to see the Spas' ethos, with the aim to show the benefits to the resotative treatments and some self-indulgence. There are 3 images to add visual appeal and interest to the page, whilst also showcasing the Spa.
         * The user will see the value of a luxury Spa experience and will consider making a booking enquiry via the site. 
 
 
-       ![Our Story Section](documentation/our-story-section.jpeg)
+       ![Home page](documentation/home_page.jpeg)
 
     -   #### Treatments page
         * This page will allow the user to see exactly what treatments are available to book. Images are paired with the treatment information to show the user what the treatment may look like. When the user hovers over an image, an overlay appears to show the duration and cost of the treatment they are viewing.
@@ -246,55 +243,38 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     * As a First Time Visitor, I want to understand what treatments and facilities are offered by the spa and find out the purpose, duration of treamtment and cost of each. 
 
-      1. The navigation bar has a clean and clear link to the TReatments page. Once the user has clicked the link, they are taken to the Treatments page which has image and text information on all of the spa treatments available. When the user hovers over the Treatment image, information about the duration and cost of the treatment is shown.
+      1. The navigation bar has a clean and clear link to the Treatments page.
+      2. The user can also access the Treatments page by following the link within the 'Quick Links' section of the Footer
+      3. Once the user has clicked a Treatments link, they are taken to the Treatments page, which has image and text information to inform the user about all of the treatments available at the spa. 
+      4. When the user hovers over a Treatment image, information about the duration and cost of the treatment is shown.
 
-    * As a first time visitor, I want to the site to be visually appealing and give me a view about the style of the spa.
+    * As a first time visitor, I want the website to be visually appealing and give me some insight about the style and aesthetic of the spa
 
-      1. T
+      1. When the user navigates around the site they will find a hero image on each page which showcases the spa aesthetic and some of the facilities available a the spa.
+      2. The user will find further images on both the Home page and the Treatments page. These images are designed to be circular to soften the look of the webpage.
+      3. The colour palette was chosen to feel natural, cool and calming, and the images chosen to compliment these natural tones.
 
     * As a first time user I want to locate the Spas' social media links to see their followings on social media to determine how trusted and known they are and to see up to date posts of current events and new treatments available at the Spa.
 
-      1. The Footer
+      1. The Footer is located at the bottom of each webpage and is access by scrolling down. 
+      2. Once the user has arrived at the Footer they will be able to clearly see the social media links to the spa under the 'Follow Us' heading.
+      3. Each social link opens as a new tab so that the user can easily come back to the website.
 
     * As a first time customer,  I want to be able to make a booking enquiry.
+      
+      1. The user will be able to clearly navigate to the Booking page using either the 'Book Now' link in the navigation bar or the call-to-action button in the Footer.
+      2. Either link will take the user to the Book Now page where a form is clearly visible within the pages hero image.
+      3. The user is directed to complete the booking enquiry form by the call to action 'Lets Make A Date!'.
+      4. The form is clearly labelled so that the user will easily understand what information is required from them. A placeholder in the textarea also indicates the information to input in this area.
+      5. Once the user has submitted the form using the Submit button, they are taken to a 'Thank you' page so that they know their enquiry has been successful. The message on this page informs them that they will be contacted shortly.
 
     * As a first time customer, I want to be able to find out the location of the spa and how to contact the spa if required.
 
-    <!--1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+      1. The user can easily navigate to the Contact page by the navigation bar or using the 'Quick Links' link in the Footer. 
+      2. Once the user has clicked on the Contact Us link, the user will be taken to the Contact page. They will be able to scroll down the page to see links to the spas' email and telphone number, along with the spa address and a google map of the location.
+      3. A 'Get in Touch' section within the Footer also shows the user the email and telephone number. 
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-        2. The main points are made immediately with the hero image
-        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
-
-    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
-
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-        3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
-
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-        1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
-        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.-->
-
-    -    #### Returning Visitor Goals
-
-    1. As a Returning Visitor, I want to find information about different treatments, duration and pricing.
-    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-    3. I want to be able to make a booking enquiry.
-    4. As a Returning Visitor, I want to find social links.
-
-    <!--1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
-
-        1. These are clearly shown in the banner message.
-        2. They will be directed to a page with another hero image and call to action.
-
-    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-
-        1. The navigation bar clearly highlights the "Contact Us" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+    ck, it will be open up in a new tab to ensure the user can easily get back to the website.
         5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
 
     3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
@@ -302,21 +282,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
         3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.-->
 
-    -    #### Frequent User Goals
-    1. As a Frequent User, I want to check to see if there are any newly added treatments.
+  
 
-    <!--1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
-
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
-
-        1. The user would already be comfortable with the website layout and can easily click the blog link
-
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
-        2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.-->
 
 -   ###  Further Testing
 
@@ -389,7 +356,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ## Acknowledgements
 
 * My wonderful family for their patience whilst i enjoyed myself coding.
-* My fantastic mentor Daisy McGee, for her excellent advice, patience and passion for teaching.
+* My brilliant mentor Daisy McGee, for her excellent advice, patience and passion for teaching.
 
 
 
