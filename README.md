@@ -1,7 +1,7 @@
 
+![HTML5](https://img.shields.io/badge/html5-orange.svg?style=for-the-badge&logo=html5&logoColor=orange&color=172416&Color=orange)![CSS](https://img.shields.io/badge/css3-blue.svg?style=for-the-badge&logo=css3&logoColor=blue&color=172416&Color=blue)![JS](https://img.shields.io/badge/javascript-yellow.svg?style=for-the-badge&logo=javascript&logoColor=yellow&color=172416&Color=yellow) 
 
 <h1 align="center">Hexham Manor Spa</h1>
-![HTML5](https://img.shields.io/badge/html5-orange.svg?style=for-the-badge&logo=html5&logoColor=orange&color=172416&Color=orange)![CSS](https://img.shields.io/badge/css3-blue.svg?style=for-the-badge&logo=css3&logoColor=blue&color=172416&Color=blue)![JS](https://img.shields.io/badge/javascript-yellow.svg?style=for-the-badge&logo=javascript&logoColor=yellow&color=172416&Color=yellow) 
 
 ![Hexham Manor Spa Hero Image](documentation/_readme_heroimage.jpg)
 
@@ -11,9 +11,7 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
 
 <!--![Responsive Mockup]()-->
 
-
 [View the live project here.]()
-
 
 ## Contents
 * [Languages Used](#languages-used)
@@ -76,11 +74,14 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
         * The responsive navigation bar has been applied to all four pages so that the pages are uniform, which is more visually appealing and improves user experience. It is also 'sticky' so that it is visible at all times no matter where the user is on the webpage. The navigation bar includes clear links to the logo, Home, Treatments, Contact Us and 'Book Now' button.
         * The navigation section promotes ease of use for the user, allowing the user to move easily between sections and pages.
 
-       <!--![Nav Bar]()-->
+       ![Navigation Bar](documentation/navbar.jpeg)
+       ![Navigation Bar- mobile device ](documentation/navbar-mobile.jpeg)
+       ![Navigation Bar- mobile device- hamburger menu open](documentation/navbar-mobile-open.jpeg)
 
     -   #### Hero Images
         * There is a striking hero image on each webpage to attract the attention of the user. 
-        * Each hero image, apart from the hero image on the Booking Page, have a hero zoom animation applied. ![Hero Image example](documentation/hero_readme.jpeg)
+        * Each hero image, apart from the hero image on the Booking Page, have a hero zoom animation applied. 
+        ![Hero Image example](documentation/hero_readme.jpeg)
 
     -   #### Our Story Section
 
@@ -93,20 +94,20 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
         * This page will allow the user to see exactly what treatments are available to book. Images are paired with the treatment information to show the user what the treatment may look like. When the user hovers over an image, an overlay appears to show the duration and cost of the treatment they are viewing.
         * This page will be updated with any new treatments available or seasonal offers.
 
-        ![Treatments Section](documentation/our-story-section.jpeg)
+        ![Treatments Section](documentation/our_story_section.jpeg)
 
     -    #### Contact Us Page
          * The map will provide the user with a visual aid to see the location of the spa.
          * This section is valuable to the user as they will be able to easily identify the the location of the spa and how to contact the spa if they require.
 
-        ![Contacts Section](documentation/contact-section.jpeg)
+        ![Contacts Section](documentation/contact_section.jpeg)
 
     -    #### Booking Page
          * This page will allow the user to send a booking enquiry. 
          * The user will be asked to submit their full name, email address and telephone number. The user will have the option to give some further information with the booking enquiry. 
          * The user will recieive feedback once they press the submit button to inform them that they will be contacted soon regarding their booking enquiry.
 
-        ![Booking Form](documentation/booking-page.jpeg)
+        ![Booking Form](documentation/booking_page.jpeg)
 
     -    #### Footer
          * The footer section includes links to the social media sites for Hexham Manor Spa. The links will open to a new tab to allow easy navigation for the user.
@@ -161,18 +162,14 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
 - - - 
 
 ## Technologies Used
+
 -   ### Frameworks, Libraries & Programs Used
 
-    * [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Noto Sans Serif' font into the style.css file which is used on all pages throughout the project.
-    * [Font Awesome:]( https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-    * [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-    * [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
-    * [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the wireframes to support in the design process.
+    * Google fonts were used to import the 'Noto Sans Serif' font into the style.css file which is used on all pages throughout the project. [Google Fonts:](https://fonts.google.com/)
+    * Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes[Font Awesome:]( https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css)
+    * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.[Git](https://git-scm.com/)
+    * GitHub is used to store the projects code after being pushed from Git.[GitHub:](https://github.com/)
+    * Balsamiq was used to create the wireframes to support in the design process.[Balsamiq:](https://balsamiq.com/)
 
 - - - 
 
@@ -205,7 +202,6 @@ It can take some time for the page to be fully deployed.
 4. Open the terminal in the code editor of your choice and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
-
 ---
 
 # Testing 
@@ -219,17 +215,17 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   HTDocument checking completed. No errors or warnings to show when passed through official [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 -   No errors were found when passing through the official [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
-### Testing User Stories from User Experience (UX) Section
+-   ### Testing User Stories from User Experience (UX) Section
 
--   #### First Time Visitor Goals
+    -    #### First Time Visitor Goals
 
     1. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        2. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the spa.
-        3. As a First Time Visitor, I want to understand what treatments and facilities are offered by the spa and find out the purpose, duration of treamtment and cost of each. 
-        4. As a first time visitor, I want to the site to be visually appealing and give me a view about the style of the spa.
-        5. As a first time user I also want to locate the Spas' social media links to see their followings on social media to determine how trusted and known they are and to see up to date posts of current events and new treatments available at the Spa.
-        6. As a first time customer,  I want to be able to make a booking enquiry.
-        7. As a first time customer, I want to be able to find out the location of the spa and how to contact the spa if required.
+    2. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the spa.
+    3. As a First Time Visitor, I want to understand what treatments and facilities are offered by the spa and find out the purpose, duration of treamtment and cost of each. 
+    4. As a first time visitor, I want to the site to be visually appealing and give me a view about the style of the spa.
+    5. As a first time user I also want to locate the Spas' social media links to see their followings on social media to determine how trusted and known they are and to see up to date posts of current events and new treatments available at the Spa.
+    6. As a first time customer,  I want to be able to make a booking enquiry.
+    7. As a first time customer, I want to be able to find out the location of the spa and how to contact the spa if required.
 
     <!--1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
@@ -248,12 +244,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
         3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.-->
 
--   #### Returning Visitor Goals
+    -    #### Returning Visitor Goals
 
     1. As a Returning Visitor, I want to find information about different treatments, duration and pricing.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. I want to be able to make a booking enquiry.
-        4. As a Returning Visitor, I want to find social links.
+    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+    3. I want to be able to make a booking enquiry.
+    4. As a Returning Visitor, I want to find social links.
 
     <!--1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
 
@@ -273,7 +269,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
         3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.-->
 
--   #### Frequent User Goals
+    -    #### Frequent User Goals
     1. As a Frequent User, I want to check to see if there are any newly added treatments.
 
     <!--1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
@@ -289,14 +285,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
         3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.-->
 
-### Further Testing
+-   ###  Further Testing
 
 <!---   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.-->
 
-### Known Bugs
+-   ### Known Bugs
 
 <!---   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
     -   A white gap can be seen to the right of the footer and navigation bar as a result.
@@ -304,7 +300,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ## Credits
 
-### Content
+-   ### Content
 
 - Instruction on creating a responsive navigation bar and a google map in a webpage provided by Dani Krossing [YouTube](https://www.youtube.com/watch?v=HkNNyDtm7mg)
 
@@ -324,7 +320,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - The static badges at the top of the README used [Shields.io](https://shields.io/badges)
 
-### Media Images
+-   ### Media Images
 
 - All images are taken from [Freepik] and are further attributed as follows: 
 
