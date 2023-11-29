@@ -684,7 +684,7 @@ ul {
     overflow: hidden;
   }
 
-  .hero-heading {
+  .hero-heading h2 {
     display: none;
   }
 
@@ -877,7 +877,7 @@ ul {
   .logo h1 {
     font-size: 30px;
   }
-  .hero-heading {
+  .hero-heading h2 {
     display: none;
   }
   
@@ -915,7 +915,7 @@ ul {
     padding: 20px;
     margin: 50px 150px 50px 50px;
   }
-  
+
   /*-------------------FOOTER----------------*/
 
   .footer-container {
