@@ -131,8 +131,12 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
 
 -   ### Features For The Future
     * In the future a 'Book Online' feature will be implemented that will allow the user to directly book their treatments online rather than sending a booking enquiry or needing to speak to a member of the spa team. This should improve user experience as they can more efficiently book our services. 
+    * FAQ page- this would be beneficial to the customer to view answers to commonly asked questions for more insight into the spa.
+    * Button taking the user back to the top of the page for easy access back to the top of the page.
 
 -   ### Accessibility
+
+    * The website was developed to be as inclusive as possible. The use of semantic HTML, aria-labelling, alt attributes to images and good colour contrast.
 
     * The WAVE Web Accessibility Evaluation Tool was used to assess each webpage [wave](https://wave.webaim.org/)
 
@@ -167,7 +171,7 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
 
 -   ### Colour Scheme
     * The colour palette used for Hexham Manor Spa's website was created using [coolors](https://coolors.co/) ![screenshot of colour palette used](documentation/coolors.png)
-    * This colour palette was created using natural, calm, cool colours that compliment the spa's aesthetic of peace and traquility. 
+    * This colour palette was created using natural, calm, cool colours that compliment the spa's elegant aesthetic, encapsulating peace and traquility. 
     * There is a range in the colours within the palette so that a good contrast is achieved at all times between text and background-colors.
 
 -   ### Typography
@@ -239,6 +243,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   HTDocument checking completed. No errors or warnings to show when passed through official [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 -   No errors were found when passing through the official [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
+
 -   ### Testing User Stories from User Experience (UX) Section
 
     -    #### First Time Visitor Goals
@@ -293,8 +298,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
         2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
         3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.-->
-
-  
 
 
 -   ###  Further Testing
@@ -365,7 +368,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ## Acknowledgements
 
-* My wonderful family for their patience whilst i enjoyed myself coding.
+* My family for their patience whilst i enjoyed myself coding.
 * My brilliant mentor Daisy McGee, for her excellent advice, patience and passion for teaching.
 
 
