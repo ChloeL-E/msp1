@@ -665,6 +665,10 @@ ul {
     left: 0;
   }
 
+  .logo h1 {
+    font-size: 30px;
+  }
+
   /*-------------------HERO----------------*/
   .hero-image {
     width: 100%;
