@@ -144,7 +144,16 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
     -    #### Validators
          * W3C Markup Validator, W3C CSS Validator Services were used to validate this project to ensure that there were no syntax errors.
          * Markup Validator ![W3C Markup Validator](documentation/w3cvalidator.jpeg)
+          - Home Page W3C HTML Validation - Pass
+          - Treatments Page W3C HTML Validation - Pass
+          - Contact Page W3C HTML Validation - Pass
+          - Booking Page W3C HTML Validation - Pass
+          - Thank You Page W3C HTML Validation - Pass
+          - 404 Page W3C HTML Validation - Pass
          * CSS Validator ![W3C CSS Validator](documentation/w3c_css.png)
+          - style.css CSS Validation - Pass
+         * Jshint was used to validate the Javascript
+          - main.js Jshint - Pass
 
 <!--> ### Lighthouse 
   Lighthouse within the Chrome Developer Tools are used to test performance, accessibility, best practices and SEO of the spa Website.
@@ -158,14 +167,14 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
 
 -   ### Colour Scheme
     * The colour palette used for Hexham Manor Spa's website was created using [coolors](https://coolors.co/) ![screenshot of colour palette used](documentation/coolors.png)
-    * This colour palette was created using natural, calm, cool colours that compliment the spa's aesthetic and goals. 
+    * This colour palette was created using natural, calm, cool colours that compliment the spa's aesthetic of peace and traquility. 
     * There is a range in the colours within the palette so that a good contrast is achieved at all times between text and background-colors.
 
 -   ### Typography
-    * The Noto Serif Sans font is the main font used throughout the whole website with Sans Serif as the backup font in case for any reason the font isn't being imported into the site correctly. Noto Serif Sans is a high-quality font developed specifically for easy consumption online by users. It is a user friendly, beautiful clean and crisp typeface.
+    * The Noto Serif Sans font is the main font used throughout the whole website with Sans Serif as the backup font in case for any reason the font isn't being imported into the site correctly. Noto Serif Sans is a high-quality font developed specifically for easy online consumption. It is a user-friendly, beautiful clean and crisp typeface that compliments the design.
 
 -   ### Imagery
-    * Imagery has an important role in the website. The large, background hero image on each page is designed to be striking and catch the user's attention. They were chosen for their modern, relaxing feel and their deep colours. The images aim to add a cosy, luxurious atmosphere in-keeping with the spa's aesthetic. They also give the user a good insight into the look of the physical spa.
+    * Imagery has an important role in the website. The large, hero image on each page is designed to be striking and catch the user's attention. Each image was chosen for its natural, relaxing feel and deep colours. The images aim to add a cosy, luxurious atmosphere in-keeping with the spa's aesthetic. They also give the user a good insight into the look of the physical spa.
 
 -   ### Wireframes
 
