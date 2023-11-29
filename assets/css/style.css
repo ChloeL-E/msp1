@@ -263,7 +263,7 @@ header .logo::after {
   justify-content: space-between;
   flex-wrap: wrap;
   flex-direction: row;
-  align-items: center;
+  /*align-items: center;*/
 }
 
 .treatments-content {
@@ -766,11 +766,23 @@ color: #fff
     display: block;
   }
 
-  .treatments-img {
+  /*.treatments-img {
     margin-bottom: 20px;
     margin-left: 10px;
-  }
-
+  }*/
+  .treatments-img {
+    /* display: flex; */
+    height: 11rem;
+    width: 11rem;
+    border-radius: 50%;
+    overflow: hidden;
+    /* margin-left: 3rem; */
+    position: relative;
+    /* display: inline-block; */
+    /* flex-direction: column; */
+    /* align-content: center; */
+    /* justify-content: center; */
+}
   .treatments-img img {
     margin: 0 auto;
   }
@@ -800,8 +812,47 @@ color: #fff
       padding: 20px;
       margin: 0 auto;
   }
+ /*-------------------Booking----------------*/
+  .enquiry-form {
+    margin-top: 70%;
+    color: #fff;
+    background-color: rgba(60, 60, 60, .6);
+    width: 260px;
+    position: absolute;
+    /* left: 10%; */
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
 
   /*-------------------FOOTER----------------*/
+  .footer-container {
+    max-width: 1170px;
+    margin: auto;
+    /* width: 100%; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+}
+  .footer-col {
+    display: flex;
+    width: 260px;
+    padding: 0 25px;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-col h4 {
+  font-family: "Noto Serif Display", sans-serif;
+  font-size: 18px;
+  color: #051320;
+  text-transform: capitalize;
+  font-weight: 600;
+  position: relative;
+  padding-right: 20px;
+  align-content: left;
+}
+  
   .footer h4::before {
     display: none;
   }
@@ -812,7 +863,7 @@ color: #fff
 }
 
 /*-----------------------------------Small devices (Tablet, large phone, 600px and up)---------------------------------*/
-/*
+
 @media only screen and (min-width: 600px){
 
 
@@ -991,11 +1042,65 @@ color: #fff
     margin: 0 auto;
   }
 
+  .treatments-content {
+    display: flex;
+    /* flex: 1; */
+    /* display: inline-block; */
+
+
+    .treatments-content {
+      display: flex;
+      /* flex: 1; */
+      /* display: inline-block; */
+      padding: 30px 20px;
+      margin: 0 auto;
+      align-content: center;
+      flex-direction: column;
+      align-items: center;
+  }
+
+ /*-------------------Booking----------------*/
+
+
   /*-------------------FOOTER----------------*/
-/*.footer h4::before {
+
+  .footer-container {
+    max-width: 1170px;
+    margin: auto;
+    /* width: 100%; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+}
+  .footer-col {
+    display: flex;
+    width: 260px;
+    padding: 0 25px;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-col h4 {
+  font-family: "Noto Serif Display", sans-serif;
+  font-size: 18px;
+  color: #051320;
+  text-transform: capitalize;
+  font-weight: 600;
+  position: relative;
+  padding-right: 20px;
+  align-content: left;
+}
+  
+  .footer h4::before {
     display: none;
   }
+
+  .book-now {
+    padding: 0;
+  }
 }
+
 
 /*-------------------------------------Medium devices (Landscape tablets, 768px and up)---------------------------------*/
 
@@ -1021,5 +1126,15 @@ color: #fff
   /* border-radius: 5px; */
 }
 
+.treatments-content {
+  /* display: flex; */
+  flex: 1;
+  /* display: inline-block; */
+  padding: 30px 20px;
+  margin: 0 auto;
+}
 
+.image-overlay {
+  display:none;
+}
 /*-------------------------------------Large devices (Laptops/desktops, 992px and up)---------------------------------*/
