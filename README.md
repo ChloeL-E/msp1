@@ -330,8 +330,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - Content was written by Chloe Livingstone-Evans.
 
-- The static badges at the top of the README used [Shields.io](https://shields.io/badges)
-
 -   ### Media Images
 
 - All images are taken from [Freepik] and are further attributed as follows: 
@@ -342,7 +340,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - The image for Rest and Unwind is by [cookie_studio](https://www.freepik.com/free-photo/young-woman-having-face-massage-relaxing-spa-salon_8224621.htm#query=spa&position=0&from_view=search&track=sph)
 
--The image for Reinvigorate and Renew is from [Freepik](https://www.freepik.com/free-photo/spa-concept-with-woman-relaxing-water_3505120.htm#query=spa-concept-with-woman-relaxing-water&position=1&from_view=search&track=sph&uuid=e5cbf2e2-6fbd-40f2-be89-c617498c5485)
+- The image for Reinvigorate and Renew is from [Freepik](https://www.freepik.com/free-photo/spa-concept-with-woman-relaxing-water_3505120.htm#query=spa-concept-with-woman-relaxing-water&position=1&from_view=search&track=sph&uuid=e5cbf2e2-6fbd-40f2-be89-c617498c5485)
 
 - The hero image for the Treatments page is by[vecstock](https://www.freepik.com/free-ai-image/scented-candle-burning-bowl-creating-tranquil-scene-generated-by-ai_52297585.htm)
 
