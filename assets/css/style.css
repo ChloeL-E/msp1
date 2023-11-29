@@ -882,6 +882,9 @@ color: #fff
   }
   .header .logo::after {
     display: none;
+  }*/
+  .logo h1 {
+    font-size: 30px;
   }
 
   /*-------------------HERO----------------*/
@@ -904,9 +907,23 @@ color: #fff
     padding-top: 20%;
   }*/
 
-  /*.hero-heading {
-    display: none;
-  }
+
+  .hero-heading {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 10px 0 0 0px;
+}
+.hero-heading h2 {
+  font-family: "Noto Serif Display", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: #f8f8f8;
+  padding: 30px;
+  background-color: rgba(60, 60, 60, .5);
+  border-radius: 5px;
+  margin-top: 200px;
+}
 
   /*-------------------OUR STORY----------------*/
 
@@ -982,7 +999,27 @@ color: #fff
 
 /*-------------------------------------Medium devices (Landscape tablets, 768px and up)---------------------------------*/
 
+.hero-heading {
+  display: flex;
+  width: 50%;
+  text-align: center;
+  padding: 250px 0 0 100px;
+  background-clip: content-box;
+  justify-content: flex-start;
+  /* align-items: center; */
+  align-content: center;
+}
 
+.hero-heading h2 {
+  font-family: "Noto Serif Display", sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  color: #f8f8f8;
+  /* margin-top: 150px; */
+  /* padding: 40px; */
+  /* background-color: rgba(60, 60, 60, .5); */
+  /* border-radius: 5px; */
+}
 
 
 /*-------------------------------------Large devices (Laptops/desktops, 992px and up)---------------------------------*/
