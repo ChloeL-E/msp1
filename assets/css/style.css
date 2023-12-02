@@ -103,7 +103,7 @@ header .logo::after {
 .hero-image {
   width: 100%;
   height: 100vh;
-  background-image: url("../images/hero2.jpeg");
+  background-image: url("../images/heroimage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -400,6 +400,15 @@ header .logo::after {
 
 .contact-details {
   margin: 150px 0 0 0;
+}
+
+.contact-details a {
+  color: #051320;
+}
+
+.contact-details a:hover {
+  color: #144e77;
+  text-decoration: none;
 }
 
 .contact-address h2,
