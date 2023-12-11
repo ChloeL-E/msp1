@@ -96,32 +96,32 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
         * The Our Story section that is found on the Home page will allow the user to see the Spas' ethos and important information, with the aim to show the benefits to the resotative treatments and some self-indulgence. There are 3 images to add visual appeal and interest to the page, whilst also showcasing the Spa.
         * The user will see the value of a luxury Spa experience and will consider making a booking enquiry via the site. 
 
-       [Home page](documentation/home_page.jpeg)
+        ![Home page](documentation/home_page.jpeg)
 
     -   #### Treatments page
         * This page will allow the user to see exactly what treatments are available to book. Images are paired with the treatment information to show the user what the treatment may look like. When the user hovers over an image, an overlay appears to show the duration and cost of the treatment they are viewing.
         * This page will be updated with any new treatments available or seasonal offers.
 
-        [Treatments Section](documentation/treatments_page.png)
+        ![Treatments Section](documentation/treatments_page.png)
 
     -    #### Contact Us Page
          * The map will provide the user with a visual aid to see the location of the spa.
          * This section is valuable to the user as they will be able to easily identify the the location of the spa and how to contact the spa if they require.
 
-        [Contact Us page](documentation/contact_section.jpeg)
+        ![Contact Us page](documentation/contact_section.jpeg)
 
     -    #### Booking Page
          * This page will allow the user to send a booking enquiry. 
          * The user will be asked to submit their full name, email address and telephone number. The user will have the option to give some further information with the booking enquiry. 
          * The user will recieive feedback once they press the submit button to inform them that they will be contacted soon regarding their booking enquiry.
 
-        [Booking Form](documentation/booking_page.jpeg)
+        ![Booking Form](documentation/booking_page.jpeg)
 
     -    #### Footer
          * The footer section includes links to the social media sites for Hexham Manor Spa. The links will open to a new tab to allow easy navigation for the user.
          * The footer is valuable to the user as it encourages them to keep connected via social media and gives easy access to interesting information about what is happening at the Spa.
 
-        [Footer](documentation/footer.png)
+        ![Footer](documentation/footer.png)
 
     -    #### 404 Error Page
           * A 404 error page was created to ensure that if, for any reason, the webpage is unavailable, the user is taken to a message page which helps to redirect them back to the website.
