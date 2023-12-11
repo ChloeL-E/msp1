@@ -448,7 +448,7 @@ iframe {
 /*-----------------------------------------------BOOKING ENQUIRY--------------------------------------------------*/
 .hero-image-booking {
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   background-image: url("../images/bookingimage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -456,7 +456,7 @@ iframe {
 }
 
 .enquiry-form {
-  margin-top: 75px;
+  margin-top: 150px;
   color: #fff;
   background-color: rgba(60, 60, 60, .6);
   width: 400px;
@@ -780,23 +780,11 @@ ul {
     display: block;
   }
 
-  /*.treatments-img {
-    margin-bottom: 20px;
-    margin-left: 10px;
-  }*/
   .treatments-img {
-    /* display: flex; */
-    height: 12rem;
-    width: 12rem;
-   /* border-radius: 50%;
-    overflow: hidden;
-    
-    position: relative;
-    /*margin: 0 auto;*/
-    /* display: inline-block; */
-    /* flex-direction: column; */
-    /* align-content: center; */
-    /* justify-content: center; */
+    height: 14rem;
+    width: 14rem;
+    margin: 0 auto;
+    display: block; 
   }
 
   .treatments-img img {
@@ -852,10 +840,6 @@ ul {
   .footer-container {
     max-width: 1170px;
     margin: auto;
-    /* width: 100%; */
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* flex-wrap: wrap; */
   }
 
   .footer-col {
@@ -897,13 +881,18 @@ ul {
   
   .treatments-content {
     display: flex;
-    /* flex: 1; */
-    /* display: inline-block; */
     padding: 30px 20px;
     margin: 0 auto;
     align-content: center;
     flex-direction: column;
     align-items: center;
+  }
+
+  .treatments-img {
+    height: 14rem;
+    width: 14rem;
+    margin: 0 auto;
+    display: block; 
   }
 
   /*-------------------CONTACT----------------*/
@@ -913,21 +902,20 @@ ul {
   }
 
   .contact-address {
-    /* display: flex; */
-    margin: 50px 0 0 50px;
+    margin: 50px auto;
     align-items: center;
     justify-content: center;
   }
 
   .contact-details {
-    margin: 50px 0 0 50px;
+    margin: 50px auto;
   }
 
   #locator {
     border: 8px double #144e77;
     border-radius: 15px;
     padding: 20px;
-    margin: 50px 150px 50px 50px;
+    margin: 50px auto;
   }
 
   /*-------------------FOOTER----------------*/
