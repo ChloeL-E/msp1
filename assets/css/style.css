@@ -83,11 +83,11 @@ header {
   font-size: 30px;
 }
 
-.logo h1 {
+.header h1 {
   position: relative;
 }
 
-header h1::after {
+.header h1::after {
   content: '';
   position: absolute;
   bottom: -4px;
