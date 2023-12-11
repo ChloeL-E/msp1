@@ -8,7 +8,7 @@
 
 Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page website that aims to showcase the spa as a peaceful haven of sumptuous escapism from the fast-paced reality of todays culture. The site describes the treatments and facilities available at the spa their benefits to the users' health. The site will be targeted towards adults who are looking to relax ad unwind. The target audience will use the site to see the Spa ethos, imagery and text description of the treatments and facilities available, as well as pricing and the ability to make a booking enquiry.
 
-[Responsive Mockup]()
+[Responsive Mockup](documentation/mockup_generator.png)
 
 [View the live project here.](https://chloel-e.github.io/msp1/)
 
@@ -87,16 +87,14 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
 
     -   #### Hero Images
         * There is a striking hero image on each webpage to attract the attention of the user. 
-        * Each hero image, apart from the hero image on the Booking Page, have a hero zoom animation applied. 
-
+        * Each hero image, apart from the hero image on the Booking Page, have a hero zoom animation applied. The zoom animation was removed from the Booking Page as it detracted from the booking enquiry form.
 
         ![Hero Image example](documentation/hero_readme.jpeg)
 
     -   #### Home page
 
-        * The Our Story section that is found on the Home page will allow the user to see the Spas' ethos, with the aim to show the benefits to the resotative treatments and some self-indulgence. There are 3 images to add visual appeal and interest to the page, whilst also showcasing the Spa.
+        * The Our Story section that is found on the Home page will allow the user to see the Spas' ethos and important information, with the aim to show the benefits to the resotative treatments and some self-indulgence. There are 3 images to add visual appeal and interest to the page, whilst also showcasing the Spa.
         * The user will see the value of a luxury Spa experience and will consider making a booking enquiry via the site. 
-
 
        ![Home page](documentation/home_page.jpeg)
 
@@ -104,13 +102,11 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
         * This page will allow the user to see exactly what treatments are available to book. Images are paired with the treatment information to show the user what the treatment may look like. When the user hovers over an image, an overlay appears to show the duration and cost of the treatment they are viewing.
         * This page will be updated with any new treatments available or seasonal offers.
 
-
-        ![Treatments Section]()
+        ![Treatments Section](documentation/treatments_page.png)
 
     -    #### Contact Us Page
          * The map will provide the user with a visual aid to see the location of the spa.
          * This section is valuable to the user as they will be able to easily identify the the location of the spa and how to contact the spa if they require.
-
 
         ![Contact Us page](documentation/contact_section.jpeg)
 
@@ -119,15 +115,19 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
          * The user will be asked to submit their full name, email address and telephone number. The user will have the option to give some further information with the booking enquiry. 
          * The user will recieive feedback once they press the submit button to inform them that they will be contacted soon regarding their booking enquiry.
 
-
         ![Booking Form](documentation/booking_page.jpeg)
 
     -    #### Footer
          * The footer section includes links to the social media sites for Hexham Manor Spa. The links will open to a new tab to allow easy navigation for the user.
          * The footer is valuable to the user as it encourages them to keep connected via social media and gives easy access to interesting information about what is happening at the Spa.
 
-
         ![Footer](documentation/footer.png)
+
+    -    #### 404 Error Page
+          * A 404 error page was created to ensure that if, for any reason, the webpage is unavailable, the user is taken to a message page which helps to redirect them back to the website.
+    
+    -    #### Thank You Page
+          * The user is taken to a Thank you page after submission of the booking enquiry form on the Booking page. This opens in a new browser tab. This improves user experience as they recieve feedback that their enquiry form was sent successfully. The new tab in the browser means the user can easily move back to the website.
 
 -   ### Features For The Future
     * In the future a 'Book Online' feature will be implemented that will allow the user to directly book their treatments online rather than sending a booking enquiry or needing to speak to a member of the spa team. This should improve user experience as they can more efficiently book our services. 
@@ -137,9 +137,7 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
 -   ### Accessibility
 
     * The website was developed to be as inclusive as possible. The use of semantic HTML, aria-labelling, alt attributes to images and good colour contrast.
-
     * The WAVE Web Accessibility Evaluation Tool was used to assess each webpage [wave](https://wave.webaim.org/)
-
     * The Home page showed no errors or contrast errors but identified two alerts. An alt attribute to identify the 'Book Now' button. An alt tag was added which fixed the alert. An alert identified with the Hamburger toggle. The function requires a click which would not be accessible to keyboard users. ![Wave tool result](documentation/wave_tool.jpeg)
     * The Treatments page identified no errors or contrast errors.
     * The Contact Us page identified no errors or contrast errors. One alert was identified which showed a redundant link. Adjacent links go to the same URL (logo and home), therefore the logo link was removed to improve efficiency of movement through the webpage for screenreaders. 
@@ -182,14 +180,14 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
     * The Noto Serif Sans font is the main font used throughout the whole website with Sans Serif as the backup font in case for any reason the font isn't being imported into the site correctly. Noto Serif Sans is a high-quality font developed specifically for easy online consumption. It is a user-friendly, beautiful clean and crisp typeface that compliments the design.
 
 -   ### Imagery
-    * Imagery has an important role in the website. The large, hero image on each page is designed to be striking and catch the user's attention. Each image was chosen for its natural, relaxing feel and deep colours. The images aim to add a cosy, luxurious atmosphere in-keeping with the spa's aesthetic. They also give the user a good insight into the look of the physical spa.
+    * Imagery has an important role in the website. The large, hero image on each page is designed to be striking and catch the user's attention. Each image was chosen for its natural, relaxing feel and deep colours. The images aim to add a cosy, luxurious atmosphere in-keeping with the spa's aesthetic. They also give the user a good insight into the physical look of the spa.
 
 -   ### Wireframes
 
     * Our Story Home Page Wireframe - [Balsamiq home page wireframe](documentation/our_story_wireframe.jpeg)
-    * Treaments Page Wireframe - [Balsamiq home page wireframe](documentation/treatments_wireframe.jpeg)
-    * Contact Us Page Wireframe - [Balsamiq home page wireframe](documentation/contact_wireframe.jpeg)
-    * Booking Page Wireframe - [Balsamiq home page wireframe](documentation/booking_wireframe.jpeg)
+    * Treaments Page Wireframe - [Balsamiq treatments page wireframe](documentation/treatments_wireframe.jpeg)
+    * Contact Us Page Wireframe - [Balsamiq Contact Us page wireframe](documentation/contact_wireframe.jpeg)
+    * Booking Page Wireframe - [Balsamiq Booking page wireframe](documentation/booking_wireframe.jpeg)
 
 - - - 
 
@@ -317,13 +315,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
       2. Once the user has clicked on the Contact Us link, the user will be taken to the Contact page. They will be able to scroll down the page to see links to the spas' email and telphone number, along with the spa address and a google map of the location.
       3. A 'Get in Touch' section within the Footer also shows the user the email and telephone number. 
 
-    ck, it will be open up in a new tab to ensure the user can easily get back to the website.
-        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
-
-    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-        2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-        3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.-->
+    * As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
+        
+      1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
+      2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
+      3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.-->
 
 
 -   ###  Further Testing
@@ -394,76 +390,5 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ## Acknowledgements
 
-* My family for their patience whilst i enjoyed myself coding.
+* My family for their patience whilst I enjoyed myself coding.
 * My brilliant mentor Daisy McGee, for her excellent advice, patience and passion for teaching.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Deployment
-
-### GitHub Pages
-
-The project was deployed to GitHub Pages using the following steps...
-
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
-5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
-
-### Forking the GitHub Repository
-
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
-
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-3. You should now have a copy of the original repository in your GitHub account.
-
-### Making a Local Clone
-
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. Under the repository name, click "Clone or download".
-3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-4. Open Git Bash
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type `git clone`, and then paste the URL you copied in Step 3.
-
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-```
-
-7. Press Enter. Your local clone will be created.
-
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-```
-
-Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
-
-
-
-
-
-
-
-
-[def]: documentation/contact_section.jpeg
