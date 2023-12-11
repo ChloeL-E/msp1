@@ -8,9 +8,9 @@
 
 Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page website that aims to showcase the spa as a peaceful haven of sumptuous escapism from the fast-paced reality of todays culture. The site describes the treatments and facilities available at the spa their benefits to the users' health. The site will be targeted towards adults who are looking to relax ad unwind. The target audience will use the site to see the Spa ethos, imagery and text description of the treatments and facilities available, as well as pricing and the ability to make a booking enquiry.
 
-<!--![Responsive Mockup]()-->
+[Responsive Mockup]()
 
-[View the live project here.]()
+[View the live project here.](https://chloel-e.github.io/msp1/)
 
 ## Contents
 * [Languages Used](#languages-used)
