@@ -161,14 +161,11 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
   Lighthouse within the Chrome Developer Tools are used to test performance, accessibility, best practices and SEO of the spa Website.
     - Performance was the only issue and the majority of this is due to the images slowing the load time therfore the images used within the content on Home and Treaments page were converted from jpeg to png files. This improved the performance. The hero images to each page were not converted as it did not improve the performance rating but the image quality reduced. 
     
-    - Home page
-  [See Lighthouse report- Home page](documentation/lighthouse-home.png)
-    - Treatments page
-  [See Lighthouse report- Treatments page](documentation/lighthouse-treat.jpeg)
-    - Contact Us page
-  [See Lighthouse report- Contact Us page](documentation/lighthouse-contact.png)
-    - Booking page
-  [See Lighthouse report- Booking Enquiry page](documentation/lighthouse-book.png)
+  
+  [See Lighthouse report for Home page](documentation/lighthouse-home.png)
+  [See Lighthouse report for Treatments page](documentation/lighthouse-treat.jpeg)
+  [See Lighthouse report for Contact Us page](documentation/lighthouse-contact.png)
+  [See Lighthouse report for Booking Enquiry page](documentation/lighthouse-book.png)
 
 
 -   ### Colour Scheme
