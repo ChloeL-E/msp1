@@ -391,15 +391,14 @@ header .logo::after {
 .info-container {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .contact-address {
-  margin: 150px 0 0 150px;
+  margin:50px auto;
 }
 
 .contact-details {
-  margin: 150px 0 0 0;
+  margin: 50px auto;
 }
 
 .contact-details a {
@@ -439,10 +438,10 @@ iframe {
 }
 
 #locator {
-  border: 8px double #144e77;
+  border: 8px #144e77;
   border-radius: 15px;
   padding: 20px;
-  margin: 50px 150px 50px 0;
+  margin: 50px auto;
 
 }
 
@@ -742,8 +741,9 @@ ul {
   }
 
   .about-img {
-    margin-left: 0;
     display: flex;
+    height: 12rem;
+    width: 12rem;
   }
 
   .about-img img {
@@ -776,7 +776,7 @@ ul {
   }
 
   .treatments-content {
-    padding: 20px;
+    padding: 10px 0;
     display: block;
   }
 
@@ -786,12 +786,13 @@ ul {
   }*/
   .treatments-img {
     /* display: flex; */
-    height: 11rem;
-    width: 11rem;
-    border-radius: 50%;
+    height: 12rem;
+    width: 12rem;
+   /* border-radius: 50%;
     overflow: hidden;
-    /* margin-left: 3rem; */
+    
     position: relative;
+    /*margin: 0 auto;*/
     /* display: inline-block; */
     /* flex-direction: column; */
     /* align-content: center; */
@@ -800,6 +801,10 @@ ul {
 
   .treatments-img img {
     margin: 0 auto;
+  }
+
+  .treatments-content p {
+    padding: 0;
   }
 
   /*-------------------Contact Us----------------*/
@@ -819,7 +824,7 @@ ul {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    padding: 20px 10px;
+    padding: 20px 0 25px 45px;
   }
 
   #locator {
@@ -827,7 +832,7 @@ ul {
     flex-direction: column;
     border: 8px double #144e77;
     border-radius: 15px;
-    padding: 20px;
+    padding: 10px;
     margin: 0 auto;
   }
 
@@ -960,9 +965,6 @@ ul {
     display: none;
   }
 
-  .book-now {
-    padding: 0;
-  }
 }
 
 
