@@ -83,7 +83,7 @@ header {
   font-size: 30px;
 }
 
-/*header .logo {
+.header .logo {
   position: relative;
 }
 
@@ -96,7 +96,7 @@ header .logo::after {
   height: 2px;
   box-sizing: border-box;
   width: 140px;
-}*/
+}
 
 /*----------------------------------------------HERO IMAGE----------------------------------------------------*/
 
@@ -160,7 +160,6 @@ header .logo::after {
 
 
 /*------------------------------------------OUR STORY SECTION--------------------------------------------------*/
-
 
 .our-story-container {
   width: 90%;
@@ -414,6 +413,7 @@ header .logo::after {
 
 .info-container {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -457,14 +457,14 @@ header .logo::after {
 }
 
 iframe {
-  width: 400px;
-  height: 400px;
+  width: 375px;
+  height: 375px;
 }
 
 #locator {
-  border: 8px #144e77;
+  border: 4px solid #144e77;
   border-radius: 15px;
-  padding: 20px;
+  padding: 10px;
   margin: 50px auto;
 
 }
@@ -659,16 +659,14 @@ ul {
 @media only screen and (max-width: 600px) {
 
 
-  /*-------------------GENERAL----------------*/
+  /*-------------------General----------------*/
 
   * {
     overflow-y: scroll;
     overflow-x: hidden;
   }
 
-
-
-  /*-------------------HEADER----------------*/
+  /*-------------------Header----------------*/
   .hamburger {
     display: block;
   }
@@ -701,7 +699,8 @@ ul {
     font-size: 30px;
   }
 
-  /*-------------------HERO----------------*/
+  /*-------------------Hero Image----------------*/
+
   .hero-image {
     width: 100%;
     height: 80vh;
@@ -720,19 +719,7 @@ ul {
     display: none;
   }
 
-  /*.hero-heading h1 {
-    font-family: "Noto Serif Display", sans-serif;
-    font-size: 15px;
-    font-weight: 300;
-    color: #f8f8f8;
-    padding: 0;
-    background-color: rgba(60, 60, 60, .4);
-    border-radius: 5%;
-  }*/
-
-
-
-  /*-------------------OUR STORY----------------*/
+  /*-------------------Our Story----------------*/
 
   .our-story-container {
     margin: 0 auto;
@@ -775,7 +762,7 @@ ul {
     margin: 0 auto;
   }
 
-  /*-------------------TREATMENTS----------------*/
+  /*-------------------Treatments----------------*/
 
   .about-treatments {
     flex-direction: column;
@@ -819,9 +806,15 @@ ul {
     padding: 0;
   }
 
-  /*-------------------Contact Us----------------*/
+  /*-------------------Contact----------------*/
+
   .hero-contact-heading {
     display: none;
+  }
+
+  .info-container {
+    display: flex;
+    flex-direction: column;
   }
 
   .contact-address {
@@ -848,7 +841,8 @@ ul {
     margin: 0 auto;
   }
 
-  /*-------------------Booking----------------*/
+  /*------------------Booking----------------*/
+
   .enquiry-form {
     margin-top: 120px;
     color: #fff;
@@ -860,7 +854,7 @@ ul {
     border-radius: 5px;
   }
 
-  /*-------------------FOOTER----------------*/
+  /*-------------------Footer----------------*/
   .footer-container {
     max-width: 1170px;
     margin: auto;
@@ -895,10 +889,12 @@ ul {
 
 @media only screen and (min-width: 600px) {
 
-   /*-------------------HERO IMAGE----------------*/
+   /*-------------------Header----------------*/
   .logo h1 {
     font-size: 30px;
   }
+
+   /*------------------Treatments-------------*/
 
   .treatments-content {
     display: flex;
@@ -916,7 +912,7 @@ ul {
     display: block; 
   }
 
-  /*-------------------CONTACT----------------*/
+  /*------------------Contact----------------*/
   .info-container {
     display: flex;
     flex-direction: column;
@@ -942,7 +938,7 @@ ul {
     margin: 50px auto;
   }
 
-  /*-------------------FOOTER----------------*/
+  /*-------------------Footer----------------*/
 
   .footer-container {
     max-width: 1170px;
@@ -979,8 +975,10 @@ ul {
 
 }
 
-
 /*-------------------------------------Medium devices (Landscape tablets, 768px and up)---------------------------------*/
+@media only screen and (min-width: 768px) {
+
+  /*------------------Hero Image---------------*/
 
 .hero-heading {
   display: flex;
@@ -1004,6 +1002,8 @@ ul {
   /* border-radius: 5px; */
 }
 
+/*------------------Treatments---------------*/
+
 .treatments-content {
   /* display: flex; */
   flex: 1;
@@ -1015,6 +1015,8 @@ ul {
 .image-overlay {
   display: none;
 }
+
+ /*-------------------Contact----------------*/
 
 .info-container {
   display: flex;
@@ -1032,7 +1034,8 @@ ul {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  padding: 150px 30px;
+  padding: 150px 10px;
+}
 }
 
 
