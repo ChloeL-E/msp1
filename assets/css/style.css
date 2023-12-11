@@ -83,19 +83,19 @@ header {
   font-size: 30px;
 }
 
-.header .logo {
+.logo h1 {
   position: relative;
 }
 
-header .logo::after {
+header h1::after {
   content: '';
   position: absolute;
-  bottom: 5px;
-  left: 2px;
+  bottom: -4px;
+  left: 0;
   background-color: #051320;
   height: 2px;
   box-sizing: border-box;
-  width: 140px;
+  width: 160px;
 }
 
 /*----------------------------------------------HERO IMAGE----------------------------------------------------*/
@@ -126,7 +126,7 @@ header .logo::after {
   }
 }
 
-.hero-heading {
+/*.hero-heading {
   margin-top: 400px;
   background-color: rgba(60, 60, 60, .7);
   width: 300px;
@@ -136,11 +136,12 @@ header .logo::after {
   border-radius: 5px;
   text-align: center;
 }
-  /*width: 50%;
+
+width: 50%;
   text-align: center;
   padding: 20% 15%;*/
 
-
+/*
 .hero-heading h2 {
   font-family: "Noto Serif Display", sans-serif;
   font-size: 30px;
@@ -148,8 +149,9 @@ header .logo::after {
   color: #f8f8f8;
   position: relative;
   padding: 20px 5px;
-  }
-  /*
+}
+
+
   font-family: "Noto Serif Display", sans-serif;
   font-size: 30px;
   font-weight: 300;
@@ -247,7 +249,7 @@ header .logo::after {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  margin: 20px auto;
+  margin: 20px auto 0;
 }
 
 .treatments-heading h2 {
@@ -329,7 +331,7 @@ header .logo::after {
   font-weight: 300;
   color: #051320;
   text-align: center;
-  padding-left: 30px;
+  padding: 10px 0 0 10px;
   max-width: 100%;
 }
 
@@ -381,6 +383,7 @@ header .logo::after {
   }
 }
 
+/*
 .hero-contact-heading {
   margin-top: 400px;
   background-color: rgba(60, 60, 60, .7);
@@ -390,16 +393,6 @@ header .logo::after {
   padding: 10px;
   border-radius: 5px;
   text-align: center;
-  /*width: 300px;
-  height: 150px;
-  border-radius: 5px;
-  text-align: center;
-  margin-top: 150px;
-  margin-left: 75px;
-  background-color: rgba(60, 60, 60, .8);
-  display: flex;
-  justify-content: center;
-  position: absolute;*/
 }
 
 .hero-contact-heading h2 {
@@ -409,7 +402,7 @@ header .logo::after {
   color: #f8f8f8;
   position: relative;
   padding: 20px 5px;
-}
+}*/
 
 .info-container {
   display: flex;
@@ -418,7 +411,7 @@ header .logo::after {
 }
 
 .contact-address {
-  margin:50px auto;
+  margin: 50px auto;
 }
 
 .contact-details {
@@ -715,9 +708,9 @@ ul {
     overflow: hidden;
   }
 
-  .hero-heading h2 {
+  /*.hero-heading h2 {
     display: none;
-  }
+  }*/
 
   /*-------------------Our Story----------------*/
 
@@ -753,8 +746,8 @@ ul {
 
   .about-img {
     display: flex;
-    height: 12rem;
-    width: 12rem;
+    height: 14rem;
+    width: 14rem;
   }
 
   .about-img img {
@@ -795,7 +788,7 @@ ul {
     height: 14rem;
     width: 14rem;
     margin: 0 auto;
-    display: block; 
+    display: block;
   }
 
   .treatments-img img {
@@ -808,9 +801,9 @@ ul {
 
   /*-------------------Contact----------------*/
 
-  .hero-contact-heading {
+  /*.hero-contact-heading {
     display: none;
-  }
+  }*/
 
   .info-container {
     display: flex;
@@ -889,12 +882,18 @@ ul {
 
 @media only screen and (min-width: 600px) {
 
-   /*-------------------Header----------------*/
+  /*-------------------Header----------------*/
   .logo h1 {
     font-size: 30px;
   }
 
-   /*------------------Treatments-------------*/
+  /*------------------Hero image-------------*/
+
+  /*.hero-heading {
+    display: none;
+  }*/
+
+  /*------------------Treatments-------------*/
 
   .treatments-content {
     display: flex;
@@ -909,7 +908,7 @@ ul {
     height: 14rem;
     width: 14rem;
     margin: 0 auto;
-    display: block; 
+    display: block;
   }
 
   /*------------------Contact----------------*/
@@ -917,6 +916,10 @@ ul {
     display: flex;
     flex-direction: column;
   }
+
+  /*.hero-contact-heading {
+    display: none;
+  }*/
 
   .contact-address {
     margin: 0 auto;
@@ -980,62 +983,62 @@ ul {
 
   /*------------------Hero Image---------------*/
 
-.hero-heading {
-  display: flex;
-  width: 50%;
-  text-align: center;
-  padding: 250px 0 0 100px;
-  background-clip: content-box;
-  justify-content: flex-start;
-  /* align-items: center; */
-  align-content: center;
-}
+  /*.hero-heading {
+    display: flex;
+    width: 50%;
+    text-align: center;
+    padding: 250px 0 0 100px;
+    background-clip: content-box;
+    justify-content: flex-start;
+    align-items: center; 
+    align-content: center;
+  }*/
 
-.hero-heading h2 {
-  font-family: "Noto Serif Display", sans-serif;
-  font-size: 35px;
-  font-weight: 300;
-  color: #f8f8f8;
-  /* margin-top: 150px; */
-  /* padding: 40px; */
-  /* background-color: rgba(60, 60, 60, .5); */
-  /* border-radius: 5px; */
-}
+  /*.hero-heading h2 {
+    font-family: "Noto Serif Display", sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    color: #f8f8f8;
+    margin-top: 150px; 
+    padding: 40px; 
+     background-color: rgba(60, 60, 60, .5); 
+    border-radius: 5px; 
+  }*/
 
-/*------------------Treatments---------------*/
+  /*------------------Treatments---------------*/
 
-.treatments-content {
-  /* display: flex; */
-  flex: 1;
-  /* display: inline-block; */
-  padding: 30px 20px;
-  margin: 0 auto;
-}
+  .treatments-content {
+    /* display: flex; */
+    flex: 1;
+    /* display: inline-block; */
+    padding: 30px 20px;
+    margin: 0 auto;
+  }
 
-.image-overlay {
-  display: none;
-}
+  .image-overlay {
+    display: none;
+  }
 
- /*-------------------Contact----------------*/
+  /*-------------------Contact----------------*/
 
-.info-container {
-  display: flex;
-  flex-direction: row;
-}
+  .info-container {
+    display: flex;
+    flex-direction: row;
+  }
 
-.contact-address {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  padding: 150px 30px;
-}
+  .contact-address {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 150px 30px;
+  }
 
-.contact-details {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  padding: 150px 10px;
-}
+  .contact-details {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 150px 10px;
+  }
 }
 
 
