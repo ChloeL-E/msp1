@@ -438,7 +438,7 @@ width: 50%;
 .contact-address ul li {
   font-size: 18px;
   line-height: 1.5;
-  font-weight: 300;
+  font-weight: 400;
   color: #051320;
 }
 
@@ -449,17 +449,17 @@ width: 50%;
   color: #051320;
 }
 
-iframe {
-  width: 375px;
-  height: 375px;
-}
-
 #locator {
   border: 4px solid #144e77;
   border-radius: 15px;
   padding: 10px;
   margin: 50px auto;
+  height: fit=fit-content;
+}
 
+iframe {
+  width: 18rem;
+  height: 18rem;
 }
 
 /*-----------------------------------------------BOOKING ENQUIRY--------------------------------------------------*/
@@ -816,13 +816,15 @@ ul {
     flex-direction: column;
     padding: 20px 10px;
     clear: both;
+    width: 260px;
   }
 
   .contact-details {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    padding: 20px 0 25px 45px;
+    padding: 0 0 25px 45px;
+    width: 260px;
   }
 
   #locator {
@@ -832,6 +834,11 @@ ul {
     border-radius: 15px;
     padding: 10px;
     margin: 0 auto;
+  }
+
+  .iframe {
+    width: 14rem;
+    height: 18rem;
   }
 
   /*------------------Booking----------------*/
@@ -939,6 +946,11 @@ ul {
     border-radius: 15px;
     padding: 20px;
     margin: 50px auto;
+  }
+
+  .iframe {
+    width: 18rem;
+    height: 18rem;
   }
 
   /*-------------------Footer----------------*/
