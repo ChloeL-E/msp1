@@ -489,21 +489,6 @@ input[type=submit]:hover {
   margin-bottom: 4px;
 }
 
-/*----------------------------------------------THANKYOU PAGE------------------------------------------------*/
-
-.thankyou-heading h2 {
-  margin-top: 175px;
-  background-color: rgba(60, 60, 60, .7);
-  width: 200px;
-  position: absolute;
-  left: 10%;
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
-  color: #f8f8f8;
-  font-weight: 400;
-}
-
 /*------------------------------------------------FOOTER-----------------------------------------------------*/
 
 .footer-container {
@@ -615,16 +600,33 @@ ul {
   color: #fff
 }
 
-/*------------------------------------------------404 PAGE-----------------------------------------------------*/
-
-.error-message {
-  margin-top: 200px;
+/*----------------------------------------------THANKYOU PAGE------------------------------------------------*/
+.thankyou-heading h2 {
+  margin-top: 175px;
+  background-color: rgba(60, 60, 60, .7);
+  width: 200px;
+  position: absolute;
+  left: 10%;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  color: #f8f8f8;
+  font-weight: 400;
 }
 
+/*------------------------------------------------404 PAGE-----------------------------------------------------*/
+  .error-message {
+    font-family: "Noto Serif Display", sans-serif;
+    text-align: center;
+    background-color: #144e77;
+    color: #f8f8f8;
+    margin: 150px auto;
+}
+
+
+
 /*-------------------------------------Extra-Small devices (Phones, 600px and down)---------------------------------*/
-
 @media only screen and (max-width: 600px) {
-
 
   /*-------------------General----------------*/
 
