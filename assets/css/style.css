@@ -542,7 +542,7 @@ input[type=submit]:hover {
 /*----------------------------------------------THANKYOU PAGE------------------------------------------------*/
 
 .thankyou-heading h2 {
-  margin-top: 200px;
+  margin-top: 175px;
   background-color: rgba(60, 60, 60, .7);
   width: 200px;
   position: absolute;
@@ -661,6 +661,20 @@ ul {
   background-color: #144e77;
   color: #fff
 }
+
+.error-message {
+  margin-top: 175px;
+  background-color: rgba(60, 60, 60, .7);
+  width: 220px;
+  position: absolute;
+  left: 10%;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  color:#f8f8f8;
+  font-weight: 400;
+}
+
 
 /*-------------------------------------Extra-Small devices (Phones, 600px and down)---------------------------------*/
 
@@ -906,6 +920,14 @@ ul {
 
   .footer h3::before {
     display: none;
+  }
+
+  .error-message {
+    margin-top: 200px;
+    width: 200px;
+    left: 5%;
+    padding: 0;
+    font-size: 18px;
   }
 }
 
