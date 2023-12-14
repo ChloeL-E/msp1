@@ -402,7 +402,7 @@ header {
   border-radius: 15px;
   padding: 10px;
   margin: 50px auto;
-  height: fit=fit-content;
+  height: fit-content;
 }
 
 /*google map*/
@@ -689,6 +689,7 @@ ul {
   .our-story-container {
     margin: 0 auto;
     display: flex;
+    width: 100%;
   }
 
   .about {
@@ -852,7 +853,6 @@ ul {
     font-weight: 600;
     position: relative;
     padding-right: 20px;
-    align-content: left;
   }
 
   .footer h3::before {
@@ -941,7 +941,6 @@ ul {
     font-weight: 600;
     position: relative;
     padding-right: 20px;
-    align-content: left;
   }
 
   .footer h3::before {
