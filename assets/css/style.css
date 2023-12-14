@@ -57,13 +57,6 @@ header {
   padding: 0 24px;
 }
 
-.logo {
-  font-size: 30px;
-  color: #051320;
-  text-transform: capitalize;
-  font-family: "Noto Serif Display", sans-serif;
-}
-
 .nav-menu {
   display: flex;
   justify-content: space-between;
@@ -85,6 +78,10 @@ header {
 
 .logo h1 {
   position: relative;
+  font-size: 30px;
+  color: #051320;
+  text-transform: capitalize;
+  font-family: "Noto Serif Display", sans-serif;
 }
 
 /* partial underline styling to logo*/
@@ -666,8 +663,12 @@ ul {
     left: 0;
   }
 
+  .logo {
+    width: 150px;
+  }
+  
   .logo h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   /*-------------------Hero Image----------------*/
@@ -721,8 +722,8 @@ ul {
 
   .about-img {
     display: flex;
-    height: 14rem;
-    width: 14rem;
+    height: 13rem;
+    width: 13rem;
   }
 
   .about-img img {
@@ -760,8 +761,8 @@ ul {
   }
 
   .treatments-img {
-    height: 14rem;
-    width: 14rem;
+    height: 13rem;
+    width: 13rem;
     margin: 0 auto;
     display: block;
   }
