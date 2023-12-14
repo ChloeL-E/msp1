@@ -108,26 +108,30 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
          * The map will provide the user with a visual aid to see the location of the spa.
          * This section is valuable to the user as they will be able to easily identify the the location of the spa and how to contact the spa if they require.
 
-        ![Contact Section](documentation/contact_section.jpeg)
+         ![Contact Section](documentation/contact_section.jpeg)
 
     -    #### Booking Page
          * This page will allow the user to send a booking enquiry. 
          * The user will be asked to submit their full name, email address and telephone number. The user will have the option to give some further information with the booking enquiry. 
          * The user will recieive feedback once they press the submit button to inform them that they will be contacted soon regarding their booking enquiry.
 
-        ![Booking Form](documentation/bookingpage.jpeg)
+         ![Booking Form](documentation/bookingpage.jpeg)
 
     -    #### Footer
          * The footer section includes links to the social media sites for Hexham Manor Spa. The links will open to a new tab to allow easy navigation for the user.
          * The footer is valuable to the user as it encourages them to keep connected via social media and gives easy access to interesting information about what is happening at the Spa.
 
-        ![Footer](documentation/footer.png)
+         ![Footer](documentation/footer.png)
 
     -    #### 404 Error Page
           * A 404 error page was created to ensure that if, for any reason, the webpage is unavailable, the user is taken to a message page which helps to redirect them back to the website.
-    
+
+         ![404 error page]()
+
     -    #### Thank You Page
           * The user is taken to a Thank you page after submission of the booking enquiry form on the Booking page. This opens in a new browser tab. This improves user experience as they recieve feedback that their enquiry form was sent successfully. The new tab in the browser means the user can easily move back to the website.
+
+         ![Thank you page](documentation/thankyou_page.jpeg)
 
 -   ### Features For The Future
     * In the future a 'Book Online' feature will be implemented that will allow the user to directly book their treatments online rather than sending a booking enquiry or needing to speak to a member of the spa team. This should improve user experience as they can more efficiently book our services. 
@@ -162,10 +166,10 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
     - Performance was the only issue and the majority of this is due to the images slowing the load time therfore the images used within the content on Home and Treaments page were converted from jpeg to png files. This improved the performance. The hero images to each page were not converted as it did not improve the performance rating but the image quality reduced. 
     
   
-  [See Lighthouse report for Home page](documentation/lighthouse-home.png)
-  [See Lighthouse report for Treatments page](documentation/lighthouse-treat.jpeg)
-  [See Lighthouse report for Contact Us page](documentation/lighthouse-contact.png)
-  [See Lighthouse report for Booking Enquiry page](documentation/lighthouse-book.png)
+  * [See Lighthouse report for Home page](documentation/lighthouse-home.png)
+  * [See Lighthouse report for Treatments page](documentation/lighthouse-treat.jpeg)
+  * [See Lighthouse report for Contact Us page](documentation/lighthouse-contact.png)
+  * [See Lighthouse report for Booking Enquiry page](documentation/lighthouse-book.png)
 
 
 -   ### Colour Scheme
