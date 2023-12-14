@@ -663,16 +663,7 @@ ul {
 }
 
 .error-message {
-  margin-top: 175px;
-  background-color: rgba(60, 60, 60, .7);
-  width: 220px;
-  position: absolute;
-  left: 10%;
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
-  color:#f8f8f8;
-  font-weight: 400;
+  margin-top: 200px;
 }
 
 
@@ -883,7 +874,7 @@ ul {
     border-radius: 5px;
   }
 
-  /*------------------Thank you page----------------*/
+  /*--------------Thank you page--------------*/
   .thankyou-heading h2 {
     margin-top: 200px;
     width: 200px;
@@ -892,7 +883,7 @@ ul {
     font-size: 18px;
   }
 
-  /*-------------------Footer----------------*/
+  /*--------------------Footer----------------*/
   .footer-container {
     max-width: 1170px;
     margin: auto;
@@ -920,14 +911,6 @@ ul {
 
   .footer h3::before {
     display: none;
-  }
-
-  .error-message {
-    margin-top: 200px;
-    width: 200px;
-    left: 5%;
-    padding: 0;
-    font-size: 18px;
   }
 }
 
