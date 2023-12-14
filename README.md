@@ -89,7 +89,7 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
         * There is a striking hero image on each webpage to attract the attention of the user. 
         * Each hero image, apart from the hero image on the Booking Page, have a hero zoom animation applied. The zoom animation was removed from the Booking Page as it detracted from the booking enquiry form.
 
-        ![Hero Image example]()
+        ![Hero Image example](documentation/heroimage.jpeg)
 
     -   #### Home page
 
