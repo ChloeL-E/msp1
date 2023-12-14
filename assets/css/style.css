@@ -23,9 +23,7 @@ body {
   margin: 0 auto;
 }
 
-
 /*----------------------------------------------HEADER-----------------------------------------------------*/
-
 
 header {
   background-color: var(--color-1);
@@ -73,12 +71,14 @@ header {
   gap: 40px;
 }
 
-.hamburger {
+/*displays on media screen max width 600px*/
+.hamburger { 
   display: none;
   cursor: pointer;
 }
 
-.fa-solid .fa-bars {
+/*hamburger bar styling*/
+.fa-solid .fa-bars { 
   font-weight: 600;
   font-size: 30px;
 }
@@ -87,7 +87,8 @@ header {
   position: relative;
 }
 
-.logo h1::after {
+/* partial underline styling to logo*/
+.logo h1::after { 
   content: '';
   position: absolute;
   bottom: -4px;
@@ -116,7 +117,8 @@ header {
   overflow: hidden;
 }
 
-@keyframes hero-zoom {
+/*zoom in hero image*/
+@keyframes hero-zoom { 
   from {
     transform: scale(1);
   }
@@ -125,41 +127,6 @@ header {
     transform: scale(1.1);
   }
 }
-
-/*.hero-heading {
-  margin-top: 400px;
-  background-color: rgba(60, 60, 60, .7);
-  width: 300px;
-  position: absolute;
-  left: 10%;
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
-}
-
-width: 50%;
-  text-align: center;
-  padding: 20% 15%;*/
-
-/*
-.hero-heading h2 {
-  font-family: "Noto Serif Display", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  color: #f8f8f8;
-  position: relative;
-  padding: 20px 5px;
-}
-
-
-  font-family: "Noto Serif Display", sans-serif;
-  font-size: 30px;
-  font-weight: 300;
-  color: #f8f8f8;
-  padding: 20px;
-  background-color: rgba(60, 60, 60, .5);
-  border-radius: 5px;*/
-
 
 /*------------------------------------------OUR STORY SECTION--------------------------------------------------*/
 
@@ -219,7 +186,6 @@ width: 50%;
 
 /*-------------------------------------------------TREATMENTS------------------------------------------------*/
 
-
 .hero-image-treatments {
   width: 100%;
   height: 100vh;
@@ -232,7 +198,8 @@ width: 50%;
   animation-fill-mode: forwards;
 }
 
-@keyframes hero-zoom {
+/*zoom in hero image*/
+@keyframes hero-zoom { 
   from {
     transform: scale(1);
   }
@@ -259,7 +226,8 @@ width: 50%;
   position: relative;
 }
 
-.treatments-heading h2::after {
+/*partial underline styling to heading*/
+.treatments-heading h2::after { 
   content: "";
   position: absolute;
   bottom: -4px;
@@ -280,7 +248,6 @@ width: 50%;
   justify-content: space-between;
   flex-wrap: wrap;
   flex-direction: row;
-  /*align-items: center;*/
 }
 
 .treatments-content {
@@ -335,7 +302,8 @@ width: 50%;
   max-width: 100%;
 }
 
-.img-overlay {
+/* shows treatment price and treatment time on mouse hover*/
+.img-overlay { 
   width: 100%;
   height: 100%;
   top: 0;
@@ -373,7 +341,8 @@ width: 50%;
   animation-fill-mode: forwards;
 }
 
-@keyframes hero-zoom {
+/*zoom in hero image*/
+@keyframes hero-zoom { 
   from {
     transform: scale(1);
   }
@@ -382,27 +351,6 @@ width: 50%;
     transform: scale(1.1);
   }
 }
-
-/*
-.hero-contact-heading {
-  margin-top: 400px;
-  background-color: rgba(60, 60, 60, .7);
-  width: 300px;
-  position: absolute;
-  left: 10%;
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.hero-contact-heading h2 {
-  font-family: "Noto Serif Display", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  color: #f8f8f8;
-  position: relative;
-  padding: 20px 5px;
-}*/
 
 .info-container {
   display: flex;
@@ -422,7 +370,7 @@ width: 50%;
   color: #051320;
 }
 
-.contact-details a:hover {
+.contact-details a:hover { 
   color: #144e77;
   font-weight: 500;
 }
@@ -449,7 +397,7 @@ width: 50%;
   color: #051320;
 }
 
-#locator {
+#locator { 
   border: 4px solid #144e77;
   border-radius: 15px;
   padding: 10px;
@@ -457,7 +405,8 @@ width: 50%;
   height: fit=fit-content;
 }
 
-iframe {
+/*google map*/
+iframe { 
   width: 18rem;
   height: 18rem;
 }
@@ -510,6 +459,7 @@ label {
   border-radius: 5px;
 }
 
+/*form submit button*/
 input[type=submit] {
   margin-top: 8px;
   padding: 15px 32px 15px 32px;
@@ -550,7 +500,7 @@ input[type=submit]:hover {
   padding: 10px;
   border-radius: 5px;
   text-align: center;
-  color:#f8f8f8;
+  color: #f8f8f8;
   font-weight: 400;
 }
 
@@ -589,6 +539,7 @@ ul {
   position: relative;
 }
 
+/*line styling*/
 .footer h3::before {
   content: '';
   position: absolute;
@@ -634,6 +585,7 @@ ul {
   background-color: #69bce0;
 }
 
+/*social links style change on mouse hover*/
 .footer-col .social-links a:hover {
   transition: all 0.3s ease 0s;
   background-color: #144e77;
@@ -654,6 +606,7 @@ ul {
   text-decoration: none;
 }
 
+/*book button style change on mouse hover*/
 .book-now:hover {
   transition: all 0.3s ease 0s;
   border: none;
@@ -662,10 +615,11 @@ ul {
   color: #fff
 }
 
+/*------------------------------------------------404 PAGE-----------------------------------------------------*/
+
 .error-message {
   margin-top: 200px;
 }
-
 
 /*-------------------------------------Extra-Small devices (Phones, 600px and down)---------------------------------*/
 
@@ -687,8 +641,9 @@ ul {
   .navbar {
     gap: 0;
   }
-  
-  .nav-menu {  /* default state when inactive */
+
+  /* nav-menu default state when inactive */
+  .nav-menu {
     position: fixed;
     left: -100%;
     top: 80px;
@@ -703,8 +658,9 @@ ul {
   .nav-item {
     margin: 16px 0;
   }
-  
-  .nav-menu.active {  /* when nav-menu active(hamburger menu is clicked), the menu slides left to right across page, beneath header */
+
+  /* when nav-menu active(hamburger menu is clicked), the menu slides left to right across page, beneath header */
+  .nav-menu.active {
     left: 0;
   }
 
@@ -727,10 +683,6 @@ ul {
     width: 100%;
     overflow: hidden;
   }
-
-  /*.hero-heading h2 {
-    display: none;
-  }*/
 
   /*-------------------Our Story----------------*/
 
@@ -821,10 +773,6 @@ ul {
 
   /*-------------------Contact----------------*/
 
-  /*.hero-contact-heading {
-    display: none;
-  }*/
-
   .info-container {
     display: flex;
     flex-direction: column;
@@ -862,14 +810,12 @@ ul {
   }
 
   /*------------------Booking----------------*/
-
   .enquiry-form {
     margin-top: 120px;
     color: #fff;
     background-color: rgba(60, 60, 60, .6);
     width: 260px;
     position: absolute;
-    /* left: 10%; */
     padding: 10px 20px;
     border-radius: 5px;
   }
@@ -915,7 +861,6 @@ ul {
 }
 
 /*-----------------------------------Small devices (Tablet, large phone, 600px and up)---------------------------------*/
-
 @media only screen and (min-width: 600px) {
 
   /*-------------------Header----------------*/
@@ -923,14 +868,7 @@ ul {
     font-size: 30px;
   }
 
-  /*------------------Hero image-------------*/
-
-  /*.hero-heading {
-    display: none;
-  }*/
-
   /*------------------Treatments-------------*/
-
   .treatments-content {
     display: flex;
     padding: 30px 20px;
@@ -952,10 +890,6 @@ ul {
     display: flex;
     flex-direction: column;
   }
-
-  /*.hero-contact-heading {
-    display: none;
-  }*/
 
   .contact-address {
     margin: 0 auto;
@@ -985,14 +919,9 @@ ul {
   }
 
   /*-------------------Footer----------------*/
-
   .footer-container {
     max-width: 1170px;
     margin: auto;
-    /* width: 100%; */
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* flex-wrap: wrap; */
   }
 
   .footer-col {
@@ -1018,42 +947,14 @@ ul {
   .footer h3::before {
     display: none;
   }
-
 }
 
 /*-------------------------------------Medium devices (Landscape tablets, 768px and up)---------------------------------*/
 @media only screen and (min-width: 768px) {
 
-  /*------------------Hero Image---------------*/
-
-  /*.hero-heading {
-    display: flex;
-    width: 50%;
-    text-align: center;
-    padding: 250px 0 0 100px;
-    background-clip: content-box;
-    justify-content: flex-start;
-    align-items: center; 
-    align-content: center;
-  }*/
-
-  /*.hero-heading h2 {
-    font-family: "Noto Serif Display", sans-serif;
-    font-size: 35px;
-    font-weight: 300;
-    color: #f8f8f8;
-    margin-top: 150px; 
-    padding: 40px; 
-     background-color: rgba(60, 60, 60, .5); 
-    border-radius: 5px; 
-  }*/
-
   /*------------------Treatments---------------*/
-
   .treatments-content {
-    /* display: flex; */
     flex: 1;
-    /* display: inline-block; */
     padding: 30px 20px;
     margin: 0 auto;
   }
@@ -1063,7 +964,6 @@ ul {
   }
 
   /*-------------------Contact----------------*/
-
   .info-container {
     display: flex;
     flex-direction: row;
