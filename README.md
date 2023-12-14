@@ -108,7 +108,7 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
          * The map will provide the user with a visual aid to see the location of the spa.
          * This section is valuable to the user as they will be able to easily identify the the location of the spa and how to contact the spa if they require.
 
-        ![Contact Us Page:](documentation/contact_section.jpeg)
+        ![Contact Us Page:](documentation/contactpage.png)
 
     -    #### Booking Page
          * This page will allow the user to send a booking enquiry. 
