@@ -565,7 +565,7 @@ ul {
   padding: 0 25px;
 }
 
-.footer-col h4 {
+.footer-col h3 {
   font-family: "Noto Serif Display", sans-serif;
   font-size: 18px;
   color: #051320;
@@ -574,7 +574,7 @@ ul {
   position: relative;
 }
 
-.footer h4::before {
+.footer h3::before {
   content: '';
   position: absolute;
   left: 0;
@@ -647,6 +647,19 @@ ul {
   color: #fff
 }
 
+.thankyou-heading h2 {
+  margin-top: 400px;
+  background-color: rgba(60, 60, 60, .7);
+  width: 300px;
+  position: absolute;
+  left: 10%;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  color:#f8f8f8;
+  font-weight: 400;
+}
+
 /*-------------------------------------Extra-Small devices (Phones, 600px and down)---------------------------------*/
 
 @media only screen and (max-width: 600px) {
@@ -667,8 +680,8 @@ ul {
   .navbar {
     gap: 0;
   }
-
-  .nav-menu {
+  
+  .nav-menu {  /* default state when inactive */
     position: fixed;
     left: -100%;
     top: 80px;
@@ -683,8 +696,8 @@ ul {
   .nav-item {
     margin: 16px 0;
   }
-
-  .nav-menu.active {
+  
+  .nav-menu.active {  /* when nav-menu active(hamburger menu is clicked), the menu slides left to right across page, beneath header */
     left: 0;
   }
 
@@ -869,7 +882,7 @@ ul {
     flex-wrap: wrap;
   }
 
-  .footer-col h4 {
+  .footer-col h3 {
     font-family: "Noto Serif Display", sans-serif;
     font-size: 18px;
     color: #051320;
@@ -880,7 +893,7 @@ ul {
     align-content: left;
   }
 
-  .footer h4::before {
+  .footer h3::before {
     display: none;
   }
 }
@@ -973,7 +986,7 @@ ul {
     flex-wrap: wrap;
   }
 
-  .footer-col h4 {
+  .footer-col h3 {
     font-family: "Noto Serif Display", sans-serif;
     font-size: 18px;
     color: #051320;
@@ -984,7 +997,7 @@ ul {
     align-content: left;
   }
 
-  .footer h4::before {
+  .footer h3::before {
     display: none;
   }
 
@@ -1052,6 +1065,3 @@ ul {
     padding: 150px 10px;
   }
 }
-
-
-/*-------------------------------------Large devices (Laptops/desktops, 992px and up)---------------------------------*/
