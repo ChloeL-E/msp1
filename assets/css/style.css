@@ -666,7 +666,7 @@ ul {
   .logo {
     width: 150px;
   }
-  
+
   .logo h1 {
     font-size: 25px;
   }
@@ -788,7 +788,6 @@ ul {
     flex-direction: column;
     padding: 20px 10px;
     clear: both;
-    width: 260px;
   }
 
   .contact-details {
@@ -810,7 +809,7 @@ ul {
 
   .iframe {
     width: 14rem;
-    height: 18rem;
+    height: 14rem;
   }
 
   /*------------------Booking----------------*/
@@ -899,6 +898,7 @@ ul {
     display: flex;
     flex-direction: column;
     width: 260px;
+    padding: 20px 0;
   }
 
   .contact-details {
