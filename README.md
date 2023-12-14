@@ -108,7 +108,7 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
          * The map will provide the user with a visual aid to see the location of the spa.
          * This section is valuable to the user as they will be able to easily identify the the location of the spa and how to contact the spa if they require.
 
-        ![Contact Us page](documentation/contact_section.jpeg)
+        ![Contact Us Page:](documentation/contact_section.jpeg)
 
     -    #### Booking Page
          * This page will allow the user to send a booking enquiry. 
@@ -194,7 +194,7 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
 
     * Google fonts were used to import the 'Noto Sans Serif' font into the style.css file which is used on all pages throughout the project. [Google Fonts:](https://fonts.google.com/)
     * Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes[Font Awesome:]( https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css)
-    * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.[Git](https://git-scm.com/)
+    * Visual Studio code was the IDE used and within this Git was used for version control by utilizing the terminal to commit changes and Push to GitHub. [VScode:](documentation/gitdemo.jpeg)
     * GitHub is used to store the projects code after being pushed from Git.[GitHub:](https://github.com/)
     * Balsamiq was used to create the wireframes to support in the design process.[Balsamiq:](https://balsamiq.com/)
 
@@ -203,11 +203,11 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
 # Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
-To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/ChloeL-E/msp1), the following steps were taken: 
+To deploy this page to GitHub Pages from its [GitHub repository:](https://github.com/ChloeL-E/msp1), the following steps were taken: 
 1. Login or Sign Up to GitHub.
 2. Open the project repository.
 3. From the menu items near the top of the page, select **Settings**.
-![Deployment](documentation/deployment.PNG)
+![Deployment:](documentation/deployment.png)
 
 4. Click on "Pages" in the left hand navigation panel.
 5. Under "Source", choose which branch to deploy. This should be Main for newer repositories (older repositories may still use Master).
@@ -254,8 +254,8 @@ It can take some time for the page to be fully deployed.
 | Footer links change text and background-colour when mouse hovers over      | Hover mouse over Facebook, Instagram, YouTube, Twitter and Book Now       | Each link independently changes colour when hovered over with mouse                                              | PASS       |
 | Treatment page image overlays show text information when mouse hovers over | Hover mouse over each Treatment page image                                | Each image overlay smoothly transitions with good contrast between text and background-colour                    | PASS       |
 
-The different aspects of the site work as intended and have an expected outcome providing an easy and straightforward way for the users to achieve their goals.
-Chrome development tools were used during the development of the site to identify and resolve any issues as it progressed.
+Each action was tested and found to work as expected. 
+Chrome developer tools were used to identify and resolve any issues or bugs throughout the development process. 
  
 ## Testing
 
@@ -321,14 +321,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   ###  Further Testing
 
-<!---   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
--   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.-->
+    * The Website was tested on Google Chrome, Microsoft Edge, Internet Explorer and Safari browsers.
+    * The website was viewed on a variety of devices such as Desktop, Laptop, Tablets and Phones using dev tools and real devices.
+    * The website was sent to Friends and family members to review the site and test it from an user perspective.
 
 -   ### Fixed Bugs
     * The header would not align correctly using bootstrap but the footer did, using flexbox. The header was rewritten to use flexbox and the issue was resolved.
     * The hamburger click functon would not work. On media screens with max-width 600px, the "click" function causes the nav menu to slide out from left to right below the header. Utilising dev tools and console.log to log each click it was clear that the javascript was working but it was the css that was not working as expected. A background-color of red was added to the nav-menu and it was made clear that it needed .nav-menu.active set with left:0. This fixed the problem.
+    * The contact-address and contact-detils were misaligned on smaller screen sizes. This was fixed by giving both classes a width and altering the padding on the media queries.
 
 ## Credits
 
@@ -343,6 +343,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - Instruction on creating a responsive hamburger menu was taken from Web Dev Tutorials [Youtube](https://www.youtube.com/watch?v=flItyHiDm7E&t=361s) 
 
 - [w3schools] was utilised for supporting information throughout the project, in particular for the header, footer, images and form.
+
+- [MDNwebdocs] was utilised for supporting information throughout the project, in particular for the header, footer, images and form.
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
