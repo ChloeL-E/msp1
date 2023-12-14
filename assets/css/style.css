@@ -542,9 +542,9 @@ input[type=submit]:hover {
 /*----------------------------------------------THANKYOU PAGE------------------------------------------------*/
 
 .thankyou-heading h2 {
-  margin-top: 250px;
+  margin-top: 200px;
   background-color: rgba(60, 60, 60, .7);
-  width: 300px;
+  width: 200px;
   position: absolute;
   left: 10%;
   padding: 10px;
@@ -871,8 +871,8 @@ ul {
 
   /*------------------Thank you page----------------*/
   .thankyou-heading h2 {
-    margin-top: 225px;
-    width: 250px;
+    margin-top: 200px;
+    width: 200px;
     left: 5%;
     padding: 0;
     font-size: 18px;
@@ -956,6 +956,7 @@ ul {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    width: 260px;
   }
 
   .contact-details {
@@ -963,6 +964,7 @@ ul {
     display: flex;
     flex-direction: column;
     padding: 20px 0;
+    width: 260px;
   }
 
   #locator {
