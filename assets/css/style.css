@@ -539,6 +539,21 @@ input[type=submit]:hover {
   margin-bottom: 4px;
 }
 
+/*----------------------------------------------THANKYOU PAGE------------------------------------------------*/
+
+.thankyou-heading h2 {
+  margin-top: 250px;
+  background-color: rgba(60, 60, 60, .7);
+  width: 300px;
+  position: absolute;
+  left: 10%;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  color:#f8f8f8;
+  font-weight: 400;
+}
+
 /*------------------------------------------------FOOTER-----------------------------------------------------*/
 
 .footer-container {
@@ -645,19 +660,6 @@ ul {
   font-weight: 500;
   background-color: #144e77;
   color: #fff
-}
-
-.thankyou-heading h2 {
-  margin-top: 400px;
-  background-color: rgba(60, 60, 60, .7);
-  width: 300px;
-  position: absolute;
-  left: 10%;
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
-  color:#f8f8f8;
-  font-weight: 400;
 }
 
 /*-------------------------------------Extra-Small devices (Phones, 600px and down)---------------------------------*/
@@ -865,6 +867,15 @@ ul {
     /* left: 10%; */
     padding: 10px 20px;
     border-radius: 5px;
+  }
+
+  /*------------------Thank you page----------------*/
+  .thankyou-heading h2 {
+    margin-top: 225px;
+    width: 250px;
+    left: 5%;
+    padding: 0;
+    font-size: 18px;
   }
 
   /*-------------------Footer----------------*/
