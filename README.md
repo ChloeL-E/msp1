@@ -138,7 +138,7 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
 
     * The website was developed to be as inclusive as possible. The use of semantic HTML, aria-labelling, alt attributes to images and good colour contrast.
     * The WAVE Web Accessibility Evaluation Tool was used to assess each webpage [wave](https://wave.webaim.org/)
-    * The Home page showed no errors or contrast errors but identified two alerts. An alt attribute to identify the 'Book Now' button. An alt tag was added which fixed the alert. An alert identified with the Hamburger toggle. The function requires a click which would not be accessible to keyboard users. ![Wave tool result](documentation/wave_tool.jpeg)
+    * The Home page showed no errors or contrast errors but identified two alerts. An alt attribute to identify the 'Book Now' button. An alt tag was added which fixed the alert. An alert identified with the Hamburger toggle. The function requires a click which would not be accessible to keyboard users. ![Wave tool result](documentation/wave_result.png)
     * The Treatments page identified no errors or contrast errors.
     * The Contact Us page identified no errors or contrast errors. One alert was identified which showed a redundant link. Adjacent links go to the same URL (logo and home), therefore the logo link was removed to improve efficiency of movement through the webpage for screenreaders. 
     * The Booking page showed two errors. For a missing form label and for an empty button. These errors were corrected. 
@@ -203,7 +203,7 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
 # Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
-To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/luandretta/my-to-do-list), the following steps were taken: 
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/ChloeL-E/msp1), the following steps were taken: 
 1. Login or Sign Up to GitHub.
 2. Open the project repository.
 3. From the menu items near the top of the page, select **Settings**.
@@ -219,12 +219,12 @@ It can take some time for the page to be fully deployed.
 ## Run locally
 **Fork**
 1. Login or Sign Up to GitHub.
-2. Open the project [repository]().
+2. Open the project [repository](https://github.com/ChloeL-E/msp1).
 3. Click the Fork button in the top right corner.
 
 **Clone**
 1. Login or Sign Up to GitHub.
-2. Open the project [repository]().
+2. Open the project [repository](https://github.com/ChloeL-E/msp1).
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in the code editor of your choice and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
