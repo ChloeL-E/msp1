@@ -354,6 +354,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - The map on the Contact Us page used [Google Maps Api](https://developers.google.com/maps/documentation/javascript/get-api-key ) and the latitude and longtitude were found using [LatLong.net](https://www.latlong.net/)
 
+-  [CodeInstitute] For their content and guidance through the whole process.
+
 - Content was written by Chloe Livingstone-Evans.
 
 -   ### Media Images
