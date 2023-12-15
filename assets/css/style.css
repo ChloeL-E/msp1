@@ -165,7 +165,7 @@ header {
   display: block;
 }
 
-.about-content h3 {
+.about-content h2 {
   font-size: 32px;
   font-weight: 400;
   margin-bottom: 15px;
@@ -355,11 +355,7 @@ header {
   justify-content: space-between;
 }
 
-.contact-address {
-  margin: 50px auto;
-}
-
-.contact-details {
+.contact-address, .contact-details {
   margin: 50px auto;
 }
 
@@ -705,7 +701,7 @@ ul {
     display: block;
   }
 
-  .about-content h3 {
+  .about-content h2 {
     font-size: 1.5rem;
     text-align: center;
     padding-top: 20px;
@@ -892,20 +888,12 @@ ul {
     flex-direction: column;
   }
 
-  .contact-address {
+  .contact-address, .contact-details {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     width: 260px;
     padding: 20px 0;
-  }
-
-  .contact-details {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 0;
-    width: 260px;
   }
 
   #locator {
