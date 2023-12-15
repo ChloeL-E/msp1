@@ -14,19 +14,21 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
 
 ## Contents
 * [Languages Used](#languages-used)
-* [User Experience](#user-experience-ux)
-* [Design](#design)
-  * [Features](#features)
-  * [Features For The Future](#features-for-the-future)
-  * [Accessibility](#accessibility)
+* [User Stories](#user-stories)
+* [Design]  
   * [Color Scheme](#color-scheme)
   * [Typography](#typography)
   * [Icons](#icons)
+* [Structure](#design)
+  * [Features](#features)
+  * [Features For The Future](#features-for-the-future)
 * [Technologies Used](#technologies-used)
   * [ Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-* [Deployment](#deployment)
+* [Testing](#testing)
+  * [User Experience](#user-experience-ux)
+  * [Accessibility](#accessibility)
+  * [Deployment](#deployment)
   * [Run locally](#run-locally)
-  * [Testing](#testing)
 * [Credits](#credits)
 
 - - - 
