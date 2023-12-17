@@ -6,7 +6,9 @@
 
 # Hexham Manor Spa
 
-Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page website that aims to showcase the spa as a peaceful haven of sumptuous escapism from the fast-paced reality of todays culture. The site describes the treatments and facilities available at the spa their benefits to the users' health. The site will be targeted towards adults who are looking to relax ad unwind. The target audience will use the site to see the Spa ethos, imagery and text description of the treatments and facilities available, as well as pricing and the ability to make a booking enquiry.
+Hexham Manor Spa is a fictional luxury spa located in Northumberland. They are looking to improve their online presence and are beginning by updating their website. They have requested a striking and modern style for their new website. 
+
+The website created for them is a four-page website that aims to showcase the spa as a peaceful haven of sumptuous escapism from the fast-paced reality of todays culture. The site describes the treatments and facilities available at the spa their benefits to the users' health. The site will be targeted towards adults who are looking to relax ad unwind. The target audience will use the site to see the Spa ethos, imagery and text description of the treatments and facilities available, as well as pricing and the ability to make a booking enquiry.
 
 ![Responsive Mockup](documentation/mockup_generator.png)
 
@@ -19,6 +21,7 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
   * [Color Scheme](#color-scheme)
   * [Typography](#typography)
   * [Imagery](#icons)
+  * [Wireframes] (#wireframes)
 * [Structure](#design)
   * [Features](#features)
   * [Features For The Future](#features-for-the-future)
@@ -67,6 +70,7 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
         1. As a frequent visitor, I want to check to see if there are any new treatments.
 
 - - - 
+
 ## Design
 
 -   ### Colour Scheme
@@ -88,6 +92,8 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
     * Booking Page Wireframe - [Balsamiq Booking page wireframe](documentation/booking_wireframe.jpeg)
 
 - - - 
+
+## Structure
 
 -   ### Features
     * Responsive on all device sizes from 260px
@@ -173,28 +179,6 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
 
 - - - 
 
-## Structure
-
--   ### Accessibility
-
-    * The website was developed to be as inclusive as possible. The use of semantic HTML, aria-labelling, alt attributes to images and good colour contrast.
-    * The WAVE Web Accessibility Evaluation Tool was used to assess each webpage [wave](https://wave.webaim.org/)
-    * The Home page showed no errors or contrast errors but identified two alerts. An alt attribute to identify the 'Book Now' button. An alt tag was added which fixed the alert. An alert identified with the Hamburger toggle. The function requires a click which would not be accessible to keyboard users. ![Wave tool result](documentation/wave_result.png)
-    * The Treatments page identified no errors or contrast errors.
-    * The Contact Us page identified no errors or contrast errors. One alert was identified which showed a redundant link. Adjacent links go to the same URL (logo and home), therefore the logo link was removed to improve efficiency of movement through the webpage for screenreaders. 
-    * The Booking page showed two errors. For a missing form label and for an empty button. These errors were corrected.
-
--   ### Lighthouse 
-  Lighthouse within the Chrome Developer Tools are used to test performance, accessibility, best practices and SEO of the spa Website.
-    - Performance was the only issue and the majority of this is due to the images slowing the load time therfore the images used within the content on Home and Treaments page were converted from jpeg to png files. This improved the performance. The hero images to each page were not converted as it did not improve the performance rating but the image quality reduced.
-  
-  * [See Lighthouse report for Home page](documentation/lighthouse-home.png)
-  * [See Lighthouse report for Treatments page](documentation/lighthouse-treat.jpeg)
-  * [See Lighthouse report for Contact Us page](documentation/lighthouse-contact.png)
-  * [See Lighthouse report for Booking Enquiry page](documentation/lighthouse-book.png)
-
-- - - 
-
 # Testing
 
 -   ### Testing User Stories from User Experience (UX) Section
@@ -252,8 +236,46 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
 
 - - - 
 
+-   ### Accessibility
+
+    -    #### Validators
+
+         * W3C Markup Validator, W3C CSS Validator Services were used to validate this project to ensure that there were no syntax errors in the project.
+         * Markup Validator ![W3C Markup Validator](documentation/w3cvalidator.jpeg)
+          - Home Page W3C HTML Validation - Pass
+          - Treatments Page W3C HTML Validation - Pass
+          - Contact Page W3C HTML Validation - Pass
+          - Booking Page W3C HTML Validation - Pass
+          - Thank You Page W3C HTML Validation - Pass
+          - 404 Page W3C HTML Validation - Pass
+         * CSS Validator ![W3C CSS Validator](documentation/w3c_css.png)
+          - style.css CSS Validation - Pass
+         * Jshint was used to validate the Javascript
+          - main.js Jshint - Pass
+
+    -    #### WAVE accessibility tool
+
+    * The website was developed to be as inclusive as possible. The use of semantic HTML, aria-labelling, alt attributes to images and good colour contrast.
+    * The WAVE Web Accessibility Evaluation Tool was used to assess each webpage [wave](https://wave.webaim.org/)
+    * The Home page showed no errors or contrast errors but identified two alerts. An alt attribute to identify the 'Book Now' button. An alt tag was added which fixed the alert. An alert identified with the Hamburger toggle. The function requires a click which would not be accessible to keyboard users. ![Wave tool result](documentation/wave_result.png)
+    * The Treatments page identified no errors or contrast errors.
+    * The Contact Us page identified no errors or contrast errors. One alert was identified which showed a redundant link. Adjacent links go to the same URL (logo and home), therefore the logo link was removed to improve efficiency of movement through the webpage for screenreaders. 
+    * The Booking page showed two errors. For a missing form label and for an empty button. These errors were corrected.
+
+    -    #### Lighthouse 
+  Lighthouse within the Chrome Developer Tools are used to test performance, accessibility, best practices and SEO of the spa Website.
+    - Performance was the only issue and the majority of this is due to the images slowing the load time therfore the images used within the content on Home and Treaments page were converted from jpeg to png files. This improved the performance. The hero images to each page were not converted as it did not improve the performance rating but the image quality reduced.
+  
+  * [See Lighthouse report for Home page](documentation/lighthouse-home.png)
+  * [See Lighthouse report for Treatments page](documentation/lighthouse-treat.jpeg)
+  * [See Lighthouse report for Contact Us page](documentation/lighthouse-contact.png)
+  * [See Lighthouse report for Booking Enquiry page](documentation/lighthouse-book.png)
+
+- - - 
+
 -   ### Deployment
 
+Github was used as version control. Visual studio code was the IDE used to build the website, code was added and commited in the terminal and then pushed to Github.
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
 To deploy this page to GitHub Pages from its [GitHub repository:](https://github.com/ChloeL-E/msp1), the following steps were taken: 
@@ -283,7 +305,7 @@ It can take some time for the page to be fully deployed.
 4. Open the terminal in the code editor of your choice and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
----
+- - - 
 
 -   ### Testing site functionality
 
@@ -310,24 +332,6 @@ It can take some time for the page to be fully deployed.
 
 Each action was tested and found to work as expected. 
 Chrome developer tools were used to identify and resolve any issues or bugs throughout the development process. 
- 
- - - - 
-
-## Validation
-
- -    #### Validators
-         * W3C Markup Validator, W3C CSS Validator Services were used to validate this project to ensure that there were no syntax errors in the project.
-         * Markup Validator ![W3C Markup Validator](documentation/w3cvalidator.jpeg)
-          - Home Page W3C HTML Validation - Pass
-          - Treatments Page W3C HTML Validation - Pass
-          - Contact Page W3C HTML Validation - Pass
-          - Booking Page W3C HTML Validation - Pass
-          - Thank You Page W3C HTML Validation - Pass
-          - 404 Page W3C HTML Validation - Pass
-         * CSS Validator ![W3C CSS Validator](documentation/w3c_css.png)
-          - style.css CSS Validation - Pass
-         * Jshint was used to validate the Javascript
-          - main.js Jshint - Pass
 
 - - - 
 
@@ -335,13 +339,16 @@ Chrome developer tools were used to identify and resolve any issues or bugs thro
 
     * The Website was tested on Google Chrome, Microsoft Edge, Internet Explorer and Safari browsers.
     * The website was viewed on a variety of devices such as Desktop, Laptop, Tablets and Phones using dev tools and real devices.
-    * The website was sent to Friends and family members to review the site and test it from an user perspective.
+    * The website was sent to friends and family members to review the site and test it from a user perspective.
+
+- - - 
 
 -   ### Fixed Bugs
     * The header would not align correctly using bootstrap but the footer did, using flexbox. The header was rewritten to use flexbox and the issue was resolved.
     * The hamburger click functon would not work. On media screens with max-width 600px, the "click" function causes the nav menu to slide out from left to right below the header. Utilising dev tools and console.log to log each click it was clear that the javascript was working but it was the css that was not working as expected. A background-color of red was added to the nav-menu and it was made clear that it needed .nav-menu.active set with left:0. This fixed the problem.
     * The contact-address and contact-detils were misaligned on smaller screen sizes. This was fixed by giving both classes a width and altering the padding on the media queries.
-    *  A dark line showed 
+    *  A dark line showed on media screen size max-width 600px when using Chrome dev tools. This was fixed by removing the scroll property.
+    * The images had a slow load time, which was highlighted using Lighthouse. This was improved by dowloading the smallest image size, running the images through cloud convert and then using tiny.png to compress it. This improved load times substantially.
 
 - - - 
 
@@ -357,6 +364,10 @@ Chrome developer tools were used to identify and resolve any issues or bugs thro
 
 - Instruction on creating a responsive hamburger menu was taken from Web Dev Tutorials [Youtube](https://www.youtube.com/watch?v=flItyHiDm7E&t=361s) 
 
+- [cloudconvert] {https://cloudconvert.com/} was used to convert images to webp format.
+
+- [tiny.png]{https://tinypng.com/} was used to compress images.
+
 - [w3schools] was utilised for supporting information throughout the project, in particular for the header, footer, images and form.
 
 - [MDNwebdocs] was utilised for supporting information throughout the project, in particular for the header, footer, images and form.
@@ -368,6 +379,8 @@ Chrome developer tools were used to identify and resolve any issues or bugs thro
 -  [CodeInstitute] For their content and guidance through the whole process.
 
 - Content was written by Chloe Livingstone-Evans.
+
+- - - 
 
 -   ### Media Images
 
@@ -401,8 +414,9 @@ Chrome developer tools were used to identify and resolve any issues or bugs thro
 
 - The favicon in the browser tab was created using[Favicon](https://favicon.io/logo-generator/) and instruction on implementation from [W3schools](https://www.w3schools.com/html/html_favicon.asp)
 
+- - - 
 
 ## Acknowledgements
 
-* My family for their patience whilst I enjoyed myself coding.
-* My brilliant mentor Daisy McGee, for her excellent advice, patience and passion for teaching.
+-  My family for their patience whilst I enjoyed myself coding.
+-  My brilliant mentor Daisy McGee, for her excellent advice, patience and passion for teaching.
