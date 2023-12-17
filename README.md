@@ -182,26 +182,11 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
     * The Home page showed no errors or contrast errors but identified two alerts. An alt attribute to identify the 'Book Now' button. An alt tag was added which fixed the alert. An alert identified with the Hamburger toggle. The function requires a click which would not be accessible to keyboard users. ![Wave tool result](documentation/wave_result.png)
     * The Treatments page identified no errors or contrast errors.
     * The Contact Us page identified no errors or contrast errors. One alert was identified which showed a redundant link. Adjacent links go to the same URL (logo and home), therefore the logo link was removed to improve efficiency of movement through the webpage for screenreaders. 
-    * The Booking page showed two errors. For a missing form label and for an empty button. These errors were corrected. 
-      
-    -    #### Validators
-         * W3C Markup Validator, W3C CSS Validator Services were used to validate this project to ensure that there were no syntax errors.
-         * Markup Validator ![W3C Markup Validator](documentation/w3cvalidator.jpeg)
-          - Home Page W3C HTML Validation - Pass
-          - Treatments Page W3C HTML Validation - Pass
-          - Contact Page W3C HTML Validation - Pass
-          - Booking Page W3C HTML Validation - Pass
-          - Thank You Page W3C HTML Validation - Pass
-          - 404 Page W3C HTML Validation - Pass
-         * CSS Validator ![W3C CSS Validator](documentation/w3c_css.png)
-          - style.css CSS Validation - Pass
-         * Jshint was used to validate the Javascript
-          - main.js Jshint - Pass
+    * The Booking page showed two errors. For a missing form label and for an empty button. These errors were corrected.
 
-### Lighthouse 
+-   ### Lighthouse 
   Lighthouse within the Chrome Developer Tools are used to test performance, accessibility, best practices and SEO of the spa Website.
-    - Performance was the only issue and the majority of this is due to the images slowing the load time therfore the images used within the content on Home and Treaments page were converted from jpeg to png files. This improved the performance. The hero images to each page were not converted as it did not improve the performance rating but the image quality reduced. 
-    
+    - Performance was the only issue and the majority of this is due to the images slowing the load time therfore the images used within the content on Home and Treaments page were converted from jpeg to png files. This improved the performance. The hero images to each page were not converted as it did not improve the performance rating but the image quality reduced.
   
   * [See Lighthouse report for Home page](documentation/lighthouse-home.png)
   * [See Lighthouse report for Treatments page](documentation/lighthouse-treat.jpeg)
@@ -210,7 +195,7 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
 
 - - - 
 
-# Deployment
+# Testing
 
 -   ### Testing User Stories from User Experience (UX) Section
 
@@ -265,6 +250,8 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
       2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
       3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.-->
 
+- - - 
+
 -   ### Deployment
 
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
@@ -282,7 +269,8 @@ To deploy this page to GitHub Pages from its [GitHub repository:](https://github
 It can take some time for the page to be fully deployed.
 8. Your URL will be displayed above "Source"
 
-## Run locally
+-   ### Run locally
+
 **Fork**
 1. Login or Sign Up to GitHub.
 2. Open the project [repository](https://github.com/ChloeL-E/msp1).
@@ -297,7 +285,7 @@ It can take some time for the page to be fully deployed.
 
 ---
 
-# Testing 
+-   ### Testing site functionality
 
 | **Purpose**                                                                | **Action**                                                                | **Expected**                                                                                                     | **Result** |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------- |
@@ -323,15 +311,25 @@ It can take some time for the page to be fully deployed.
 Each action was tested and found to work as expected. 
 Chrome developer tools were used to identify and resolve any issues or bugs throughout the development process. 
  
-## Testing
+ - - - 
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+## Validation
 
--   HTDocument checking completed. No errors or warnings to show when passed through official [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   No errors were found when passing through the official [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+ -    #### Validators
+         * W3C Markup Validator, W3C CSS Validator Services were used to validate this project to ensure that there were no syntax errors in the project.
+         * Markup Validator ![W3C Markup Validator](documentation/w3cvalidator.jpeg)
+          - Home Page W3C HTML Validation - Pass
+          - Treatments Page W3C HTML Validation - Pass
+          - Contact Page W3C HTML Validation - Pass
+          - Booking Page W3C HTML Validation - Pass
+          - Thank You Page W3C HTML Validation - Pass
+          - 404 Page W3C HTML Validation - Pass
+         * CSS Validator ![W3C CSS Validator](documentation/w3c_css.png)
+          - style.css CSS Validation - Pass
+         * Jshint was used to validate the Javascript
+          - main.js Jshint - Pass
 
-
-
+- - - 
 
 -   ###  Further Testing
 
@@ -343,6 +341,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     * The header would not align correctly using bootstrap but the footer did, using flexbox. The header was rewritten to use flexbox and the issue was resolved.
     * The hamburger click functon would not work. On media screens with max-width 600px, the "click" function causes the nav menu to slide out from left to right below the header. Utilising dev tools and console.log to log each click it was clear that the javascript was working but it was the css that was not working as expected. A background-color of red was added to the nav-menu and it was made clear that it needed .nav-menu.active set with left:0. This fixed the problem.
     * The contact-address and contact-detils were misaligned on smaller screen sizes. This was fixed by giving both classes a width and altering the padding on the media queries.
+    *  A dark line showed 
+
+- - - 
 
 ## Credits
 
