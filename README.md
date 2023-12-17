@@ -14,11 +14,11 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
 
 ## Contents
 * [Languages Used](#languages-used)
-* [User Stories](#user-stories)
+* [User Experience](#user-stories)
 * [Design]  
   * [Color Scheme](#color-scheme)
   * [Typography](#typography)
-  * [Icons](#icons)
+  * [Imagery](#icons)
 * [Structure](#design)
   * [Features](#features)
   * [Features For The Future](#features-for-the-future)
@@ -67,14 +67,33 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
         1. As a frequent visitor, I want to check to see if there are any new treatments.
 
 - - - 
-
 ## Design
 
+-   ### Colour Scheme
+    * The colour palette used for Hexham Manor Spa's website was created using [coolors](https://coolors.co/) ![screenshot of colour palette used](documentation/coolors.png)
+    * This colour palette was created using natural, calm, cool colours that compliment the spa's elegant aesthetic, encapsulating peace and traquility. 
+    * There is a range in the colours within the palette so that a good contrast is achieved at all times between text and background-colors.
+
+-   ### Typography
+    * The Noto Serif Sans font is the main font used throughout the whole website with Sans Serif as the backup font in case for any reason the font isn't being imported into the site correctly. Noto Serif Sans is a high-quality font developed specifically for easy online consumption. It is a user-friendly, beautiful clean and crisp typeface that compliments the design.
+
+-   ### Imagery
+    * Imagery has an important role in the website. The large, hero image on each page is designed to be striking and catch the user's attention. Each image was chosen for its natural, relaxing feel and deep colours. The images aim to add a cosy, luxurious atmosphere in-keeping with the spa's aesthetic. They also give the user a good insight into the physical look of the spa.
+
+-   ### Wireframes
+
+    * Our Story Home Page Wireframe - [Balsamiq home page wireframe](documentation/our_story_wireframe.jpeg)
+    * Treaments Page Wireframe - [Balsamiq treatments page wireframe](documentation/treatments_wireframe.jpeg)
+    * Contact Us Page Wireframe - [Balsamiq Contact Us page wireframe](documentation/contact_wireframe.jpeg)
+    * Booking Page Wireframe - [Balsamiq Booking page wireframe](documentation/booking_wireframe.jpeg)
+
+- - - 
+
 -   ### Features
-    * Responsive on all device sizes 
+    * Responsive on all device sizes from 260px
 
     -   #### Navigation Bar
-        * The responsive navigation bar has been applied to all four pages so that the pages are uniform, which is more visually appealing and improves user experience. It is also 'sticky' so that it is visible at all times no matter where the user is on the webpage. The navigation bar includes clear links to the logo, Home, Treatments, Contact Us and 'Book Now' button.
+        * The responsive navigation bar has been applied to all four pages so that the pages are uniform, which is more visually appealing and improves user experience. It is also 'sticky' so that it is visible at all times no matter where the user is on the webpage. The navigation bar includes clear links to the Home, Treatments, Contact Us and Book Now pages.
         * The navigation section promotes ease of use for the user, allowing the user to move easily between sections and pages.
 
        ![Navigation Bar](documentation/navbar.jpeg)
@@ -128,7 +147,7 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
     -    #### 404 Error Page
           * A 404 error page was created to ensure that if, for any reason, the webpage is unavailable, the user is taken to a message page which helps to redirect them back to the website.
 
-         ![404 error page]()
+         ![404 error page](documentation/404page.png)
 
     -    #### Thank You Page
           * The user is taken to a Thank you page after submission of the booking enquiry form on the Booking page. This opens in a new browser tab. This improves user experience as they recieve feedback that their enquiry form was sent successfully. The new tab in the browser means the user can easily move back to the website.
@@ -139,6 +158,22 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
     * In the future a 'Book Online' feature will be implemented that will allow the user to directly book their treatments online rather than sending a booking enquiry or needing to speak to a member of the spa team. This should improve user experience as they can more efficiently book our services. 
     * FAQ page- this would be beneficial to the customer to view answers to commonly asked questions for more insight into the spa.
     * Button taking the user back to the top of the page for easy access back to the top of the page.
+
+- - - 
+
+## Technologies Used
+
+-   ### Frameworks, Libraries & Programs Used
+
+    * Google fonts were used to import the 'Noto Sans Serif' font into the style.css file which is used on all pages throughout the project. [Google Fonts:](https://fonts.google.com/)
+    * Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes[Font Awesome:]( https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css)
+    * Visual Studio code was the IDE used and within this Git was used for version control by utilizing the terminal to commit changes and Push to GitHub. [VScode:](documentation/gitdemo.jpeg)
+    * GitHub is used to store the projects code after being pushed from Git.[GitHub:](https://github.com/)
+    * Balsamiq was used to create the wireframes to support in the design process.[Balsamiq:](https://balsamiq.com/)
+
+- - - 
+
+## Structure
 
 -   ### Accessibility
 
@@ -173,40 +208,65 @@ Hexham Manor Spa is a luxury spa located in Northumberland. It is a four-page we
   * [See Lighthouse report for Contact Us page](documentation/lighthouse-contact.png)
   * [See Lighthouse report for Booking Enquiry page](documentation/lighthouse-book.png)
 
-
--   ### Colour Scheme
-    * The colour palette used for Hexham Manor Spa's website was created using [coolors](https://coolors.co/) ![screenshot of colour palette used](documentation/coolors.png)
-    * This colour palette was created using natural, calm, cool colours that compliment the spa's elegant aesthetic, encapsulating peace and traquility. 
-    * There is a range in the colours within the palette so that a good contrast is achieved at all times between text and background-colors.
-
--   ### Typography
-    * The Noto Serif Sans font is the main font used throughout the whole website with Sans Serif as the backup font in case for any reason the font isn't being imported into the site correctly. Noto Serif Sans is a high-quality font developed specifically for easy online consumption. It is a user-friendly, beautiful clean and crisp typeface that compliments the design.
-
--   ### Imagery
-    * Imagery has an important role in the website. The large, hero image on each page is designed to be striking and catch the user's attention. Each image was chosen for its natural, relaxing feel and deep colours. The images aim to add a cosy, luxurious atmosphere in-keeping with the spa's aesthetic. They also give the user a good insight into the physical look of the spa.
-
--   ### Wireframes
-
-    * Our Story Home Page Wireframe - [Balsamiq home page wireframe](documentation/our_story_wireframe.jpeg)
-    * Treaments Page Wireframe - [Balsamiq treatments page wireframe](documentation/treatments_wireframe.jpeg)
-    * Contact Us Page Wireframe - [Balsamiq Contact Us page wireframe](documentation/contact_wireframe.jpeg)
-    * Booking Page Wireframe - [Balsamiq Booking page wireframe](documentation/booking_wireframe.jpeg)
-
-- - - 
-
-## Technologies Used
-
--   ### Frameworks, Libraries & Programs Used
-
-    * Google fonts were used to import the 'Noto Sans Serif' font into the style.css file which is used on all pages throughout the project. [Google Fonts:](https://fonts.google.com/)
-    * Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes[Font Awesome:]( https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css)
-    * Visual Studio code was the IDE used and within this Git was used for version control by utilizing the terminal to commit changes and Push to GitHub. [VScode:](documentation/gitdemo.jpeg)
-    * GitHub is used to store the projects code after being pushed from Git.[GitHub:](https://github.com/)
-    * Balsamiq was used to create the wireframes to support in the design process.[Balsamiq:](https://balsamiq.com/)
-
 - - - 
 
 # Deployment
+
+-   ### Testing User Stories from User Experience (UX) Section
+
+    -    #### First Time Visitor Goals
+
+    * As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+
+      1. Upon arrival to webpage, the user is greeted with a clean, clear navigation bar with easily identifiable links to each page. 
+      2. The navigation bar is designed so that it is always visible at the top of the page so that the user can easily navigate to another part of the site.
+      3. A 404 error page has been created if, for any reason, a page is not able to load. From this, the user will be able to quickly navigate back to the webpage to continue their enjoyment of the website.
+
+    * As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the spa.
+
+      1. The spas' name stands alone to the left of the navigation bar, making it clear and stand out. The hero image provides a visual, to let the use understand that it is immediately clear that they are visiting a spa website.
+
+    * As a First Time Visitor, I want to understand what treatments and facilities are offered by the spa and find out the purpose, duration of treamtment and cost of each. 
+
+      1. The navigation bar has a clean and clear link to the Treatments page.
+      2. The user can also access the Treatments page by following the link within the 'Quick Links' section of the Footer
+      3. Once the user has clicked a Treatments link, they are taken to the Treatments page, which has image and text information to inform the user about all of the treatments available at the spa. 
+      4. When the user hovers over a Treatment image, information about the duration and cost of the treatment is shown.
+
+    * As a first time visitor, I want the website to be visually appealing and give me some insight about the style and aesthetic of the spa
+
+      1. When the user navigates around the site they will find a hero image on each page which showcases the spa aesthetic and some of the facilities available a the spa.
+      2. The user will find further images on both the Home page and the Treatments page. These images are designed to be circular to soften the look of the webpage.
+      3. The colour palette was chosen to feel natural, cool and calming, and the images chosen to compliment these natural tones.
+
+    * As a first time user I want to locate the Spas' social media links to see their followings on social media to determine how trusted and known they are and to see up to date posts of current events and new treatments available at the Spa.
+
+      1. The Footer is located at the bottom of each webpage and is access by scrolling down. 
+      2. Once the user has arrived at the Footer they will be able to clearly see the social media links to the spa under the 'Follow Us' heading.
+      3. Each social link opens as a new tab so that the user can easily come back to the website.
+
+    * As a first time customer,  I want to be able to make a booking enquiry.
+      
+      1. The user will be able to clearly navigate to the Booking page using either the 'Book Now' link in the navigation bar or the call-to-action button in the Footer.
+      2. Either link will take the user to the Book Now page where a form is clearly visible within the pages hero image.
+      3. The user is directed to complete the booking enquiry form by the call to action 'Lets Make A Date!'.
+      4. The form is clearly labelled so that the user will easily understand what information is required from them. A placeholder in the textarea also indicates the information to input in this area.
+      5. Once the user has submitted the form using the Submit button, they are taken to a 'Thank you' page so that they know their enquiry has been successful. The message on this page informs them that they will be contacted shortly.
+
+    * As a first time customer, I want to be able to find out the location of the spa and how to contact the spa if required.
+
+      1. The user can easily navigate to the Contact page by the navigation bar or using the 'Quick Links' link in the Footer. 
+      2. Once the user has clicked on the Contact Us link, the user will be taken to the Contact page. They will be able to scroll down the page to see links to the spas' email and telphone number, along with the spa address and a google map of the location.
+      3. A 'Get in Touch' section within the Footer also shows the user the email and telephone number. 
+
+    * As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
+        
+      1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
+      2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
+      3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.-->
+
+-   ### Deployment
+
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
 To deploy this page to GitHub Pages from its [GitHub repository:](https://github.com/ChloeL-E/msp1), the following steps were taken: 
@@ -271,58 +331,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   No errors were found when passing through the official [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
 
--   ### Testing User Stories from User Experience (UX) Section
-
-    -    #### First Time Visitor Goals
-
-    * As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-
-      1. Upon arrival to webpage, the user is greeted with a clean, clear navigation bar with easily identifiable links to each page. 
-      2. The navigation bar is designed so that it is always visible at the top of the page so that the user can easily navigate to another part of the site.
-      3. A 404 error page has been created if, for any reason, a page is not able to load. From this, the user will be able to quickly navigate back to the webpage to continue their enjoyment of the website.
-
-    * As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the spa.
-
-      1. The spas' name stands alone to the left of the navigation bar, making it clear and stand out. The hero image provides a visual, to let the use understand that it is immediately clear that they are visiting a spa website.
-
-    * As a First Time Visitor, I want to understand what treatments and facilities are offered by the spa and find out the purpose, duration of treamtment and cost of each. 
-
-      1. The navigation bar has a clean and clear link to the Treatments page.
-      2. The user can also access the Treatments page by following the link within the 'Quick Links' section of the Footer
-      3. Once the user has clicked a Treatments link, they are taken to the Treatments page, which has image and text information to inform the user about all of the treatments available at the spa. 
-      4. When the user hovers over a Treatment image, information about the duration and cost of the treatment is shown.
-
-    * As a first time visitor, I want the website to be visually appealing and give me some insight about the style and aesthetic of the spa
-
-      1. When the user navigates around the site they will find a hero image on each page which showcases the spa aesthetic and some of the facilities available a the spa.
-      2. The user will find further images on both the Home page and the Treatments page. These images are designed to be circular to soften the look of the webpage.
-      3. The colour palette was chosen to feel natural, cool and calming, and the images chosen to compliment these natural tones.
-
-    * As a first time user I want to locate the Spas' social media links to see their followings on social media to determine how trusted and known they are and to see up to date posts of current events and new treatments available at the Spa.
-
-      1. The Footer is located at the bottom of each webpage and is access by scrolling down. 
-      2. Once the user has arrived at the Footer they will be able to clearly see the social media links to the spa under the 'Follow Us' heading.
-      3. Each social link opens as a new tab so that the user can easily come back to the website.
-
-    * As a first time customer,  I want to be able to make a booking enquiry.
-      
-      1. The user will be able to clearly navigate to the Booking page using either the 'Book Now' link in the navigation bar or the call-to-action button in the Footer.
-      2. Either link will take the user to the Book Now page where a form is clearly visible within the pages hero image.
-      3. The user is directed to complete the booking enquiry form by the call to action 'Lets Make A Date!'.
-      4. The form is clearly labelled so that the user will easily understand what information is required from them. A placeholder in the textarea also indicates the information to input in this area.
-      5. Once the user has submitted the form using the Submit button, they are taken to a 'Thank you' page so that they know their enquiry has been successful. The message on this page informs them that they will be contacted shortly.
-
-    * As a first time customer, I want to be able to find out the location of the spa and how to contact the spa if required.
-
-      1. The user can easily navigate to the Contact page by the navigation bar or using the 'Quick Links' link in the Footer. 
-      2. Once the user has clicked on the Contact Us link, the user will be taken to the Contact page. They will be able to scroll down the page to see links to the spas' email and telphone number, along with the spa address and a google map of the location.
-      3. A 'Get in Touch' section within the Footer also shows the user the email and telephone number. 
-
-    * As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-        
-      1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-      2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-      3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.-->
 
 
 -   ###  Further Testing
