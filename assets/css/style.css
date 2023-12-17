@@ -620,13 +620,6 @@ ul {
 /*-------------------------------------Extra-Small devices (Phones, 600px and down)---------------------------------*/
 @media only screen and (max-width: 600px) {
 
-  /*-------------------General----------------*/
-
- /* * {
-    overflow-y: scroll;
-    overflow-x: hidden;
-  }*/
-
   /*-------------------Header----------------*/
   .hamburger {
     display: block;
