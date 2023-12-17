@@ -15,9 +15,10 @@ The website created for them is a four-page website that aims to showcase the sp
 [View the live project here.](https://chloel-e.github.io/msp1/)
 
 ## Contents
+
 * [Languages Used](#languages-used)
 * [User Experience](#user-stories)
-* [Design]  
+* [Design](#design)
   * [Color Scheme](#color-scheme)
   * [Typography](#typography)
   * [Imagery](#icons)
@@ -33,10 +34,12 @@ The website created for them is a four-page website that aims to showcase the sp
   * [Deployment](#deployment)
   * [Run locally](#run-locally)
 * [Credits](#credits)
+* [Acknowledgements](#acknowledgements)
 
 - - - 
 
 ## Languages Used
+
 *  [HTML5](https://en.wikipedia.org/wiki/HTML5)
 *  [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 *  [JS](https://en.wikipedia.org/wiki/JavaScript)
@@ -63,8 +66,7 @@ The website created for them is a four-page website that aims to showcase the sp
 
         1. As a returning visitor, I want to find information about different treatments, duration and pricing.
         2. As a returning visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a returning visitor, I want to be able to make a booking enquiry.
-        4. As a returning visitor, I want to find social links.
+        3. As a Returning Visitor, I want to find the socials links so that I can join and keep upto date with events, offers and new treatments the spa.
 
     -   #### Frequent User Goals
         1. As a frequent visitor, I want to check to see if there are any new treatments.
@@ -228,12 +230,40 @@ The website created for them is a four-page website that aims to showcase the sp
       2. Once the user has clicked on the Contact Us link, the user will be taken to the Contact page. They will be able to scroll down the page to see links to the spas' email and telphone number, along with the spa address and a google map of the location.
       3. A 'Get in Touch' section within the Footer also shows the user the email and telephone number. 
 
-    * As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-        
-      1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-      2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-      3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.-->
+   -    #### Returning Visitor Goals
 
+    *  As a returning visitor, I want to find information about different treatments, duration and pricing.
+
+      1. The user can click the link to the Treatments page on the navigation bar at the top of each webpage.
+      2. The user can also access the Treatments page by following the link within the 'Quick Links' section of the Footer
+      3. Once the user has clicked a Treatments link, they are taken to the Treatments page, which has image and text information to inform the user about all of the treatments available at the spa. 
+      4. When the user hovers over a Treatment image, further information about the duration and cost of the treatment is shown.
+
+    *  As a returning visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+
+      1. The user can click on the Contact Us link in the navigation bar or within the 'Quick links' in the Footer. 
+      2. On clicking the link, then user will be taken to the Contact Us page.
+      3. This page contains important contact information including the Spas' telephone number, email address as well as the address and location shown on a google map.
+      4. The telephone number and email address are both clickable links to allow the user to directly contact the spa.
+    
+    * As a Returning Visitor, I want to find the socials links so that I can follow and keep upto date with events, offers and new treatments the spa.
+        
+      1. The Social links can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook, Instagram, Youtube and Twitter pages.
+      2. The Footer is located at the bottom of each webpage and is accessed by scrolling down. 
+      3. Once the user has arrived at the Footer they will be able to clearly see the social media links to the spa under the 'Follow Us' heading.
+      4. Each social link opens as a new tab so that the user can easily come back to the website.
+
+
+   -    #### Frequent User Goals
+
+    * As a frequent visitor, I want to check to see if there are any new treatments.
+
+      1. The user can click the link to the Treatments page on the navigation bar at the top of each webpage.
+      2. The user can also access the Treatments page by following the link within the 'Quick Links' section of the Footer
+      3. Once the user has clicked a Treatments link, they are taken to the Treatments page, which has image and text information to inform the user about all of the treatments available at the spa. 
+      4. When the user hovers over a Treatment image, further information about the duration and cost of the treatment is shown.
+      5. The Social links can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook, Instagram, Youtube and Twitter pages. These will also provide the user with upto date information on any new treatments and offers available at Hexham Manor Spa.
+  
 - - - 
 
 -   ### Accessibility
@@ -263,7 +293,9 @@ The website created for them is a four-page website that aims to showcase the sp
     * The Booking page showed two errors. For a missing form label and for an empty button. These errors were corrected.
 
     -    #### Lighthouse 
+
   Lighthouse within the Chrome Developer Tools are used to test performance, accessibility, best practices and SEO of the spa Website.
+
     - Performance was the only issue and the majority of this is due to the images slowing the load time therfore the images used within the content on Home and Treaments page were converted from jpeg to png files. This improved the performance. The hero images to each page were not converted as it did not improve the performance rating but the image quality reduced.
   
   * [See Lighthouse report for Home page](documentation/lighthouse-home.png)
@@ -344,6 +376,7 @@ Chrome developer tools were used to identify and resolve any issues or bugs thro
 - - - 
 
 -   ### Fixed Bugs
+
     * The header would not align correctly using bootstrap but the footer did, using flexbox. The header was rewritten to use flexbox and the issue was resolved.
     * The hamburger click functon would not work. On media screens with max-width 600px, the "click" function causes the nav menu to slide out from left to right below the header. Utilising dev tools and console.log to log each click it was clear that the javascript was working but it was the css that was not working as expected. A background-color of red was added to the nav-menu and it was made clear that it needed .nav-menu.active set with left:0. This fixed the problem.
     * The contact-address and contact-detils were misaligned on smaller screen sizes. This was fixed by giving both classes a width and altering the padding on the media queries.
