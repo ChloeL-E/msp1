@@ -22,7 +22,7 @@ The website created for them is a four-page website that aims to showcase the sp
   * [Color Scheme](#color-scheme)
   * [Typography](#typography)
   * [Imagery](#icons)
-  * [Wireframes] (#wireframes)
+  * [Wireframes](#wireframes)
 * [Structure](#design)
   * [Features](#features)
   * [Features For The Future](#features-for-the-future)
@@ -118,7 +118,7 @@ The website created for them is a four-page website that aims to showcase the sp
         * There is a striking hero image on each webpage to attract the attention of the user. 
         * Each hero image, apart from the hero image on the Booking Page, have a hero zoom animation applied. The zoom animation was removed from the Booking Page as it detracted from the booking enquiry form.
 
-        ![Hero Image example](documentation/heroimage.jpeg)
+        ![Hero Image example](documentation/hero-example.png)
 
     -   #### Home page
 
